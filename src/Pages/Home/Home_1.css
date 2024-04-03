@@ -102,6 +102,7 @@
 #header1 a:hover {
     color: #06be00;
     background: #fffffff6;
+    box-shadow: 0 0 20px 1px#06be00f6;
 }
 
 .ContainerHome1 {
@@ -151,6 +152,7 @@
     font-family: "OpenSans-SemiBold";
     font-size: clamp(10px, 3.2vw, 5vw);
     color: #06be00ec;
+    text-shadow: 0 0 20px 2px#06be00f6;
 }
 
 
