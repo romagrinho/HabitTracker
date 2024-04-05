@@ -1,7 +1,113 @@
 .container-section2 {
     position: relative;
     z-index: 10;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background: #fff;
+}
+
+.c2-container1 {
+    height: 55%;
+    width: 100%;
+}
+
+.c2-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45%;
+    width: 100%;
+}
+
+.block_btn {
+    display: flex;
+    justify-content: center;
+    /*  border: 1px #000 solid; */
+    width: 100%;
+    margin-top: 3%;
+    height: 20%;
+}
+
+.btn_gerencie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-family: "OpenSans-Regular";
+    font-size: clamp(10px, 1.3vw, 2vw);
+    cursor: pointer;
+    background-color: #06a800;
+    text-shadow: 0 0 5px 10px rgb(0, 0, 0);
+    color: #fff;
+    width: 23%;
+    height: 99%;
+    transition: 200ms ease-in-out;
+}
+
+.btn_gerencie:hover {
+    border: 1px solid #06a800;
+    text-shadow: 0 0 5px 10px rgb(0, 0, 0);
+    color: #06a800;
+    background-color: #fff;
+}
+
+.spanprice {
+    margin-top: 1%;
+    font-family: "OpenSans-SemiBold";
+    font-size: clamp(10px, 1.1vw, 2vw);
+    color: #00000085;
+}
+
+.spanprice_green {
+    color: #06a800;
+}
+
+.block_rating {
+    margin-top: 1%;
+    margin-left: 4.5%;
+    display: flex;
+    flex-direction: row;
+ /*    border: 1px #000 solid; */
+    width: 27%;
+    height: 20%;
+    overflow-x: visible;
+}
+
+.block_rating div {
+    height: 100%;
+}
+
+.divimgpeople {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.img_people {
+    width: 100%;
+}
+
+.img_stars {
+    width: 54%;
+    height: 50%;
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.rating {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating span {
+    height: 30%;
+    font-family: "OpenSans-Medium";
+    font-size: clamp(10px, 1.1vw, 2vw);
+    color: #000000cb;
+    line-height: 1%;
 }

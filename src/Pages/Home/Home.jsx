@@ -3,7 +3,9 @@ import "./Home_1.css";
 import "./Home_2.css";
 import "./Home_3.css";
 import "./Home_4.css";
-import RS from "/Users/Romario/Desktop/NotionLandingPage/habittracker/src/imgs/LogoBranco.png";
+import RS from "./imgs/LogoBranco.png";
+import stars_rate from './imgs/stars.png'
+import people from './imgs/people.jpeg';
 
 export default function Home() {
     return (
@@ -33,7 +35,30 @@ export default function Home() {
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
-            <div className="container-section2"></div>
+            <div className="container-section2">
+                <div className="c2-container1">
+
+                </div>
+                <div className="c2-container2">
+                    <div className="block_btn">
+                        <a className="btn_gerencie">
+                            Gerencia suas metas agora!
+                        </a>
+                    </div>
+                    <span className="spanprice"><span className="spanprice_green">12x de R$ 8,02</span> ou R$79,90 à vista</span>
+                    <div className="block_rating">
+                        <div className="divimgpeople">
+                            <img className="img_people" src={people}></img>
+                        </div>
+                        <div className="rating">
+                            <div className="img1">
+                                <img className="img_stars" src={stars_rate}></img>
+                            </div>
+                            <span>4.9/5 de +510 compras</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="container-section3"></div>
             <div className="container-section4"></div>
 
