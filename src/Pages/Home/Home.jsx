@@ -5,7 +5,8 @@ import "./Home_3.css";
 import "./Home_4.css";
 import RS from "./imgs/LogoBranco.png";
 import stars_rate from './imgs/stars.png'
-import people from './imgs/people.jpeg';
+import people from './imgs/peoples.png';
+import ComponentRight from "../../Components/img_Right/img_right.jsx";
 
 export default function Home() {
     return (
@@ -59,7 +60,11 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container-section3"></div>
+            <div className="container-section3">
+                <div className="c3-container1">
+                   <ComponentRight></ComponentRight>
+                </div>
+            </div>
             <div className="container-section4"></div>
 
         </section>
