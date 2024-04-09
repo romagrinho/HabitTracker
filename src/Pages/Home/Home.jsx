@@ -62,7 +62,8 @@ export default function Home() {
             </div>
             <div className="container-section3">
                 <div className="c3-container1">
-                   <ComponentRight></ComponentRight>
+                   <ComponentRight
+                   title="Hábito"/>
                 </div>
             </div>
             <div className="container-section4"></div>
