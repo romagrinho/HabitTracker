@@ -6,7 +6,9 @@ import "./Home_4.css";
 import RS from "./imgs/LogoBranco.png";
 import stars_rate from './imgs/stars.png'
 import people from './imgs/peoples.png';
-import ComponentRight from "../../Components/img_Right/img_right.jsx";
+import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
+import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
+import icon_engrenagem from "./imgs/engrenagem_icon.png";
 
 export default function Home() {
     return (
@@ -62,8 +64,28 @@ export default function Home() {
             </div>
             <div className="container-section3">
                 <div className="c3-container1">
-                   <ComponentRight
-                   title="Hábito"/>
+                    <ComponentRight
+                        title="Hábito"
+                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
+                        icon={icon_engrenagem}
+                        subtitle="Sincronização"
+                        subdescription="Acesse o template no computador ou no celular"
+                        icon2={icon_engrenagem}
+                        subtitle2="Sincronização"
+                        subdescription2="Acesse o template no computador ou no celular" 
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                </div>
+                <div className="c3-container2">
+                    <ComponentLeft
+                        title="Hábito"
+                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
+                        icon={icon_engrenagem}
+                        subtitle="Sincronização"
+                        subdescription="Acesse o template no computador ou no celular"
+                        icon2={icon_engrenagem}
+                        subtitle2="Sincronização"
+                        subdescription2="Acesse o template no computador ou no celular" 
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
                 </div>
             </div>
             <div className="container-section4"></div>
