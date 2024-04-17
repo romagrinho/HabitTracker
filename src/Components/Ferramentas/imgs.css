@@ -2,15 +2,15 @@
     display: flex;
     width: 90%;
     /* border: 1px solid #ff0000; */
-    height: 85%;
+    height: 95%;
 }
 
 #img_left {
     display: flex;
     flex-direction: row-reverse;
     width: 90%;
-    /* border: 1px solid #ff0000; */
-    height: 85%;
+ /*    border: 1px solid #ff0000; */
+    height: 95%;
 }
 
 .containerdesc1 {

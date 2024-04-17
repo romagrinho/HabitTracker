@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="container-section3">
-                <div className="c3-container1">
+                <div className="c3-container">
                     <ComponentRight
                         title="Hábito"
                         description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
@@ -75,7 +75,7 @@ export default function Home() {
                         subdescription2="Acesse o template no computador ou no celular" 
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
                 </div>
-                <div className="c3-container2">
+                <div className="c3-container">
                     <ComponentLeft
                         title="Hábito"
                         description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
@@ -87,8 +87,66 @@ export default function Home() {
                         subdescription2="Acesse o template no computador ou no celular" 
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
                 </div>
+                <div className="c3-container">
+                    <ComponentRight
+                        title="Hábito"
+                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
+                        icon={icon_engrenagem}
+                        subtitle="Sincronização"
+                        subdescription="Acesse o template no computador ou no celular"
+                        icon2={icon_engrenagem}
+                        subtitle2="Sincronização"
+                        subdescription2="Acesse o template no computador ou no celular" 
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                </div>
+                <div className="c3-container">
+                    <ComponentLeft
+                        title="Hábito"
+                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
+                        icon={icon_engrenagem}
+                        subtitle="Sincronização"
+                        subdescription="Acesse o template no computador ou no celular"
+                        icon2={icon_engrenagem}
+                        subtitle2="Sincronização"
+                        subdescription2="Acesse o template no computador ou no celular" 
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                </div>
+                <div className="c3-container">
+                    <ComponentRight
+                        title="Hábito"
+                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
+                        icon={icon_engrenagem}
+                        subtitle="Sincronização"
+                        subdescription="Acesse o template no computador ou no celular"
+                        icon2={icon_engrenagem}
+                        subtitle2="Sincronização"
+                        subdescription2="Acesse o template no computador ou no celular" 
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                </div>
+                <div className="c3-container">
+                    <ComponentLeft
+                        title="Hábito"
+                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
+                        icon={icon_engrenagem}
+                        subtitle="Sincronização"
+                        subdescription="Acesse o template no computador ou no celular"
+                        icon2={icon_engrenagem}
+                        subtitle2="Sincronização"
+                        subdescription2="Acesse o template no computador ou no celular" 
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                </div>
+                <div className="c3-container2">
+                    <div className="block_btn2">
+                        <a className="btn_gerencie2">
+                            Gerencia suas metas agora!
+                        </a>
+                    </div>
+                    <span className="spanprice2"><span className="spanprice_green2">12x de R$ 8,02</span> ou R$79,90 à vista</span>
+                </div>
             </div>
-            <div className="container-section4"></div>
+            <div className="container-section4">
+
+            </div>
 
         </section>
     )
