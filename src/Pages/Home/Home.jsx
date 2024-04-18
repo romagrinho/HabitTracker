@@ -72,8 +72,8 @@ export default function Home() {
                         subdescription="Acesse o template no computador ou no celular"
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular" 
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                        subdescription2="Acesse o template no computador ou no celular"
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -84,8 +84,8 @@ export default function Home() {
                         subdescription="Acesse o template no computador ou no celular"
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular" 
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                        subdescription2="Acesse o template no computador ou no celular"
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -96,8 +96,8 @@ export default function Home() {
                         subdescription="Acesse o template no computador ou no celular"
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular" 
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                        subdescription2="Acesse o template no computador ou no celular"
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -108,8 +108,8 @@ export default function Home() {
                         subdescription="Acesse o template no computador ou no celular"
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular" 
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                        subdescription2="Acesse o template no computador ou no celular"
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -120,8 +120,8 @@ export default function Home() {
                         subdescription="Acesse o template no computador ou no celular"
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular" 
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                        subdescription2="Acesse o template no computador ou no celular"
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -132,8 +132,8 @@ export default function Home() {
                         subdescription="Acesse o template no computador ou no celular"
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular" 
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH"/>
+                        subdescription2="Acesse o template no computador ou no celular"
+                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container2">
                     <div className="block_btn2">
@@ -145,7 +145,24 @@ export default function Home() {
                 </div>
             </div>
             <div className="container-section4">
+                <div className="c4-container">
+                    <div className="c4-containerleft">
+                        <div className="excel_img">
 
+                        </div>
+                        <div className="excel_img2">
+                            <div className="ferramentasexcel-imgs">
+
+                            </div>
+                            <div className="ferramentasexcel-imgs2">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="c4-containerright">
+
+                    </div>
+                </div>
             </div>
 
         </section>
