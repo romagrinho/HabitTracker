@@ -151,16 +151,17 @@ export default function Home() {
 
                         </div>
                         <div className="excel_img2">
-                            <div className="ferramentasexcel-imgs">
-
-                            </div>
-                            <div className="ferramentasexcel-imgs2">
-
-                            </div>
+                            <div className="ferramentasexcel-imgs"/>
+                            <div className="ferramentasexcel-imgs2"/>
                         </div>
                     </div>
                     <div className="c4-containerright">
-
+                        <div className="c4-textconteiner">
+                            <span className="c4-subtitletext">VEJA ESTE PRESENTE!</span>
+                            <span className="c4-titletext">teste</span>
+                            <p className="c4-desc">teste</p>
+                            <div className="c4-avaliation"></div>
+                        </div>
                     </div>
                 </div>
             </div>
