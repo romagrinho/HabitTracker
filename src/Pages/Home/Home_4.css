@@ -63,47 +63,97 @@
     justify-content: center;  
     width: 50%;
     height: 100%;
-    border: 1px #fff solid;
+    /* border: 1px #fff solid; */
 }
 
 .c4-textconteiner{
     display: flex;
     flex-direction: column;
-    width: 83%;
-    height: 83%;
-    border: 1px #fff solid;
+    width: 75%;
+    height: 70%;
+    /* border: 1px #fff solid; */
 }
 
 .c4-subtitletext{
+    display: flex;
+    align-items: flex-end;
     color: #fff;
     width: 100%;
     height: 8%;
-    border: 1px #7700ff solid;
-    font-family: "OpenSans-Regular";
-    font-size: clamp(10px, 1vw, 2vw);
+    /* border: 1px #7700ff solid; */
+    color: #00dd0b;
+    font-family: "OpenSans-SemiBold";
+    font-size: clamp(10px, 1.3vw, 2vw);
 }
 
 .c4-titletext{
     color: #fff;
     width: 100%;
     height: 10%;
-    border: 1px #ff006a solid;
+    /* border: 1px #ff006a solid; */
     font-family: "OpenSans-SemiBold";
-    font-size: clamp(10px, 1vw, 2vw);
+    font-size: clamp(10px, 2.5vw, 3vw);
 }
 
 .c4-desc{
     color: #fff;
     width: 100%;
-    height: 50%;
+    margin-top: 2%;
+    height: 48%;
     border: 1px #00ff0d solid;
-    font-family: "OpenSans-SemiBold";
-    font-size: clamp(10px, 1vw, 2vw);
+    color: #ffffffd5;
+    font-family: "OpenSans-Regular";
+    text-align: justify;
+    font-size: clamp(10px, 1.4vw, 4vw);
 }
 
-.c4-avaliation{
+.c4-button{
     color: #fff;
     width: 100%;
-    height: 32%;
+    height: 20%;
     border: 1px #ff0000 solid;
+}
+
+.c4-block_btn2 {
+    display: flex;
+    justify-content: center;
+    /*  border: 1px #000 solid; */
+    width: 100%;
+    margin-top: 2%;
+    height: 56%;
+}
+
+.c4-btn_gerencie2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-family: "OpenSans-Regular";
+    font-size: clamp(10px, 1.3vw, 2vw);
+    cursor: pointer;
+    background-color: #06a800;
+    text-shadow: 0 0 5px 10px rgb(0, 0, 0);
+    color: #fff;
+    width: 43%;
+    height: 100%;
+    transition: 200ms ease-in-out;
+    border: #fff 1px solid;
+}
+
+.c4-btn_gerencie2:hover {
+    text-shadow: 0 0 5px 10px rgb(0, 0, 0);
+    color: #06a800;
+    background-color: #fff;
+}
+
+.c4-spanprice2 {
+    border: #fff 1px solid;
+    margin-top: 1%;
+    font-family: "OpenSans-SemiBold";
+    font-size: clamp(10px, 1.1vw, 2vw);
+    color: #ffffff85;
+}
+
+.c4-spanprice_green2 {
+    color: #ffffff;
 }

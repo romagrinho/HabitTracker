@@ -151,16 +151,23 @@ export default function Home() {
 
                         </div>
                         <div className="excel_img2">
-                            <div className="ferramentasexcel-imgs"/>
-                            <div className="ferramentasexcel-imgs2"/>
+                            <div className="ferramentasexcel-imgs" />
+                            <div className="ferramentasexcel-imgs2" />
                         </div>
                     </div>
                     <div className="c4-containerright">
                         <div className="c4-textconteiner">
-                            <span className="c4-subtitletext">VEJA ESTE PRESENTE!</span>
-                            <span className="c4-titletext">teste</span>
-                            <p className="c4-desc">teste</p>
-                            <div className="c4-avaliation"></div>
+                            <span className="c4-subtitletext">🎀 VEJA ESTE PRESENTE</span>
+                            <span className="c4-titletext">Controle de Gastos</span>
+                            <p className="c4-desc">Além do template 100% editável, você receberá uma série de aulas para tirar o máximo do seu Segundo Cérebro. Aprenda a customizar cada área, domine o Notion do zero e adicione mais uma habilidade ao seu repertório.</p>
+                            <div className="c4-button">
+                                <div className="c4-block_btn2">
+                                    <a className="c4-btn_gerencie2">
+                                        Acesse agora
+                                    </a>
+                                </div>
+                                <span className="c4-spanprice2"><span className="c4-spanprice_green2">12x de R$ 8,02</span> ou R$79,90 à vista</span>
+                            </div>
                         </div>
                     </div>
                 </div>
