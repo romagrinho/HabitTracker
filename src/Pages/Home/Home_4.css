@@ -4,22 +4,25 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background: #000000;
+    background: #c5c5c53f;
 }
 
-.c4-container{
+.c4-container {
     display: flex;
-    border: 1px #fff solid;
-    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 100%;
     height: 90%;
 }
 
-.c4-containerleft{
-    width: 50%;
-    height: 100%;
+.c4-containerleft {
+    /* border: 1px #fff solid; */
+    width: 45%;
+    height: 90%;
 }
 
-.excel_img{
+.excel_img {
     width: 100%;
     height: 60%;
     background-image: url("./imgs/mockup\ excel.png");
@@ -28,7 +31,7 @@
     background-position: 10%;
 }
 
-.ferramentasexcel-imgs{
+.ferramentasexcel-imgs {
     border: 1px #fff solid;
     height: 70%;
     width: 45%;
@@ -38,7 +41,7 @@
     background-position: 0%;
 }
 
-.ferramentasexcel-imgs2{
+.ferramentasexcel-imgs2 {
     border: 1px #fff solid;
     height: 70%;
     width: 45%;
@@ -48,7 +51,7 @@
     background-position: 2%;
 }
 
-.excel_img2{
+.excel_img2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -57,16 +60,16 @@
     height: 40%;
 }
 
-.c4-containerright{
+.c4-containerright {
     display: flex;
     align-items: center;
-    justify-content: center;  
-    width: 50%;
+    justify-content: center;
+    width: 45%;
     height: 100%;
     /* border: 1px #fff solid; */
 }
 
-.c4-textconteiner{
+.c4-textconteiner {
     display: flex;
     flex-direction: column;
     width: 75%;
@@ -74,7 +77,7 @@
     /* border: 1px #fff solid; */
 }
 
-.c4-subtitletext{
+.c4-subtitletext {
     display: flex;
     align-items: flex-end;
     color: #fff;
@@ -86,32 +89,42 @@
     font-size: clamp(10px, 1.3vw, 2vw);
 }
 
-.c4-titletext{
+.c4-titletext {
     color: #fff;
     width: 100%;
     height: 10%;
     /* border: 1px #ff006a solid; */
-    font-family: "OpenSans-SemiBold";
+    font-family: "OpenSans-Bold";
     font-size: clamp(10px, 2.5vw, 3vw);
 }
 
-.c4-desc{
+.c4-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: #fff;
     width: 100%;
     margin-top: 2%;
-    height: 48%;
-    border: 1px #00ff0d solid;
+    height: 62%;
+   /*  border: 1px #00ff0d solid; */
+}
+
+.c4-desc p {
+    height: 45%;
     color: #ffffffd5;
     font-family: "OpenSans-Regular";
     text-align: justify;
     font-size: clamp(10px, 1.4vw, 4vw);
 }
 
-.c4-button{
+.c4-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #fff;
     width: 100%;
     height: 20%;
-    border: 1px #ff0000 solid;
+    /* border: 1px #ff0000 solid; */
 }
 
 .c4-block_btn2 {
@@ -137,7 +150,7 @@
     width: 43%;
     height: 100%;
     transition: 200ms ease-in-out;
-    border: #fff 1px solid;
+    /*  border: #fff 1px solid; */
 }
 
 .c4-btn_gerencie2:hover {
@@ -147,13 +160,53 @@
 }
 
 .c4-spanprice2 {
-    border: #fff 1px solid;
+    /* border: #fff 1px solid; */
     margin-top: 1%;
-    font-family: "OpenSans-SemiBold";
+    padding-left: 3%;
+    font-family: "OpenSans-Medium";
     font-size: clamp(10px, 1.1vw, 2vw);
-    color: #ffffff85;
+    color: #ffffff5e;
+  /*   font-weight: bold; */
+    width: 54%;
 }
 
 .c4-spanprice_green2 {
-    color: #ffffff;
+    color: #06a800;
+}
+
+#c4-div-subtitles {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 50%;
+}
+
+#c4-div-subtitles div {
+    display: flex;
+    flex-direction: column;
+    /* border: #fff 1px solid; */
+    height: 90%;
+    width: 45%;
+}
+
+#c4-div-subtitles p {
+    color: rgba(255, 255, 255, 0.808);
+    font-size: clamp(10px, 1.25vw, 3vw);
+    height: 50%;
+    width: 100%;
+    font-family: "OpenSans-Regular";
+}
+
+.c4-spansubtitle{
+    width: 100%;
+    height: 20%;
+    color: rgb(255, 255, 255);
+    font-size: clamp(10px, 1.5vw, 2vw);
+    font-family: "OpenSans-SemiBold";
+    /* border: 1px #ffffff solid; */
+}
+
+.c4-icon_rimg {
+    width: 17%;
+    height: 23%;
 }

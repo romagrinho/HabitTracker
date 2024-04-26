@@ -3,6 +3,7 @@ import "./Home_1.css";
 import "./Home_2.css";
 import "./Home_3.css";
 import "./Home_4.css";
+import "./Home_5.css";
 import RS from "./imgs/LogoBranco.png";
 import stars_rate from './imgs/stars.png'
 import people from './imgs/peoples.png';
@@ -159,7 +160,21 @@ export default function Home() {
                         <div className="c4-textconteiner">
                             <span className="c4-subtitletext">🎀 VEJA ESTE PRESENTE</span>
                             <span className="c4-titletext">Controle de Gastos</span>
-                            <p className="c4-desc">Além do template 100% editável, você receberá uma série de aulas para tirar o máximo do seu Segundo Cérebro. Aprenda a customizar cada área, domine o Notion do zero e adicione mais uma habilidade ao seu repertório.</p>
+                            <div className="c4-desc">
+                                <p>Além do template 100% editável, você receberá uma série de aulas para tirar o máximo do seu Segundo Cérebro. Aprenda a customizar cada área, domine o Notion do zero e adicione mais uma habilidade ao seu repertório.</p>
+                                <div id="c4-div-subtitles">
+                                    <div>
+                                        <img className="c4-icon_rimg" />
+                                        <span className="c4-spansubtitle">Comentários</span>
+                                        <p>Automatize seu sistema usando propriedades avançadas.</p>
+                                    </div>
+                                    <div>
+                                        <img className="c4-icon_rimg" />
+                                        <span className="c4-spansubtitle">Sincronização</span>
+                                        <p>Faça gráficos e exporte relatórios em poucos clicks.</p>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="c4-button">
                                 <div className="c4-block_btn2">
                                     <a className="c4-btn_gerencie2">
@@ -171,6 +186,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="container-section5">
+
             </div>
 
         </section>
