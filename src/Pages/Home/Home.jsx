@@ -188,7 +188,29 @@ export default function Home() {
                 </div>
             </div>
             <div className="container-section5">
-
+                <div className="c5-containertitle">
+                    <span>  Um template, entregue em três passos:</span>
+                </div>
+                <div className="c5-containervideo">
+                    <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div className="c5-containersteps">
+                    <div className="div-step">
+                        <h5>PASSO 1</h5>
+                        <h2>Acesse</h2>
+                        <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link e, na área de membros, duplicar o template.</p>
+                    </div>
+                    <div className="div-step">
+                    <h5>PASSO 2</h5>
+                        <h2>Compre</h2>
+                        <p>O Segundo Cérebro já está disponível para compra. Você pode pagar via pix e cartão. Sua compra é totalmente segura pela Kiwify.</p>
+                    </div>
+                    <div className="div-step">
+                    <h5>PASSO 3</h5>
+                        <h2>Aproveite</h2>
+                        <p>Você terá acesso total a todas as ferramentas. Customize seu Segundo Cérebro como quiser e tire o máximo de cada área</p>
+                    </div>
+                </div>
             </div>
 
         </section>
