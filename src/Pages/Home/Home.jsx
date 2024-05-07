@@ -4,6 +4,7 @@ import "./Home_2.css";
 import "./Home_3.css";
 import "./Home_4.css";
 import "./Home_5.css";
+import "./Home_6.css";
 import RS from "./imgs/LogoBranco.png";
 import stars_rate from './imgs/stars.png'
 import people from './imgs/peoples.png';
@@ -188,13 +189,16 @@ export default function Home() {
                 </div>
             </div>
             <div className="container-section5">
-                <div className="c5-containertitle">
+
+            </div>
+            <div className="container-section6">
+                <div className="c6-containertitle">
                     <span>  Um template, entregue em três passos:</span>
                 </div>
-                <div className="c5-containervideo">
+                <div className="c6-containervideo">
                     <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div className="c5-containersteps">
+                <div className="c6-containersteps">
                     <div className="div-step">
                         <h5>PASSO 1</h5>
                         <h2>Acesse</h2>
