@@ -11,6 +11,7 @@ import people from './imgs/peoples.png';
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
 import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
 import icon_engrenagem from "./imgs/engrenagem_icon.png";
+import mockupcel from "./imgs/mockupcel.png";
 
 export default function Home() {
     return (
@@ -189,7 +190,16 @@ export default function Home() {
                 </div>
             </div>
             <div className="container-section5">
-
+                <div className="c5-containermain">
+                    <div className="c5-containerleft">
+                        <img src={mockupcel}></img>
+                    </div>
+                    <div className="c5-containerright">
+                        <header>
+                            <h1>Aproveite os benefícios</h1>,
+                        </header>
+                    </div>
+                </div>
             </div>
             <div className="container-section6">
                 <div className="c6-containertitle">
@@ -205,12 +215,12 @@ export default function Home() {
                         <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link e, na área de membros, duplicar o template.</p>
                     </div>
                     <div className="div-step">
-                    <h5>PASSO 2</h5>
+                        <h5>PASSO 2</h5>
                         <h2>Compre</h2>
                         <p>O Segundo Cérebro já está disponível para compra. Você pode pagar via pix e cartão. Sua compra é totalmente segura pela Kiwify.</p>
                     </div>
                     <div className="div-step">
-                    <h5>PASSO 3</h5>
+                        <h5>PASSO 3</h5>
                         <h2>Aproveite</h2>
                         <p>Você terá acesso total a todas as ferramentas. Customize seu Segundo Cérebro como quiser e tire o máximo de cada área</p>
                     </div>
