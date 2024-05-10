@@ -5,6 +5,7 @@ import "./Home_3.css";
 import "./Home_4.css";
 import "./Home_5.css";
 import "./Home_6.css";
+import "./Home_7.css";
 import RS from "./imgs/LogoBranco.png";
 import stars_rate from './imgs/stars.png'
 import people from './imgs/peoples.png';
@@ -287,6 +288,16 @@ export default function Home() {
                         <h5>PASSO 3</h5>
                         <h2>Aproveite</h2>
                         <p>Você terá acesso total a todas as ferramentas. Customize seu Segundo Cérebro como quiser e tire o máximo de cada área</p>
+                    </div>
+                </div>
+            </div>
+            <div className="container-section7">
+                <div className="c7-containermain">
+                    <div className="c7-blockleft">
+                        
+                    </div>
+                    <div className="c7-blockright">
+
                     </div>
                 </div>
             </div>
