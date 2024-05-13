@@ -13,6 +13,8 @@ import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
 import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
 import icon_engrenagem from "./imgs/engrenagem_icon.png";
 import mockupcel from "./imgs/mockupcel.png";
+import eu from "./imgs/eu.png";
+import notion from "./imgs/notion.png";
 
 export default function Home() {
     return (
@@ -294,7 +296,10 @@ export default function Home() {
             <div className="container-section7">
                 <div className="c7-containermain">
                     <div className="c7-blockleft">
-                        
+                        <h1>Conheça quem desenvolveu</h1>
+                        <img className="img_eu"src={eu}></img>
+                        <p>Olá! Sou o Romario, um desenvolvedor Full-Stack e empreendedor com 3 anos de experiência em desenvolvimento. Ao longo da minha trajetória, já ajudei inúmeras pessoas a alcançarem seus objetivos com sistemas personalizados, templates profissionais e planilhas eficientes. </p>
+                        <img className="img_notion" src={notion}></img>
                     </div>
                     <div className="c7-blockright">
 

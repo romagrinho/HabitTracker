@@ -5,7 +5,6 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background: #fff;
 }
 
 .c7-containermain {
@@ -18,7 +17,9 @@
 
 .c7-blockleft{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background: black;
     border-radius: 20px;
     /* border: 1px #000 solid; */
@@ -26,10 +27,39 @@
     width: 35%;
 }
 
+.c7-blockleft h1{
+    color: #fff;    
+    font-family: "OpenSans-SemiBold";
+    font-size: clamp(10px, 1.8vw, 2vw);
+    height: 5%;
+ /*    border: 1px #fff solid */
+}
+
+.img_eu{
+    height: 47%;
+    
+}
+
+.c7-blockleft p{
+    color: #fff;    
+    font-family: "OpenSans-Regular";
+    font-size: clamp(10px, 0.9vw, 1.5vw);
+    width: 90%;
+    text-align: center;
+    
+}
+
+.img_notion{
+    height: 15%;
+    
+}
+
 .c7-blockright{
     display: flex;
     justify-content: space-between;
     /* border: 1px #000 solid; */
+    box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.082);
+    border-radius: 20px;
     height: 100%;
     width: 62%;
 }
