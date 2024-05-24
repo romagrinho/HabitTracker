@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: black;
+    background: rgb(2, 27, 26);
     border-radius: 20px;
     /* border: 1px #000 solid; */
     height: 100%;
@@ -28,7 +28,7 @@
 }
 
 .c7-blockleft h1 {
-    color: #fff;
+    color: #f1f7f6;
     font-family: "OpenSans-Bold";
     font-size: clamp(10px, 1.8vw, 2vw);
     height: 5%;
@@ -41,7 +41,7 @@
 }
 
 .c7-blockleft p {
-    color: #ffffff;
+    color: #f1f7f6;
     font-family: "OpenSans-Medium";
     font-size: clamp(10px, 0.9vw, 1.5vw);
     width: 90%;
@@ -72,17 +72,29 @@
     align-items: center;
     height: 45%;
     width: 95%;
-   /*  border: 1px solid #000 */
+    /*  border: 1px solid #000 */
 }
 
-.c7-titleTop{
-    width: 40%;
+.c7-titleTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 45%;
     height: 20%;
     background-color: rgb(2, 27, 26);
 }
 
+.c7-titleTop h1 {
+    color: #f1f7f6;
+}
 
-.c7-blockright img {
+.c7-titleTop img {
+    width: 10%;
+}
+
+
+.img_laptop {
     height: 50%;
     width: 98%;
     border-radius: 0 0 10px 10px;

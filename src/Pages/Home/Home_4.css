@@ -84,13 +84,13 @@
     width: 100%;
     height: 8%;
     /* border: 1px #7700ff solid; */
-    color: #2cc295;
+    color: #00DF81;
     font-family: "OpenSans-SemiBold";
     font-size: clamp(10px, 1.3vw, 2vw);
 }
 
 .c4-titletext {
-    color: #fff;
+    color: #f1f7f6;
     width: 100%;
     height: 10%;
     /* border: 1px #ff006a solid; */
@@ -144,19 +144,18 @@
     font-family: "OpenSans-Regular";
     font-size: clamp(10px, 1.3vw, 2vw);
     cursor: pointer;
-    background-color: #06a800;
     text-shadow: 0 0 5px 10px rgb(0, 0, 0);
-    color: #fff;
+    color: #f1f7f6;
     width: 43%;
     height: 100%;
     transition: 200ms ease-in-out;
-    /*  border: #fff 1px solid; */
+     border: #00DF81 2px solid;
 }
 
 .c4-btn_gerencie2:hover {
     text-shadow: 0 0 5px 10px rgb(0, 0, 0);
-    color: #06a800;
-    background-color: #fff;
+    color: rgb(2,27,26);
+    background-color: #00DF81;
 }
 
 .c4-spanprice2 {
@@ -171,7 +170,7 @@
 }
 
 .c4-spanprice_green2 {
-    color: #06a800;
+    color: #00DF81;
 }
 
 #c4-div-subtitles {
