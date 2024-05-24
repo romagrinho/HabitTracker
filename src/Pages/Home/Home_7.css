@@ -67,10 +67,20 @@
 }
 
 .c7-containerright_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 45%;
     width: 95%;
    /*  border: 1px solid #000 */
 }
+
+.c7-titleTop{
+    width: 40%;
+    height: 20%;
+    background-color: rgb(2, 27, 26);
+}
+
 
 .c7-blockright img {
     height: 50%;

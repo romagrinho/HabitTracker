@@ -304,7 +304,11 @@ export default function Home() {
                         <img className="img_notion" src={notion}></img>
                     </div>
                     <div className="c7-blockright">
-                        <div className="c7-containerright_top"></div>
+                        <div className="c7-containerright_top">
+                            <div className="c7-titleTop">
+                                <h1></h1>
+                            </div>
+                        </div>
                         <img src={laptopw}></img>
                     </div>
                 </div>
