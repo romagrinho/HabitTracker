@@ -37,7 +37,6 @@
 
 .img_eu {
     height: 47%;
-
 }
 
 .c7-blockleft p {
@@ -46,12 +45,10 @@
     font-size: clamp(10px, 0.9vw, 1.5vw);
     width: 90%;
     text-align: center;
-
 }
 
 .img_notion {
     height: 15%;
-
 }
 
 .c7-blockright {
@@ -70,9 +67,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 45%;
+    height: 50%;
     width: 95%;
-    /*  border: 1px solid #000 */
+     /* border: 1px solid #000 */
 }
 
 .c7-titleTop {
@@ -123,10 +120,10 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     margin-top: 2%;
-    margin-left: 6%;
-    width: 55%;
+  /*   margin-left: 10%; */
+    width: 50%;
     height: 35%;
-   /*  border: 1px solid #000; */
+    /* border: 1px solid #000; */
 }
 
 .c7-contentBox span {
@@ -141,52 +138,69 @@
     border-radius: 20px;
 }
 
-.c7-span {
-    display: block;
-    width: 70%;
-}
-
-.c7-span1 {
-    display: block;
-    width: 100%;
-}
-
 /* CONTINUAR */
 
-.c4-button {
+.c7-block_btn2 {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    align-items: center;
-    color: #fff;
+    /* border: 1px #000 solid; */
     width: 100%;
-    height: 20%;
-    /* border: 1px #ff0000 solid; */
+    margin-top: 1%;
+    margin-bottom: 2%;
+    height: 23%;
 }
 
-.c4-block_btn2 {
-    display: flex;
-    justify-content: center;
-    /*  border: 1px #000 solid; */
-    width: 100%;
-    margin-top: 2%;
-    height: 56%;
-}
-
-.c4-btn_gerencie2 {
+.c7-btn_gerencie2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
-    font-family: "OpenSans-Regular";
+    border-radius: 20px;
+    font-family: "OpenSans-SemiBold";
     font-size: clamp(10px, 1.3vw, 2vw);
     cursor: pointer;
-    text-shadow: 0 0 5px 10px rgb(0, 0, 0);
     color: #f1f7f6;
-    width: 43%;
+    width: 40%;
     height: 100%;
-    transition: 200ms ease-in-out;
-     border: #00DF81 2px solid;
+    background-color: #00DF81;
+    border: 2px solid #00DF81;
+    transition: 100ms ease-in-out;
 }
+
+.c7-btn_gerencie2:hover {
+    color: #03624c;
+    background-color: #fff;
+    border: 2px solid #03624c85;
+}
+
+/* .c7-btn_gerencie2 span {
+    position: relative;
+    z-index: 2;
+}
+
+
+.c7-btn_gerencie2::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 320px;
+    background-color: #fff;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.c7-btn_gerencie2::after {
+    content: "";
+    position: absolute;
+    background-color: #00DF81;
+    inset: 3px;
+    border-radius: inherit;
+} */
 
 .img_laptop {
     height: 50%;

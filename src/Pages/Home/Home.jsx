@@ -314,19 +314,18 @@ export default function Home() {
                                 <s>R$116,90</s>
                             </div>
                             <div className="c7-contentBox">
-                                <span className="c7-span1">Gerenciador de Habitos</span>
-                                <span className="c7-span">Gerenciador de Metas</span>
+                                <span>Gerenciador de Habitos</span>
+                                <span>Gerenciador de Metas</span>
                                 <span>Gerenciador de Dieta</span>
-                                <span className="c7-span">Gerenciador de Treino</span>
+                                <span>Gerenciador de Treino</span>
                                 <span>Gerenciador de Livros</span>
-                                <span>Gerenciador de Tarefas&Lembretes</span>
+                                <span>Gerenciador de Tarefas</span>
                             </div>
-                            <div className="c4-button">
-                                <div className="c4-block_btn2">
-                                    <a className="c4-btn_gerencie2">
-                                        Acesse agora
-                                    </a>
-                                </div>
+                            <div className="c7-block_btn2">
+                                <a className="c7-btn_gerencie2">
+                                    Gerencia suas metas agora!
+                                </a>
+                                <span>Seu pagamento é 100% seguro.</span>
                             </div>
                         </div>
                         <img src={laptopw} className="img_laptop"></img>
