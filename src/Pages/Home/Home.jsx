@@ -310,8 +310,11 @@ export default function Home() {
                                 <h1>Gerenciador de Habitos</h1>
                             </div>
                             <div className="c7-priceBox">
-                                <h1>R$86,90</h1>
-                                <s>R$116,90</s>
+                                <div>
+                                    <h1>R$86,90</h1>
+                                    <s>R$116,90</s>
+                                </div>
+                                <span>ou<span>12x de R$07,24</span></span>
                             </div>
                             <div className="c7-contentBox">
                                 <span>Gerenciador de Habitos</span>
@@ -325,7 +328,7 @@ export default function Home() {
                                 <a className="c7-btn_gerencie2">
                                     Gerencia suas metas agora!
                                 </a>
-                                <span>Seu pagamento é 100% seguro.</span>
+                                <span>Seu pagamento é 100% seguro</span>
                             </div>
                         </div>
                         <img src={laptopw} className="img_laptop"></img>
