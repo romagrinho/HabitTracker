@@ -314,7 +314,7 @@ export default function Home() {
                                     <h1>R$86,90</h1>
                                     <s>R$116,90</s>
                                 </div>
-                                <span>ou<span>12x de R$07,24</span></span>
+                                <p>ou<span>12x de R$07,24</span></p>
                             </div>
                             <div className="c7-contentBox">
                                 <span>Gerenciador de Habitos</span>

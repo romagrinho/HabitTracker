@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    font-family: "OpenSans-Regular";
+    font-family: "OpenSans-Medium";
     font-size: clamp(10px, 1.3vw, 2vw);
     cursor: pointer;
     background-color: #00DF81;
@@ -43,6 +43,7 @@
     color: #fff;
     width: 23%;
     height: 99%;
+    user-select: none;
     transition: 200ms ease-in-out;
 }
 
