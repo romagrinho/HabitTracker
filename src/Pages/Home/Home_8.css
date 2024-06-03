@@ -1,0 +1,23 @@
+.container-section8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.c8-containermain {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px #000 solid; */
+    height: 90%;
+    width: 90%;
+}
+
+.c8-containermain header {
+    display: flex;
+    justify-content: center;
+    font-family: "OpenSans-Bold";
+    font-size: clamp(10px, 1.5vw, 2vw);
+   /*  border: 1px #000 solid; */
+}
