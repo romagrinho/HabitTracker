@@ -26,34 +26,28 @@ export default function Home() {
         /*  title: "FAQ (How it works)", */
         rows: [
             {
-                title: "Lorem ipsum dolor sit amet,",
-                content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                  ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                  In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                  Fusce sed commodo purus, at tempus turpis.`,
+                title: <h1 className="FAQTitle">O que é Notion?</h1>, 
+                content: <p>Notion é um espaço de trabalho completo que permite fazer anotações, adicionar tarefas, gerenciar projetos e se organizar. Esteja você escrevendo ou planejando, o Notion tem um design versátil para realizar suas tarefas</p>,
             },
             {
-                title: "Nunc maximus, magna at ultricies elementum",
+                title: <h1 className="FAQTitle">Não sei utilizar o Notion, vou conseguir me adaptar?</h1>,
+                content: `Sim, além de ser super intuitivo, no template contém aulas partindo do pressuposto que você nunca baixou o Notion.`,
+            },
+            {
+                title: <h1 className="FAQTitle">Quanto tempo de acesso eu tenho?</h1>,
                 content:
-                    "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+                    "Nosso sistema não é uma assinatura. Você paga uma única vez, e pode utilizar para sempre!",
             },
             {
-                title: "Curabitur laoreet, mauris vel blandit fringilla",
-                content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
-            },
-            {
-                title: "What is the package version",
-                content: <p>current version is 1.2.1</p>,
+                title: <h1 className="FAQTitle">Posso personalizar o Notion?</h1>, 
+                content: `Sim! O Notion é super editável.`,
             },
         ],
     };
 
     const styles = {
         // bgColor: 'white',
-        titleTextColor: "blue",
+      /*   titleTextColor: "blue", */
         rowTitleColor: "blue",
         rowContentColor: 'grey',
         /* arrowColor: "red", */
