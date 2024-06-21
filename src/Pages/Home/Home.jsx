@@ -8,6 +8,7 @@ import "./Home_5.css";
 import "./Home_6.css";
 import "./Home_7.css";
 import "./Home_8.css";
+import "./Footer.css";
 import RS from "./imgs/LogoBranco.png";
 import stars_rate from './imgs/stars.png'
 import people from './imgs/peoples.png';
@@ -18,7 +19,6 @@ import mockupcel from "./imgs/mockupcel.png";
 import eu from "./imgs/eu.png";
 import notion from "./imgs/notion.png";
 import laptopw from "./imgs/laptop notion white.png";
-import laptopb from "./imgs/laptop notion black.png";
 
 export default function Home() {
 
@@ -26,28 +26,35 @@ export default function Home() {
         /*  title: "FAQ (How it works)", */
         rows: [
             {
-                title: <h1 className="FAQTitle">O que é Notion?</h1>, 
+                title: <h1 className="FAQTitle">Como receberei acesso ao sistema?</h1>,
+                content: <p>Após a compra, você receberá acesso exclusivo a nossa área de membros.Por lá, disponibilizaremos o link para duplicar o sistema em seu espaço de trabalho.Além disso, terá acesso às aulas gravadas com a trilha de implementação, e a explicação de todos os recursos do sistema.</p>,
+            },
+            {
+                title: <h1 className="FAQTitle">O que é Notion?</h1>,
                 content: <p>Notion é um espaço de trabalho completo que permite fazer anotações, adicionar tarefas, gerenciar projetos e se organizar. Esteja você escrevendo ou planejando, o Notion tem um design versátil para realizar suas tarefas</p>,
             },
             {
                 title: <h1 className="FAQTitle">Não sei utilizar o Notion, vou conseguir me adaptar?</h1>,
-                content: `Sim, além de ser super intuitivo, no template contém aulas partindo do pressuposto que você nunca baixou o Notion.`,
+                content: <p>Sim, além de ser super intuitivo, no template contém aulas partindo do pressuposto que você nunca baixou o Notion.</p>,
             },
             {
                 title: <h1 className="FAQTitle">Quanto tempo de acesso eu tenho?</h1>,
-                content:
-                    "Nosso sistema não é uma assinatura. Você paga uma única vez, e pode utilizar para sempre!",
+                content: <p>Nosso sistema não é uma assinatura. Você paga uma única vez, e pode utilizar para sempre!</p>,
             },
             {
-                title: <h1 className="FAQTitle">Posso personalizar o Notion?</h1>, 
-                content: `Sim! O Notion é super editável.`,
+                title: <h1 className="FAQTitle">Posso personalizar o Notion?</h1>,
+                content: <p>Sim! O Notion é super editável.</p>,
+            },
+            {
+                title: <h1 className="FAQTitle">Eu tenho mais perguntas</h1>,
+                content: <p>Envie sua pergunta para contato@produtivo.org. Terei o maior prazer em responder.</p>,
             },
         ],
     };
 
     const styles = {
         // bgColor: 'white',
-      /*   titleTextColor: "blue", */
+        /*   titleTextColor: "blue", */
         rowTitleColor: "blue",
         rowContentColor: 'grey',
         /* arrowColor: "red", */
@@ -58,8 +65,8 @@ export default function Home() {
         /*    arrowIcon: "+", */
         /*  tabFocus: true */
         openOnload: 500,
-       /*  expandIcon: "+", */
-       /*  collapseIcon: "-", */
+        /*  expandIcon: "+", */
+        /*  collapseIcon: "-", */
     };
 
     return (
@@ -390,6 +397,11 @@ export default function Home() {
                             config={config}
                         />
                     </div>
+                </div>
+            </div>
+            <div className="container-section9">
+                <div className="c9-containermain">
+                    
                 </div>
             </div>
         </section>

@@ -24,7 +24,13 @@
 }
 
 .faq{
-    width: 60%;
+    width: 65%;
+}
+
+.faq p{
+    font-family: "OpenSans-Regular";
+    font-size: clamp(10px, 1.25vw, 1.8vw);
+    color:rgba(0, 0, 0, 0.764);
 }
 
 .FAQTitle{
@@ -32,7 +38,6 @@
     font-size: clamp(10px, 1.4vw, 2vw);
     color:rgba(0, 0, 0, 0.555);
     transition: 100ms ease-in-out;
-    
 }
 
 .FAQTitle:hover{
