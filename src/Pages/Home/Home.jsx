@@ -9,6 +9,10 @@ import "./Home_6.css";
 import "./Home_7.css";
 import "./Home_8.css";
 import "./Footer.css";
+import peso from "./imgs/icondumbell.png"
+import saude from "./imgs/iconhealthy.png"
+import trofeu from "./imgs/icontrofeu.png";
+import cerebro from "./imgs/iconcerebro.png";
 import RS from "./imgs/LogoBranco.png";
 import stars_rate from './imgs/stars.png'
 import people from './imgs/peoples.png';
@@ -38,12 +42,17 @@ export default function Home() {
                 content: <p>Sim, além de ser super intuitivo, no template contém aulas partindo do pressuposto que você nunca baixou o Notion.</p>,
             },
             {
+                title: <h1 className="FAQTitle">Posso personalizar o Notion?</h1>,
+                content: <p>Sim! Por ser um template do Notion você tem total controle sobre o Template, podendo assim, editá-lo a qualquer momento, para deixar 100% a sua cara</p>,
+            },
+            {
                 title: <h1 className="FAQTitle">Quanto tempo de acesso eu tenho?</h1>,
                 content: <p>Nosso sistema não é uma assinatura. Você paga uma única vez, e pode utilizar para sempre!</p>,
             },
             {
-                title: <h1 className="FAQTitle">Posso personalizar o Notion?</h1>,
-                content: <p>Sim! O Notion é super editável.</p>,
+                title: <h1 className="FAQTitle">E meus dados pessoais?</h1>,
+                content: <p>Não se preocupe! Uma vez baixado o Potencial dos meu objetivos, todos os dados contido nele são privados. Ninguém terá acesso a sua vida pessoal, somente você.
+                </p>,
             },
             {
                 title: <h1 className="FAQTitle">Eu tenho mais perguntas</h1>,
@@ -80,7 +89,7 @@ export default function Home() {
                         <li>Gerenciador de Habitos</li>
                         <li>Gerenciador de Tarefas</li>
                         <li>Workout Tracker</li>
-                        <li>Gerenciador Financeiro</li>
+                        <li>Planilha Financeira</li>
                     </ul>
                     <a>EXPLORE JÁ</a>
                 </header>
@@ -124,55 +133,43 @@ export default function Home() {
                 <div className="c3-container">
                     <ComponentRight
                         title="Hábito"
-                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
-                        icon={icon_engrenagem}
-                        subtitle="Sincronização"
-                        subdescription="Acesse o template no computador ou no celular"
-                        icon2={icon_engrenagem}
-                        subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular"
+                        description="O Dashboard permite que você veja tudo que está acontecendo. Gerencie os dias, e todos seus habitos."
+                        icon={trofeu}
+                        subtitle="Ranking"
+                        subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
-                        title="Hábito"
-                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
-                        icon={icon_engrenagem}
-                        subtitle="Sincronização"
-                        subdescription="Acesse o template no computador ou no celular"
-                        icon2={icon_engrenagem}
-                        subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular"
+                        title="Metas"
+                        description="No template você também pode gerenciar suas metas a partir do método SMART, em diversos nivéis de longevidade, desde 7 dias até 1 ano ou mais!"
+                        icon={cerebro}
+                        subtitle="SMART"
+                        subdescription="Metodologia utilizada para ajudar as pessoas a definir e alcançar seus objetivos de maneira clara e eficiente."
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
-                        title="Hábito"
-                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
-                        icon={icon_engrenagem}
-                        subtitle="Sincronização"
-                        subdescription="Acesse o template no computador ou no celular"
-                        icon2={icon_engrenagem}
-                        subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular"
+                        title="Treino"
+                        description="Controle seus treinos de forma visual. Crie metas, insira o seu protocolo e veja seu desenvolvimento."
+                        icon={peso}
+                        subtitle="Avançado"
+                        subdescription='Com propriedades que te permite protocolar técnicas avançadas do seu treino, como "drop-set", "bi-set" e mais.'
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
-                        title="Hábito"
-                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
-                        icon={icon_engrenagem}
-                        subtitle="Sincronização"
-                        subdescription="Acesse o template no computador ou no celular"
-                        icon2={icon_engrenagem}
-                        subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular"
+                        title="Dieta"
+                        description="Gerencie sua dieta de maneira visual: estabeleça metas, registre seu plano alimentar e acompanhe seu progresso de forma intuitiva."
+                        icon={saude}
+                        subtitle="Saúde"
+                        subdescription="Sua vida toda num só lugar."
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
-                        title="Hábito"
-                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
+                        title="Livros"
+                        description="Anote os pontos que você mais gostou no livro"
                         icon={icon_engrenagem}
                         subtitle="Sincronização"
                         subdescription="Acesse o template no computador ou no celular"
@@ -401,7 +398,29 @@ export default function Home() {
             </div>
             <div className="container-section9">
                 <div className="c9-containermain">
-                    
+                    <div className="containerfooter">
+                        <div className="c-footerleft">
+                            <img src={RS}></img>
+                        </div>
+                        <div className="c-footerright">
+                            <h1>PRODUTOS</h1>
+                            <a>
+                                <text>Gerenciador de Habitos</text>
+                                <text>Planilha Financeira</text>
+                                <text>Gerenciador de Tarefas</text>
+                                <text>Workout Tracker</text>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="c9-containerdireitos">
+                        <div className="c9-direitoleft">
+                            <text>© 2024 RS.org - todos os direitos reservados.</text>
+                        </div>
+                        <a className="c9-direitoright">
+                            <text>Termos de Serviço</text>
+                            <text>Política de Privacidade</text>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

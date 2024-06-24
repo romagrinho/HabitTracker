@@ -1,8 +1,9 @@
 .Home {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
-    height: 1330vh;
+    height: 1370vh;
 }
 
 /* O height do .Home que designa o tamanho do site, a diferença de 80 é do Home_2.css */

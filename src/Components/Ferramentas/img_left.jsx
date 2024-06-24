@@ -22,12 +22,12 @@ export default function img_Left({
                     </div>
                     <div id="div-subtitles">
                         <div>
-                            <img className="icon_rimg" src={icon} />
+                            <div className="icon_img" style={{ backgroundImage: `url(${icon})` }}></div>
                             <span className="c-spansubtitle">{subtitle}</span>
                             <p>{subdescription}</p>
                         </div>
                         <div>
-                            <img className="icon_rimg" src={icon2} />
+                            <div className="icon_img" style={{ backgroundImage: `url(${icon2})` }}></div>
                             <span className="c-spansubtitle">{subtitle2}</span>
                             <p>{subdescription2}</p>
                         </div>

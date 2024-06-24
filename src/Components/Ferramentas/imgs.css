@@ -50,6 +50,8 @@
 
 #div-subtitles p {
     margin-top: 3%;
+    text-align: justify;
+    width: 90%;
 }
 
 #c-spantitle {
@@ -70,9 +72,13 @@
     width: 80%;
 }
 
-.icon_rimg {
+#div-subtitles div div{
     width: 17%;
     height: 17%;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    /* border: 1px solid #000000; */
 }
 
 .c-spansubtitle {
