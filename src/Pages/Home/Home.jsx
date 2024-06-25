@@ -169,7 +169,7 @@ export default function Home() {
                 <div className="c3-container">
                     <ComponentRight
                         title="Livros"
-                        description="Anote os pontos que você mais gostou no livro"
+                        description="Transforme suas leituras em uma experiência organizada e eficiente! Faça anotações sobre seus livros, gerencie o status e o progresso de cada um, além de classificar o quão bom ele é."
                         icon={icon_engrenagem}
                         subtitle="Sincronização"
                         subdescription="Acesse o template no computador ou no celular"
