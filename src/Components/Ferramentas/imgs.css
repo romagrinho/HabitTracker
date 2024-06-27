@@ -49,7 +49,7 @@
 }
 
 #div-subtitles p {
-    font-size: clamp(10px, 1.05vw, 1.5vw);
+    font-size: clamp(10px, 0.9vw, 1.5vw);
     color: rgba(0, 0, 0, 0.759);
     font-family: "OpenSans-Regular";
     margin-top: 3%;

@@ -169,10 +169,10 @@ export default function Home() {
                 <div className="c3-container">
                     <ComponentRight
                         title="Livros"
-                        description="Transforme suas leituras em uma experiência organizada e eficiente! Faça anotações sobre seus livros, gerencie o status e o progresso de cada um, além de classificar o quão bom ele é."
+                        description="Transforme suas leituras em uma experiência organizada e eficiente! Faça anotações sobre seus livros, gerencie o status e o progresso de cada um."
                         icon={icon_engrenagem}
-                        subtitle="Sincronização"
-                        subdescription="Acesse o template no computador ou no celular"
+                        subtitle="Classificação"
+                        subdescription='Além de gerenciar seus livros, você pode destacar os melhores, marcar o status como "concluído", "lendo" e até "iniciar" novas leituras!'
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
                         subdescription2="Acesse o template no computador ou no celular"
