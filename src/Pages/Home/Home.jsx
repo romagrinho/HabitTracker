@@ -9,6 +9,8 @@ import "./Home_6.css";
 import "./Home_7.css";
 import "./Home_8.css";
 import "./Footer.css";
+import relogio from "./imgs/iconrelógio100.png"
+import estrela from "./imgs/iconestrela.png"
 import peso from "./imgs/icondumbell.png"
 import saude from "./imgs/iconhealthy.png"
 import trofeu from "./imgs/icontrofeu.png";
@@ -18,7 +20,7 @@ import stars_rate from './imgs/stars.png'
 import people from './imgs/peoples.png';
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
 import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
-import icon_engrenagem from "./imgs/engrenagem_icon.png";
+import icon_engrenagem from "./imgs/iconsengrenagem-100.png";
 import mockupcel from "./imgs/mockupcel.png";
 import eu from "./imgs/eu.png";
 import notion from "./imgs/notion.png";
@@ -170,7 +172,7 @@ export default function Home() {
                     <ComponentRight
                         title="Livros"
                         description="Transforme suas leituras em uma experiência organizada e eficiente! Faça anotações sobre seus livros, gerencie o status e o progresso de cada um."
-                        icon={icon_engrenagem}
+                        icon={estrela}
                         subtitle="Classificação"
                         subdescription='Além de gerenciar seus livros, você pode destacar os melhores, marcar o status como "concluído", "lendo" e até "iniciar" novas leituras!'
                         icon2={icon_engrenagem}
@@ -180,14 +182,11 @@ export default function Home() {
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
-                        title="Hábito"
-                        description="O Dashboard permite que você veja tudo que está acontecendo. Veja os hábitos, notas, finanças e treinos com facilidade"
-                        icon={icon_engrenagem}
-                        subtitle="Sincronização"
+                        title="Tarefas & Lembretes"
+                        description="Organize 100% sua vida, gerenciando suas Tarefas & Lembretes, colocando observações, separando por prioridade, por categoria e mais."
+                        icon={relogio}
+                        subtitle="Alerta"
                         subdescription="Acesse o template no computador ou no celular"
-                        icon2={icon_engrenagem}
-                        subtitle2="Sincronização"
-                        subdescription2="Acesse o template no computador ou no celular"
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container2">
