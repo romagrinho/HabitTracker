@@ -26,8 +26,8 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 60%;
-    /* border: 1px #000000 solid; */
+    height: 55%;
+   /*  border: 1px #000000 solid; */
 }
 
 .box-containerdesc div {
@@ -49,7 +49,7 @@
 }
 
 #div-subtitles p {
-    font-size: clamp(10px, 0.9vw, 1.5vw);
+    font-size: clamp(10px, 1vw, 1.5vw);
     color: rgba(0, 0, 0, 0.759);
     font-family: "OpenSans-Regular";
     margin-top: 3%;
@@ -76,8 +76,8 @@
 }
 
 #div-subtitles div div{
-    width: 17%;
-    height: 17%;
+    width: 20%;
+    height: 20%;
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;

@@ -38,7 +38,7 @@
     font-family: "OpenSans-Medium";
     font-size: clamp(10px, 1.3vw, 2vw);
     cursor: pointer;
-    background-color: #00DF81;
+    background-color: #06A800;
     text-shadow: 0 0 5px 10px rgb(0, 0, 0);
     color: #fff;
     width: 23%;
@@ -48,9 +48,9 @@
 }
 
 .btn_gerencie2:hover {
-    border: 1px solid #00DF81;
+    border: 1px solid #06A800;
     text-shadow: 0 0 5px 10px rgb(0, 0, 0);
-    color: #00DF81;
+    color: #06A800;
     background-color: #fff;
 }
 
@@ -62,5 +62,5 @@
 }
 
 .spanprice_green2 {
-    color: #00DF81;
+    color: #06A800;
 }

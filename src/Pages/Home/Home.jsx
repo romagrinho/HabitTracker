@@ -9,6 +9,8 @@ import "./Home_6.css";
 import "./Home_7.css";
 import "./Home_8.css";
 import "./Footer.css";
+import metas from "./imgs/metas-50.png"
+import compras from "./imgs/compras50.png"
 import relogio from "./imgs/iconrelógio100.png"
 import estrela from "./imgs/iconestrela.png"
 import peso from "./imgs/icondumbell.png"
@@ -183,10 +185,10 @@ export default function Home() {
                 <div className="c3-container">
                     <ComponentLeft
                         title="Tarefas & Lembretes"
-                        description="Organize 100% sua vida, gerenciando suas Tarefas & Lembretes, colocando observações, separando por prioridade, por categoria e mais."
+                        description="Organize 100% da sua vida! Gerencie suas Tarefas e Lembretes, adicione observações, separe por prioridade, categoria e muito mais."
                         icon={relogio}
                         subtitle="Alerta"
-                        subdescription="Acesse o template no computador ou no celular"
+                        subdescription="O template também inclui alertas para te lembrar das suas tarefas e compromissos!"
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container2">
@@ -214,24 +216,24 @@ export default function Home() {
                             <span className="c4-subtitletext">🎀 VEJA ESTE PRESENTE</span>
                             <span className="c4-titletext">Controle de Gastos</span>
                             <div className="c4-desc">
-                                <p>Além do template 100% editável, você receberá uma série de aulas para tirar o máximo do seu Segundo Cérebro. Aprenda a customizar cada área, domine o Notion do zero e adicione mais uma habilidade ao seu repertório.</p>
+                                <p>Além do template, tenho para você um presente especial: uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
                                 <div id="c4-div-subtitles">
                                     <div>
-                                        <img className="c4-icon_rimg" />
-                                        <span className="c4-spansubtitle">Comentários</span>
-                                        <p>Automatize seu sistema usando propriedades avançadas.</p>
+                                        <img className="c4-icon_rimg" src={compras}/>
+                                        <span className="c4-spansubtitle">Compras</span>
+                                        <p>Através do método AHP, defina, separe e organize automaticamente o que você deseja comprar.</p>
                                     </div>
                                     <div>
-                                        <img className="c4-icon_rimg" />
-                                        <span className="c4-spansubtitle">Sincronização</span>
-                                        <p>Faça gráficos e exporte relatórios em poucos clicks.</p>
+                                        <img className="c4-icon_rimg" src={metas}/>
+                                        <span className="c4-spansubtitle">Plano de Metas</span>
+                                        <p>Defina suas metas financeiras, desde viagens até investimentos e conquiste seus sonhos!</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="c4-button">
                                 <div className="c4-block_btn2">
                                     <a className="c4-btn_gerencie2">
-                                        Acesse agora
+                                        Estou decidido a mudar
                                     </a>
                                 </div>
                                 <span className="c4-spanprice2"><span className="c4-spanprice_green2">12x de R$ 8,02</span> ou R$79,90 à vista</span>
