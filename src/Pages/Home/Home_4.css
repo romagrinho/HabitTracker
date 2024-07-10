@@ -166,11 +166,11 @@
     /*  border: #fff 1px solid; */
     margin-top: 2%;
     /* padding-left: 12%; */
-    font-family: "OpenSans-Medium";
+    font-family: "OpenSans-SemiBold";
     font-size: clamp(10px, 0.9vw, 2vw);
     color: #ffffff5e;
     /*   font-weight: bold; */
-    width: 42.1%;
+    width: 42.6%;
 }
 
 .c4-spanprice_green2 {
