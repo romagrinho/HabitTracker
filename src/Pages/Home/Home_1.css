@@ -7,6 +7,9 @@
 }
 
 /* O height do .Home que designa o tamanho do site, a diferença de 80 é do Home_2.css */
+a {
+    text-decoration: none;
+}
 
 .container-section1 {
     display: flex;

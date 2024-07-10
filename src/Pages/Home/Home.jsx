@@ -18,7 +18,7 @@ import saude from "./imgs/iconhealthy.png"
 import trofeu from "./imgs/icontrofeu.png";
 import cerebro from "./imgs/iconcerebro.png";
 import RS from "./imgs/LogoBranco.png";
-import stars_rate from './imgs/stars.png'
+import stars_rate from './imgs/stars2.png'
 import people from './imgs/peoples.png';
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
 import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
@@ -95,14 +95,14 @@ export default function Home() {
                         <li>Workout Tracker</li>
                         <li>Planilha Financeira</li>
                     </ul>
-                    <a>EXPLORE JÁ</a>
+                    <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
                 </header>
                 <div className="ContainerHome1">
                     <div>
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Gerenciador de Habitos</span>
-                        <p className="descHome">Organize o melhor ano da sua vida com o Gerenciador de Habitos. Gerencie seus novos hábitos, controle suas metas, planeje seus estudos, treinos e dieta</p>
-                        <span className="descSpanHome"> em um só lugar.</span>
+                        <p className="descHome">Transforme seu ano com o Gerenciador de Hábitos! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em</p>
+                        <span className="descSpanHome">  um único lugar.</span>
                     </div>
                 </div>
                 <iframe id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -115,11 +115,11 @@ export default function Home() {
                 </div>
                 <div className="c2-container2">
                     <div className="block_btn">
-                        <a className="btn_gerencie">
+                        <a  href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie">
                             Gerencia suas metas agora!
                         </a>
                     </div>
-                    <span className="spanprice"><span className="spanprice_green">12x de R$ 8,02</span> ou R$79,90 à vista</span>
+                    <span className="spanprice"><span className="spanprice_green">3x de R$ 16,61</span> ou R$47,00 à vista</span>
                     <div className="block_rating">
                         <div className="divimgpeople">
                             <img className="img_people" src={people}></img>
@@ -193,11 +193,11 @@ export default function Home() {
                 </div>
                 <div className="c3-container2">
                     <div className="block_btn2">
-                        <a className="btn_gerencie2">
+                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2">
                             Gerencia suas metas agora!
                         </a>
                     </div>
-                    <span className="spanprice2"><span className="spanprice_green2">12x de R$ 8,02</span> ou R$79,90 à vista</span>
+                    <span className="spanprice2"><span className="spanprice_green2">3x de R$ 16,61</span> ou R$47,00 à vista</span>
                 </div>
             </div>
             <div className="container-section4">
@@ -232,11 +232,11 @@ export default function Home() {
                             </div>
                             <div className="c4-button">
                                 <div className="c4-block_btn2">
-                                    <a className="c4-btn_gerencie2">
+                                    <a href="" rel="noopener noreferrer" className="c4-btn_gerencie2">
                                         Estou decidido a mudar
                                     </a>
                                 </div>
-                                <span className="c4-spanprice2"><span className="c4-spanprice_green2">12x de R$ 8,02</span> ou R$79,90 à vista</span>
+                                <span className="c4-spanprice2"><span className="c4-spanprice_green2">2x de R$ 12,45</span> ou R$24,90 à vista</span>
                             </div>
                         </div>
                     </div>
@@ -254,7 +254,7 @@ export default function Home() {
                         <div className="beneficios">
                             <div className="bene_left">
                                 <div className="beneficiosimg">
-                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+ElEQVR4nO2Z30tUQRTHP65SGynkq39A7r/QD9MSkXrpxz8QUkGFEFG0+RhB/qh/w97CXquHIq0oe61WeqkstSIKNGiF3DjwvTDIyt5Z79x7of3AwO7szDkzd8+Zc85caNGiRdp0AyPAfaACrKnZ5xn9ZmNyyy5gDPgF1Bq0n8B1oEjO6AHmnYU+AM4CvcButZL6HjrjXmluLugBPmlhZj4HY8zp09ia5vbkwZzmtaDHwB6PuTb2iea+zNrMxrSQd56biDCnX5CMcoD1xV5E5NhxzGkr+p0DoJsMGHEce7s8kqzTZMCMlJ9JQNY5ybpHBkS2bUfsdik5p17qrEp5ZwKyOiVrlQyIglpe5W1LcQcwDEwCc8BH4LeafZ7Vb8Ma20heKriKu5Q7LcbIs2pORC87ppn5Ro7paUff3wLjwGCdXMv6JhRAo/EfJCPzjbgJ4GGP+ftkapvlpErBUVwFzgNtTcixOReAdUdegRS5IaU/gEMJyOuXrJpkp4LZ8189RR9TaoTla1XJPkpgLNX+rCdn5pQ0FyV7MXRaf9mpH5rxiUa0AS+k4xKBsAC2LCVm06E4Ih2mqz2EgqhueEN4KgnUOVsyJeG3CM+kdFlgTZynEm7ROQ47tKAl4IsiuvXFYUi6rKZPnPcSvjfm+Ik6Udv64tCr8VbzJM6aZ/2xVGcj5sCZ1ydVCbdMNw7f62zkW8y5XRr/hwB89TSt6HBwm/mMj2mtEIDnns7esclPxusUU42cfY4A3PF02Ihm0vPbnv+gF33OrWLojSxozn4C0O74yYDHvFnFoLgMOidcsNrkmlMNhkoaX0vHFQJSdF4hWGWXNKNOHR/8dv4UsKHCKsks2Iq0dck+QUrcdErdJDYzkEWpi5zwrhSvq7Jr9vJh1Ll8mA7kew0XUVaNXdObKyuKfE6nyLE3FJ8KZMjJTRd0FQWyIV3KdaqV1DflxInIsY+TE4rAVeVGca9Ml3XE7iSHFIADeurPtLGq2or6pjQmUzNq0eJ/4x94LiDUc+50cgAAAABJRU5ErkJggg==" />
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACT0lEQVR4nO1Y3WoTURA+IIigTyCtFdOZaC98APUB9ErwovYdahWfIODOJCmivRZBQajKZmbjlfZRCt5pa71WoYKtkdkfCQmaxmR3s/Z8MLAsmdnzZb6Zc8445+FRDVwI2+dAeQ2Ut0B5G5S+JWbPvAVCd2rdYN7NKha1PYfKT1DpAJV7I+wQhMN6t3XezRIg4lv2r6eL3EelTezw8sWoiZdfPDxtZs8owW1UfolC3+23oPwVI7rpZgGofB+FfiYkaNOkNcrnkgQLKPQqy05d+J4rOxOYyOQHKq+O7W+1lPgelpaZWjeY75PT2CQygNLdWGZCX+pv1s+6ooFCzzI5TRoLlF8nZPipKxJWB2l32j9KTYyCda+kAdCBdT9XFEzb08pGhr7iX3VFAYTexR/t8PLUYiqvpPJ664oCKr23j9bC5uK0Ysb7jMZ7y7YrCvFGptxbChtnphXTYmG6SbqikB01qhL3j/BERgB9Ro6DtJbCxklQWgfhT0e4X+RqILQLSi1b09hEQLhdNgEctuY/EKFdc653giuuZKDw1Swzs99B8loPeiL5AH1G1NdILkAvLZ1MWgvPG6dAeAOU9ux0AEKP7V3lMgLCG0NHDeVH1SOitDd0xBD6XDkiKPRxmAh/qB4RpWD4FMsPqndECcMTg0TsXSXbLw4SmUIsV5jjf0lE+gp+gkIvn0hEN4xAbNq8PlEs9fcR9jfEPIBeWuqllQvw2EsL0gGdDcdKz0YUXEszsjO2s81aZ2BE2hu4z/DYRNIhdut3Zsq1HSPxtyH2Ly05w3q7z3JIAAAAAElFTkSuQmCC"/>
                                 </div>
                                 <span>Compra 100% segura</span>
                             </div>
@@ -282,7 +282,7 @@ export default function Home() {
                         <div className="beneficios">
                             <div className="bene_left">
                                 <div className="beneficiosimg">
-                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEmklEQVR4nO1b3U8UVxQ/8Kb9L4D0waXqgyYm7VtJmhZbjT5oDKYNEkrSF+sXbWMyhBiy4rfsYjW1ieyu2NgGP4K1VmN2li9BQFyF3UX5EBFBA6itrsrsac5053pndlmXB3Z2L/NLToB7Lnfm95tzztw7MxcgFh8AwBoA2AYA5YLY9wDwFQAshgTIAoCdADANACioTQHA9ihXHbIB4HQanGCqzGMUYSffITc3F0tLS7G8vFwIIy7EySACpTjLeRb2JSUlGA6HUTQQp+LiYmM6LIZocVAb8/LyhCSvgbjl5OTwIqwmAXZoDWVlZayzoijocrlUi0Qic2pLZ1A6GNOgQmuQJIl1JEJau9vtnlNbOoM4cgJUWALALBFA4UxX1OPxsNBOtk2ICBAVlgBSgggoKChAu90ujFVXV2MwGEw+AkBAoxng+wTYvNAFyAaAIrPn6/NhlZWVGAqF3iuAClwgsASQrAhAYwp8CAADtEoy5stCiYCftIaqqioUHdZMULLWAjjrTFCyFkMSig4rBSQrBdCqAWAVQczou8Bo+Dn+MdaLJ0e6sOFxHz4Ov1gYNSCsvMWK0HVcKtdivuxkttRXi3v6vRhWZsQVQIlEsNR/QUfcaN/6L6KCETEFqH/k15Hdcvs87r3fhJu6f9e1n3nkF1OAdZ1nGMmaoRusna43pYXmW9/5m3gCvFZmWN4v9x1T/+Yx8frfd/VArsU3EUUsAV7OvGEEP2k9GeMnQfg0oP5CCUBY2XxCJfeR7IyJALotauRXNB3HRMhYAb7ocDOSRJhH97Mx5ivsSPyGuq6ujhegKGME+LqngZG89WxM5/vryT3m+6anIeE42vcMUfLZGSPArr4rjCQR5uF62MN8uwJXkhoPOFRkggD7BpoZSfdoj853cKCF+fYPNIspwKmHtxhJIszjh8DfzEf9hBTg0kSIkfwxcFXn23L7HPP9OdEvpgC+yWFG8rs7jTrfhq6zzEf9Mk6AV8pbbBwPqcvbePbzcAeuvVnPSNLKj8e23svMt7azHo8/uDnrWI0TIXWilDYCBP95ioUdnoSrPN5oKkz/w6NtakSdICU7xqc3TqHNd3SZ6QLQlZ8LeZrlXRgPxB3r15EuXOY7lvRYNq8jsKrlwCJTBaCw5+f4dAujCm+0o4NteHbsrrroSYQHr6bx9Kgfjwy2xR2Hxv+45Zd3Isg1G00VgHJbO5nDg60pOeahwVY+CnabKoBzqJ2dDP2e6mPavE5zF0OWAENWBGCyVXs+zJZOKWAJIFsRgFYKyObUgO1aDaDtJKkE/zzfDFsiO2hDJXzJf1ebqk1T9B7vs3aXqQLke52FEN06NqWJQFvL5lsEIr87eM3kO4BjUlsM6dKAjD6apHSI9w0+PVamJ6vxMPxyWn0kRT+NoJeWtJKjsDf9yqsC1GzlnwlkRbeTJvUJOokQD5+3u2d9Nn9+PGA6ae7quwAxZv9wVnQfHUuHBKa+UDAiX3b2/38QR8jos8mOzWlAfFK98nHIAweqCVQYqULa4xh7oWDEkuuOPKqstqYjuTFOlLLzZWeRzeuwp9rUc5JrVvM5r+E/lTTopMMtmCMAAAAASUVORK5CYII=" />
+                                 <img src="data:image/png;base64,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"/>
                                 </div>
                                 <span>Totalmente customizável</span>
                             </div>
@@ -329,17 +329,17 @@ export default function Home() {
                     <div className="div-step">
                         <h5>PASSO 1</h5>
                         <h2>Acesse</h2>
-                        <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link e, na área de membros, duplicar o template.</p>
+                        <p>O Gerenciador de Hábitos já está disponível para compra. Você pode pagar via boleto, cartão e pix. Sua compra é totalmente segura pela Kiwify.</p>
                     </div>
                     <div className="div-step">
                         <h5>PASSO 2</h5>
                         <h2>Compre</h2>
-                        <p>O Segundo Cérebro já está disponível para compra. Você pode pagar via pix e cartão. Sua compra é totalmente segura pela Kiwify.</p>
+                        <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link, e na área de membros duplicar o template.</p>
                     </div>
                     <div className="div-step">
                         <h5>PASSO 3</h5>
                         <h2>Aproveite</h2>
-                        <p>Você terá acesso total a todas as ferramentas. Customize seu Segundo Cérebro como quiser e tire o máximo de cada área</p>
+                        <p>Você terá acesso total a todas as ferramentas. Customize seu Gerenciador de Hábitos como quiser e tire o máximo de cada módulo</p>
                     </div>
                 </div>
             </div>
@@ -359,10 +359,10 @@ export default function Home() {
                             </div>
                             <div className="c7-priceBox">
                                 <div>
-                                    <h1>R$86,90</h1>
-                                    <s>R$116,90</s>
+                                    <h1>R$47,00</h1>
+                                    <s>R$79,90</s>
                                 </div>
-                                <p>ou<span>12x de R$07,24</span></p>
+                                <p>ou<span>3x de R$16,61</span></p>
                             </div>
                             <div className="c7-contentBox">
                                 <span>Gerenciador de Habitos</span>
@@ -373,7 +373,7 @@ export default function Home() {
                                 <span>Gerenciador de Tarefas</span>
                             </div>
                             <div className="c7-block_btn2">
-                                <a className="c7-btn_gerencie2">
+                                <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="c7-btn_gerencie2">
                                     Gerencia suas metas agora!
                                 </a>
                                 <span>Seu pagamento é 100% seguro</span>
