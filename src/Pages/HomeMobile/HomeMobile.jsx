@@ -1,36 +1,29 @@
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
+import { slide as Menu } from 'react-burger-menu'
 
-/* CSS WEB */
-import "./Home_1.css";
-import "./Home_2.css";
-import "./Home_3.css";
-import "./Home_4.css";
-import "./Home_5.css";
-import "./Home_6.css";
-import "./Home_7.css";
-import "./Home_8.css";
-import "./Footer.css";
-import metas from "./imgs/metas-50.png"
-import compras from "./imgs/compras50.png"
-import relogio from "./imgs/iconrelógio100.png"
-import estrela from "./imgs/iconestrela.png"
-import peso from "./imgs/icondumbell.png"
-import saude from "./imgs/iconhealthy.png"
-import trofeu from "./imgs/icontrofeu.png";
-import cerebro from "./imgs/iconcerebro.png";
-import RS from "./imgs/LogoBranco.png";
-import stars_rate from './imgs/stars2.png'
-import people from './imgs/peoples.png';
+import "./Home_1M.css";
+
+import metas from "../Home/imgs/metas-50.png"
+import compras from "../Home/imgs/compras50.png"
+import relogio from "../Home/imgs/iconrelógio100.png"
+import estrela from "../Home/imgs/iconestrela.png"
+import peso from "../Home/imgs/icondumbell.png"
+import saude from "../Home/imgs/iconhealthy.png"
+import trofeu from "../Home/imgs/icontrofeu.png";
+import cerebro from "../Home/imgs/iconcerebro.png";
+import RS from "../Home/imgs/LogoBranco.png";
+import stars_rate from '../Home/imgs/stars.png'
+import people from '../Home/imgs/peoples.png';
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
 import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
-import icon_engrenagem from "./imgs/iconsengrenagem-100.png";
-import mockupcel from "./imgs/mockupcel.png";
-import eu from "./imgs/eu.png";
-import notion from "./imgs/notion.png";
-import laptopw from "./imgs/laptop notion white.png";
+import icon_engrenagem from "../Home/imgs/iconsengrenagem-100.png";
+import mockupcel from "../Home/imgs/mockupcel.png";
+import eu from "../Home/imgs/eu.png";
+import notion from "../Home/imgs/notion.png";
+import laptopw from "../Home/imgs/laptop notion white.png";
 
-export default function Home() {
+export default function HomeMobile() {
 
     const data = {
         /*  title: "FAQ (How it works)", */
@@ -91,20 +84,26 @@ export default function Home() {
                     <div>
                         <img src={RS}></img>
                     </div>
-                    <ul>
+                  {/*   <ul>
                         <li>Gerenciador de Habitos</li>
                         <li>Gerenciador de Tarefas</li>
                         <li>Workout Tracker</li>
                         <li>Planilha Financeira</li>
                     </ul>
-                    <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
+                    <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a> */}
+
+                    <Menu right
+                    customBurgerIcon={<img src="" />}
+                    >
+
+                    </Menu>
                 </header>
                 <div className="ContainerHome1">
                     <div>
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Gerenciador de Habitos</span>
-                        <p className="descHome">Transforme seu ano com o Gerenciador de Hábitos! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em</p>
-                        <span className="descSpanHome">  um único lugar.</span>
+                        <p className="descHome">Organize o melhor ano da sua vida com o Gerenciador de Habitos. Gerencie seus novos hábitos, controle suas metas, planeje seus estudos, treinos e dieta</p>
+                        <span className="descSpanHome"> em um só lugar.</span>
                     </div>
                 </div>
                 <iframe id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
