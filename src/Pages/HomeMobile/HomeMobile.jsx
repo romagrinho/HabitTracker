@@ -13,7 +13,7 @@ import saude from "../Home/imgs/iconhealthy.png"
 import trofeu from "../Home/imgs/icontrofeu.png";
 import cerebro from "../Home/imgs/iconcerebro.png";
 import RS from "../Home/imgs/LogoBranco.png";
-import stars_rate from '../Home/imgs/stars.png'
+import stars_rate from '../Home/imgs/stars2.png'
 import people from '../Home/imgs/peoples.png';
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
 import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
@@ -22,6 +22,7 @@ import mockupcel from "../Home/imgs/mockupcel.png";
 import eu from "../Home/imgs/eu.png";
 import notion from "../Home/imgs/notion.png";
 import laptopw from "../Home/imgs/laptop notion white.png";
+import icon_menu from "../Home/imgs/hamburguermenu100.png";
 
 export default function HomeMobile() {
 
@@ -81,21 +82,18 @@ export default function HomeMobile() {
         <section className="Home">
             <div className="container-section1">
                 <header id="header1">
-                    <div>
-                        <img src={RS}></img>
+                    <div className="divHeader">
+                        <img className="testeburguer2" src={RS}></img>
                     </div>
-                  {/*   <ul>
-                        <li>Gerenciador de Habitos</li>
-                        <li>Gerenciador de Tarefas</li>
-                        <li>Workout Tracker</li>
-                        <li>Planilha Financeira</li>
-                    </ul>
-                    <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a> */}
-
                     <Menu right
-                    customBurgerIcon={<img src="" />}
-                    >
-
+                        customBurgerIcon={<img className="testeburguer" src={icon_menu} />}>
+                        {/* <ul>
+                            <li>Gerenciador de Habitos</li>
+                            <li>Gerenciador de Tarefas</li>
+                            <li>Workout Tracker</li>
+                            <li>Planilha Financeira</li>
+                        </ul>
+                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a> */}
                     </Menu>
                 </header>
                 <div className="ContainerHome1">
@@ -116,7 +114,7 @@ export default function HomeMobile() {
                 </div>
                 <div className="c2-container2">
                     <div className="block_btn">
-                        <a  href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie">
+                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie">
                             Gerencia suas metas agora!
                         </a>
                     </div>
@@ -220,12 +218,12 @@ export default function HomeMobile() {
                                 <p>Além do template, tenho para você um presente especial: uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
                                 <div id="c4-div-subtitles">
                                     <div>
-                                        <img className="c4-icon_rimg" src={compras}/>
+                                        <img className="c4-icon_rimg" src={compras} />
                                         <span className="c4-spansubtitle">Compras</span>
                                         <p>Através do método AHP, defina, separe e organize automaticamente o que você deseja comprar.</p>
                                     </div>
                                     <div>
-                                        <img className="c4-icon_rimg" src={metas}/>
+                                        <img className="c4-icon_rimg" src={metas} />
                                         <span className="c4-spansubtitle">Plano de Metas</span>
                                         <p>Defina suas metas financeiras, desde viagens até investimentos e conquiste seus sonhos!</p>
                                     </div>
@@ -255,7 +253,7 @@ export default function HomeMobile() {
                         <div className="beneficios">
                             <div className="bene_left">
                                 <div className="beneficiosimg">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACT0lEQVR4nO1Y3WoTURA+IIigTyCtFdOZaC98APUB9ErwovYdahWfIODOJCmivRZBQajKZmbjlfZRCt5pa71WoYKtkdkfCQmaxmR3s/Z8MLAsmdnzZb6Zc8445+FRDVwI2+dAeQ2Ut0B5G5S+JWbPvAVCd2rdYN7NKha1PYfKT1DpAJV7I+wQhMN6t3XezRIg4lv2r6eL3EelTezw8sWoiZdfPDxtZs8owW1UfolC3+23oPwVI7rpZgGofB+FfiYkaNOkNcrnkgQLKPQqy05d+J4rOxOYyOQHKq+O7W+1lPgelpaZWjeY75PT2CQygNLdWGZCX+pv1s+6ooFCzzI5TRoLlF8nZPipKxJWB2l32j9KTYyCda+kAdCBdT9XFEzb08pGhr7iX3VFAYTexR/t8PLUYiqvpPJ664oCKr23j9bC5uK0Ysb7jMZ7y7YrCvFGptxbChtnphXTYmG6SbqikB01qhL3j/BERgB9Ro6DtJbCxklQWgfhT0e4X+RqILQLSi1b09hEQLhdNgEctuY/EKFdc653giuuZKDw1Swzs99B8loPeiL5AH1G1NdILkAvLZ1MWgvPG6dAeAOU9ux0AEKP7V3lMgLCG0NHDeVH1SOitDd0xBD6XDkiKPRxmAh/qB4RpWD4FMsPqndECcMTg0TsXSXbLw4SmUIsV5jjf0lE+gp+gkIvn0hEN4xAbNq8PlEs9fcR9jfEPIBeWuqllQvw2EsL0gGdDcdKz0YUXEszsjO2s81aZ2BE2hu4z/DYRNIhdut3Zsq1HSPxtyH2Ly05w3q7z3JIAAAAAElFTkSuQmCC"/>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACT0lEQVR4nO1Y3WoTURA+IIigTyCtFdOZaC98APUB9ErwovYdahWfIODOJCmivRZBQajKZmbjlfZRCt5pa71WoYKtkdkfCQmaxmR3s/Z8MLAsmdnzZb6Zc8445+FRDVwI2+dAeQ2Ut0B5G5S+JWbPvAVCd2rdYN7NKha1PYfKT1DpAJV7I+wQhMN6t3XezRIg4lv2r6eL3EelTezw8sWoiZdfPDxtZs8owW1UfolC3+23oPwVI7rpZgGofB+FfiYkaNOkNcrnkgQLKPQqy05d+J4rOxOYyOQHKq+O7W+1lPgelpaZWjeY75PT2CQygNLdWGZCX+pv1s+6ooFCzzI5TRoLlF8nZPipKxJWB2l32j9KTYyCda+kAdCBdT9XFEzb08pGhr7iX3VFAYTexR/t8PLUYiqvpPJ664oCKr23j9bC5uK0Ysb7jMZ7y7YrCvFGptxbChtnphXTYmG6SbqikB01qhL3j/BERgB9Ro6DtJbCxklQWgfhT0e4X+RqILQLSi1b09hEQLhdNgEctuY/EKFdc653giuuZKDw1Swzs99B8loPeiL5AH1G1NdILkAvLZ1MWgvPG6dAeAOU9ux0AEKP7V3lMgLCG0NHDeVH1SOitDd0xBD6XDkiKPRxmAh/qB4RpWD4FMsPqndECcMTg0TsXSXbLw4SmUIsV5jjf0lE+gp+gkIvn0hEN4xAbNq8PlEs9fcR9jfEPIBeWuqllQvw2EsL0gGdDcdKz0YUXEszsjO2s81aZ2BE2hu4z/DYRNIhdut3Zsq1HSPxtyH2Ly05w3q7z3JIAAAAAElFTkSuQmCC" />
                                 </div>
                                 <span>Compra 100% segura</span>
                             </div>
@@ -283,7 +281,7 @@ export default function HomeMobile() {
                         <div className="beneficios">
                             <div className="bene_left">
                                 <div className="beneficiosimg">
-                                 <img src="data:image/png;base64,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"/>
+                                    <img src="data:image/png;base64,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" />
                                 </div>
                                 <span>Totalmente customizável</span>
                             </div>
