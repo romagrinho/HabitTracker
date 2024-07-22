@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
-import { slide as Menu } from 'react-burger-menu'
+import { push as Menu } from 'react-burger-menu'
 
 import "./Home_1M.css";
 
@@ -23,8 +23,17 @@ import eu from "../Home/imgs/eu.png";
 import notion from "../Home/imgs/notion.png";
 import laptopw from "../Home/imgs/laptop notion white.png";
 import icon_menu from "../Home/imgs/hamburguermenu100.png";
+import cross from "../Home/imgs/cross100.png";
 
 export default function HomeMobile() {
+
+    const styless = {
+        bmCross: {
+            width: '30px',
+            height: '30px',
+            right: '15px'
+        },
+    }
 
     const data = {
         /*  title: "FAQ (How it works)", */
@@ -81,19 +90,24 @@ export default function HomeMobile() {
     return (
         <section className="Home">
             <div className="container-section1">
-                <header id="header1">
-                    <div className="divHeader">
+                <header className="header1">
+                    <div className="divHeaderCel">
                         <img className="testeburguer2" src={RS}></img>
                     </div>
                     <Menu right
-                        customBurgerIcon={<img className="testeburguer" src={icon_menu} />}>
-                        {/* <ul>
-                            <li>Gerenciador de Habitos</li>
-                            <li>Gerenciador de Tarefas</li>
-                            <li>Workout Tracker</li>
-                            <li>Planilha Financeira</li>
-                        </ul>
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a> */}
+                        customBurgerIcon={<img src={icon_menu} />}
+                        styles={styless}
+                        customCrossIcon={<img src={cross} />}>
+                        <img className="HM_logo" src={RS}></img>
+                        <div className="HM_ul">
+                            <ul>
+                                <li>Gerenciador de Habitos</li>
+                                <li>Gerenciador de Tarefas</li>
+                                <li>Workout Tracker</li>
+                                <li>Planilha Financeira</li>
+                            </ul>
+                        </div>
+                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
                     </Menu>
                 </header>
                 <div className="ContainerHome1">
@@ -104,7 +118,7 @@ export default function HomeMobile() {
                         <span className="descSpanHome"> em um só lugar.</span>
                     </div>
                 </div>
-                <iframe id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                {/*  <iframe id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
