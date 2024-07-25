@@ -90,7 +90,7 @@ export default function HomeMobile() {
     return (
         <section className="Home">
             <div className="container-section1">
-                <header className="header1">
+                <header className="headerCel">
                     <div className="divHeaderCel">
                         <img className="testeburguer2" src={RS}></img>
                     </div>
