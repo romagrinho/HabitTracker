@@ -160,13 +160,11 @@
         height: 100%;
     }
 
-
-
     .ContainerHome1 {
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 40%;
+        height: 70%;
         width: 100%;
         border: 1px solid #ff0000;
     }
@@ -175,18 +173,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 70%;
-        height: 80%;
+        width: 95%;
+        height: 90%;
+        border:1px solid #fff;
     }
 
-    .ContainerHome1 p {
-        width: 70%;
-        height: 40%;
+    .descHome {
+        width: 90% !important;
+        height: 80% !important;
         font-family: "OpenSans-Regular";
         text-align: justify;
-        font-size: clamp(10px, 1.3vw, 3vw);
+        font-size: min(5vw, 6vw) !important; 
         color: #f1f7f6;
         margin-top: 1%;
+         border: 2px #ffffff solid; 
     }
 
     .descSpanHome {
@@ -202,13 +202,15 @@
 
     .titleHome {
         font-family: "OpenSans-SemiBold";
-        font-size: clamp(10px, 3vw, 5vw);
+        font-size: min(6.5vw, 7vw);
         color: #ffffff;
+        text-align: center;
+        border: 1px solid #fff;
     }
 
     .subtitleHome {
         font-family: "OpenSans-SemiBold";
-        font-size: clamp(10px, 3.2vw, 5vw);
+        font-size: min(7vw, 7vw);
         color: #00c673;
     }
 }
