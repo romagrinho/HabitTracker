@@ -66,7 +66,7 @@
     }
 
     .headerCel a {
-        display: flex !important; 
+        display: flex !important;
         justify-content: center;
         align-items: center;
         border-radius: 30px;
@@ -96,19 +96,20 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        justify-content: baseline;
         height: 100vh;
         width: 100%;
         background: rgb(2, 27, 26);
         position: relative;
     }
 
-    #video1 {
+    #video1Cel {
         z-index: 11;
         position: absolute;
         border-radius: 20px;
         width: 90%;
         height: 40%;
-        top: 60%;
+        top: 80%;
         left: 5%;
         backdrop-filter: blur(10px);
         box-shadow: 0 0 0px 10px #ffffff42,
@@ -144,7 +145,7 @@
         justify-content: space-between;
         height: 10%;
         width: 100%;
-        border: 1px #ffffff solid
+        /* border: 1px #ffffff solid */
     }
 
     .divHeaderCel {
@@ -160,22 +161,23 @@
         height: 100%;
     }
 
-    .ContainerHome1 {
+    .ContainerHome1Cel {
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 70%;
+        height: 60%;
         width: 100%;
-        border: 1px solid #ff0000;
+        /* border: 1px solid #ff0000; */
     }
 
-    .ContainerHome1 div {
+    .ContainerDescCel {
         display: flex;
         flex-direction: column;
+        justify-content: space-around !important;
         align-items: center;
         width: 95%;
         height: 90%;
-        border:1px solid #fff;
+        /* border: 1px solid #fff; */
     }
 
     .descHome {
@@ -183,10 +185,10 @@
         height: 80% !important;
         font-family: "OpenSans-Regular";
         text-align: justify;
-        font-size: min(5vw, 6vw) !important; 
+        font-size: min(5vw, 6vw) !important;
         color: #f1f7f6;
         margin-top: 1%;
-         border: 2px #ffffff solid; 
+        /*  border: 2px #ffffff solid;  */
     }
 
     .descSpanHome {
@@ -205,12 +207,12 @@
         font-size: min(6.5vw, 7vw);
         color: #ffffff;
         text-align: center;
-        border: 1px solid #fff;
+        /* border: 1px solid #fff; */
     }
 
     .subtitleHome {
         font-family: "OpenSans-SemiBold";
-        font-size: min(7vw, 7vw);
+        font-size: min(7.5vw, 8vw);
         color: #00c673;
     }
 }

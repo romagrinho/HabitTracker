@@ -3,6 +3,7 @@ import Faq from "react-faq-component";
 import { push as Menu } from 'react-burger-menu'
 
 import "./Home_1M.css";
+import "./Home_2M.css";
 
 import metas from "../Home/imgs/metas-50.png"
 import compras from "../Home/imgs/compras50.png"
@@ -110,21 +111,19 @@ export default function HomeMobile() {
                         <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
                     </Menu>
                 </header>
-                <div className="ContainerHome1">
-                    <div>
+                <div className="ContainerHome1Cel">
+                    <div className="ContainerDescCel">
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Gerenciador de Habitos</span>
                         <p className="descHome">Organize o melhor ano da sua vida com o Gerenciador de Habitos. Gerencie seus novos hábitos, controle suas metas, planeje seus estudos, treinos e dieta em um só lugar.</p>
-                        <span className="descSpanHome"> </span>
                     </div>
                 </div>
-                {/*  <iframe id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                 <iframe id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
             <div className="container-section2">
                 <div className="c2-container1">
-
                 </div>
                 <div className="c2-container2">
                     <div className="block_btn">
