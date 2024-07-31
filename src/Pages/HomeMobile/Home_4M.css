@@ -1,0 +1,217 @@
+.container-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #f1f7f6;
+}
+
+.c4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 27, 26);
+    width: 100%;
+    height: 90%;
+}
+
+.c4-containerleft {
+    /* border: 1px #fff solid; */
+    width: 45%;
+    height: 90%;
+}
+
+.excel_img {
+    width: 100%;
+    height: 60%;
+    background-image: url("../Home/imgs/mockup\ excel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+.ferramentasexcel-imgs {
+    border: 1px #fff solid;
+    height: 70%;
+    width: 45%;
+    background-image: url("../Home/imgs/excel_compras.png");
+    background-size: 220%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+
+.ferramentasexcel-imgs2 {
+    border: 1px #fff solid;
+    height: 70%;
+    width: 45%;
+    background-image: url("../Home/imgs/excel_plano\ de\ metas.png");
+    background-size: 220%;
+    background-repeat: no-repeat;
+    background-position: 2%;
+}
+
+.excel_img2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+    width: 100%;
+    height: 40%;
+}
+
+.c4-containerright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    /* border: 1px #fff solid; */
+}
+
+.c4-textconteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75%;
+    height: 80%;
+    /* border: 1px #fff solid; */
+}
+
+.c4-subtitletext {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -3%;
+    color: #fff;
+    width: 100%;
+    height: 8%;
+    /* border: 1px #7700ff solid; */
+    color: #00DF81;
+    font-family: "OpenSans-SemiBold";
+    font-size: clamp(10px, 1.3vw, 2vw);
+}
+
+.c4-titletext {
+    color: #f1f7f6;
+    width: 100%;
+    height: 10%;
+    /* border: 1px #ff006a solid; */
+    font-family: "OpenSans-Bold";
+    font-size: clamp(10px, 2.5vw, 3vw);
+}
+
+.c4-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+    margin-top: 2%;
+    height: 62%;
+    /*  border: 1px #00ff0d solid; */
+}
+
+.c4-desc p {
+    height: 45%;
+    color: #ffffffd5;
+    font-family: "OpenSans-Regular";
+    text-align: justify;
+    font-size: clamp(10px, 1.3vw, 4vw);
+}
+
+.c4-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    width: 100%;
+    height: 15%;
+    /* border: 1px #ff0000 solid; */
+}
+
+.c4-block_btn2 {
+    display: flex;
+    justify-content: center;
+    /* border: 1px #000 solid; */
+    width: 100%;
+    margin-top: 2%;
+    height: 60%;
+}
+
+.c4-btn_gerencie2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: "OpenSans-Medium";
+    font-size: clamp(10px, 1.2vw, 2vw);
+    cursor: pointer;
+    text-shadow: 0 0 5px 10px rgb(0, 0, 0);
+    color: #f1f7f6;
+    width: 50%;
+    height: 100%;
+    user-select: none;
+    transition: 200ms ease-in-out;
+    border: #00DF81 2px solid;
+}
+
+.c4-btn_gerencie2:hover {
+    text-shadow: 0 0 5px 10px rgb(0, 0, 0);
+    color: rgb(2, 27, 26);
+    background-color: #00DF81;
+}
+
+.c4-spanprice2 {
+    /*  border: #fff 1px solid; */
+    margin-top: 2%;
+    /* padding-left: 12%; */
+    font-family: "OpenSans-SemiBold";
+    font-size: clamp(10px, 0.9vw, 2vw);
+    color: #ffffff5e;
+    /*   font-weight: bold; */
+    width: 42.6%;
+}
+
+.c4-spanprice_green2 {
+    color: #00DF81;
+}
+
+#c4-div-subtitles {
+    display: flex;
+    justify-content: space-around;
+    /*     align-items: flex-end; */
+    height: 50%;
+    margin-bottom: 1%;
+    /* border: #fff 1px solid; */
+}
+
+#c4-div-subtitles div {
+    display: flex;
+    flex-direction: column;
+    /* border: #fff 1px solid; */
+    height: 100%;
+    width: 45%;
+}
+
+#c4-div-subtitles p {
+    color: rgba(255, 255, 255, 0.808);
+    font-size: clamp(10px, 1.1vw, 3vw);
+    height: 50%;
+    width: 100%;
+    font-family: "OpenSans-Regular";
+}
+
+.c4-spansubtitle {
+    width: 100%;
+    height: 20%;
+    color: rgb(255, 255, 255);
+    font-size: clamp(10px, 1.4vw, 2vw);
+    font-family: "OpenSans-SemiBold";
+    /* border: 1px #ffffff solid; */
+}
+
+.c4-icon_rimg {
+    width: 15%;
+    height: 20%;
+}

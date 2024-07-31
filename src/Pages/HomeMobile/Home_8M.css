@@ -1,0 +1,46 @@
+.container-section8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    width: 100%;
+}
+
+.c8-containermain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px #000 solid; */
+    height: 90%;
+    width: 90%;
+}
+
+.c8-containermain header {
+    display: flex;
+    justify-content: center;
+    font-family: "OpenSans-Bold";
+    font-size: clamp(10px, 1.5vw, 2vw);
+   /*  border: 1px #000 solid; */
+}
+
+.faq{
+    margin-top: 4%;
+    width: 65%;
+}
+
+.faq p{
+    font-family: "OpenSans-Regular";
+    font-size: clamp(10px, 1.25vw, 1.8vw);
+    color:rgba(0, 0, 0, 0.764);
+}
+
+.FAQTitle{
+    font-family: "OpenSans-Bold";
+    font-size: clamp(10px, 1.4vw, 2vw);
+    color:rgba(0, 0, 0, 0.555);
+    transition: 100ms ease-in-out;
+}
+
+.FAQTitle:hover{
+    color:rgb(0, 0, 0)
+}

@@ -4,6 +4,12 @@ import { push as Menu } from 'react-burger-menu'
 
 import "./Home_1M.css";
 import "./Home_2M.css";
+import "./Home_3M.css";
+import "./Home_4M.css";
+import "./Home_5M.css";
+import "./Home_6M.css";
+import "./Home_7M.css";
+import "./Home_8M.css";
 
 import metas from "../Home/imgs/metas-50.png"
 import compras from "../Home/imgs/compras50.png"
@@ -89,8 +95,8 @@ export default function HomeMobile() {
     };
 
     return (
-        <section className="Home">
-            <div className="container-section1">
+        <section className="HomeCel">
+            <div className="container-section1Cel">
                 <header className="headerCel">
                     <div className="divHeaderCel">
                         <img className="testeburguer2" src={RS}></img>
@@ -122,21 +128,19 @@ export default function HomeMobile() {
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
-            <div className="container-section2">
-                <div className="c2-container1">
-                </div>
-                <div className="c2-container2">
-                    <div className="block_btn">
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie">
+            <div className="container-section2Cel">
+                <div className="c1-container1Cel">
+                    <div className="block_btnCel">
+                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencieCel">
                             Gerencia suas metas agora!
                         </a>
                     </div>
                     <span className="spanprice"><span className="spanprice_green">3x de R$ 16,61</span> ou R$47,00 à vista</span>
-                    <div className="block_rating">
-                        <div className="divimgpeople">
+                    <div className="block_ratingCel">
+                        <div className="divimgpeopleCel">
                             <img className="img_people" src={people}></img>
                         </div>
-                        <div className="rating">
+                        <div className="ratingCel">
                             <div className="img1">
                                 <img className="img_stars" src={stars_rate}></img>
                             </div>
