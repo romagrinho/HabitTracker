@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row-reverse;
     width: 90%;
- /*    border: 1px solid #ff0000; */
+    /*    border: 1px solid #ff0000; */
     height: 95%;
 }
 
@@ -27,7 +27,7 @@
     flex-direction: column;
     width: 60%;
     height: 55%;
-   /*  border: 1px #000000 solid; */
+    /*  border: 1px #000000 solid; */
 }
 
 .box-containerdesc div {
@@ -75,7 +75,7 @@
     width: 80%;
 }
 
-#div-subtitles div div{
+#div-subtitles div div {
     width: 20%;
     height: 20%;
     background-size: contain;
@@ -102,4 +102,71 @@
     border-radius: 10px;
     width: 80%;
     height: 70%;
+}
+
+/* CELULAR */
+
+@media screen and (max-width: 768px) {
+    #img_right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        /* border: 1px solid #ff0000; */
+        height: 95%;
+    }
+
+    .containerdesc1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: 100%;
+        /*    border: 1px #000 solid; */
+    }
+
+    .box-containerdesc {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 95%;
+        /*      border: 1px #ff0000 solid; */
+    }
+
+    .box-containerdesc div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+      /*   border: 1px #000000 solid; */
+    }
+
+    #c-spantitle {
+        font-size: min(7vw, 10vw);
+    }
+
+    .pdesc {
+        font-size: min(4vw, 7vw);
+    }
+
+    .c-spansubtitle {
+        font-size: min(4.5vw, 6vw);
+    }
+
+    #div-subtitles p {
+        font-size: min(3.3vw, 5vw)
+    }
+
+    #div-subtitles div div {
+        width: 18%;
+        height: 18%;
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        /* border: 1px solid #000000; */
+    }
+
+    .conteinervid1 {
+        width: 95%;
+    }
 }

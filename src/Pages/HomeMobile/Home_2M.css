@@ -95,10 +95,10 @@
     height: 100%;
 }
 
-.img1 {
+.img1Cel {
     display: flex;
     align-items: center;
-    height: 40%;
+    height: 35%;
     /* border: 1px #000 solid; */
 }
 

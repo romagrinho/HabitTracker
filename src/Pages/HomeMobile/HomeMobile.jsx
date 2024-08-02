@@ -141,7 +141,7 @@ export default function HomeMobile() {
                             <img className="img_people" src={people}></img>
                         </div>
                         <div className="ratingCel">
-                            <div className="img1">
+                            <div className="img1Cel">
                                 <img className="img_stars" src={stars_rate}></img>
                             </div>
                             <span>4.9/5 de +510 compras</span>
@@ -149,7 +149,7 @@ export default function HomeMobile() {
                     </div>
                 </div>
             </div>
-            <div className="container-section3">
+            <div className="container-section3Cel">
                 <div className="c3-container">
                     <ComponentRight
                         title="Hábito"
@@ -160,7 +160,7 @@ export default function HomeMobile() {
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
-                    <ComponentLeft
+                    <ComponentRight
                         title="Metas"
                         description="No template você também pode gerenciar suas metas a partir do método SMART, em diversos nivéis de longevidade, desde 7 dias até 1 ano ou mais!"
                         icon={cerebro}
@@ -178,7 +178,7 @@ export default function HomeMobile() {
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
-                    <ComponentLeft
+                    <ComponentRight
                         title="Dieta"
                         description="Gerencie sua dieta de maneira visual: estabeleça metas, registre seu plano alimentar e acompanhe seu progresso de forma intuitiva."
                         icon={saude}
@@ -199,7 +199,7 @@ export default function HomeMobile() {
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container">
-                    <ComponentLeft
+                    <ComponentRight
                         title="Tarefas & Lembretes"
                         description="Organize 100% da sua vida! Gerencie suas Tarefas e Lembretes, adicione observações, separe por prioridade, categoria e muito mais."
                         icon={relogio}
@@ -209,7 +209,7 @@ export default function HomeMobile() {
                 </div>
                 <div className="c3-container2">
                     <div className="block_btn2">
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2">
+                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2Cel">
                             Gerencia suas metas agora!
                         </a>
                     </div>
