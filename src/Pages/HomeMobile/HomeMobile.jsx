@@ -208,7 +208,7 @@ export default function HomeMobile() {
                         video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
                 </div>
                 <div className="c3-container2">
-                    <div className="block_btn2">
+                    <div className="block_btn2Cel">
                         <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2Cel">
                             Gerencia suas metas agora!
                         </a>
@@ -216,9 +216,9 @@ export default function HomeMobile() {
                     <span className="spanprice2"><span className="spanprice_green2">3x de R$ 16,61</span> ou R$47,00 à vista</span>
                 </div>
             </div>
-            <div className="container-section4">
-                <div className="c4-container">
-                    <div className="c4-containerleft">
+            <div className="container-section4Cel">
+                <div className="c4-containerCel">
+                    <div className="c4-containerleftCel">
                         <div className="excel_img">
 
                         </div>
@@ -227,21 +227,21 @@ export default function HomeMobile() {
                             <div className="ferramentasexcel-imgs2" />
                         </div>
                     </div>
-                    <div className="c4-containerright">
-                        <div className="c4-textconteiner">
-                            <span className="c4-subtitletext">🎀 VEJA ESTE PRESENTE</span>
-                            <span className="c4-titletext">Controle de Gastos</span>
-                            <div className="c4-desc">
+                    <div className="c4-containerrightCel">
+                        <div className="c4-textconteinerCel">
+                            <span className="c4-subtitletextCel">🎀 VEJA ESTE PRESENTE</span>
+                            <span className="c4-titletextCel">Controle de Gastos</span>
+                            <div className="c4-descCel">
                                 <p>Além do template, tenho para você um presente especial: uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
-                                <div id="c4-div-subtitles">
+                                <div id="c4-div-subtitlesCel">
                                     <div>
-                                        <img className="c4-icon_rimg" src={compras} />
-                                        <span className="c4-spansubtitle">Compras</span>
+                                        <img className="c4-icon_rimgCel" src={compras} />
+                                        <span className="c4-spansubtitleCel">Compras</span>
                                         <p>Através do método AHP, defina, separe e organize automaticamente o que você deseja comprar.</p>
                                     </div>
                                     <div>
-                                        <img className="c4-icon_rimg" src={metas} />
-                                        <span className="c4-spansubtitle">Plano de Metas</span>
+                                        <img className="c4-icon_rimgCel" src={metas} />
+                                        <span className="c4-spansubtitleCel">Plano de Metas</span>
                                         <p>Defina suas metas financeiras, desde viagens até investimentos e conquiste seus sonhos!</p>
                                     </div>
                                 </div>
