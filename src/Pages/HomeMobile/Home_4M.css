@@ -18,9 +18,8 @@
 }
 
 .c4-containerleftCel {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     /* border: 1px #fff solid; */
     width: 95%;
     height: 90%;
@@ -57,9 +56,9 @@
 
 .excel_img2 {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     margin-top: 3%;
+    margin-bottom: 5%;
     width: 100%;
     height: 40%;
 }
@@ -70,7 +69,7 @@
     justify-content: center;
     width: 95%;
     height: 100%;
-   /*  border: 1px #fff solid; */
+    /*  border: 1px #fff solid; */
 }
 
 .c4-textconteinerCel {
@@ -111,7 +110,8 @@
     width: 100%;
     margin-top: -6%;
     height: 82%;
-     /* border: 1px #00ff0d solid */;
+    /* border: 1px #00ff0d solid */
+    ;
 }
 
 .c4-descCel p {
@@ -127,18 +127,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
     color: #fff;
     width: 100%;
     height: 18%;
-    border: 1px #ff0000 solid;
+    /* border: 1px #ff0000 solid; */
 }
 
 .c4-block_btn2Cel {
     display: flex;
-    align-items:start;
+    align-items: start;
     justify-content: center;
-    border: 1px #ffffff solid;
+    /* border: 1px #ffffff solid; */
     width: 100%;
     /* margin-top: 2%; */
     height: 70%;
@@ -168,14 +167,14 @@
 }
 
 .c4-spanprice2Cel {
-     border: #fff 1px solid;
+    /* border: #fff 1px solid; */
     margin-top: 2%;
     /* padding-left: 12%; */
     font-family: "OpenSans-SemiBold";
-    font-size: min(0.9vw, 2vw);
+    font-size: min(2.8vw, 4vw);
     color: #ffffff5e;
     /*   font-weight: bold; */
-    width: 42.6%;
+    width: 50%;
 }
 
 .c4-spanprice_green2 {
@@ -188,7 +187,7 @@
     /*     align-items: flex-end; */
     height: 40%;
     margin-top: -2%;
-    border: #fff 1px solid;
+    /* border: #fff 1px solid; */
 }
 
 #c4-div-subtitlesCel div {
