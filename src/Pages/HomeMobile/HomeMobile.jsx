@@ -124,7 +124,7 @@ export default function HomeMobile() {
                         <p className="descHome">Organize o melhor ano da sua vida com o Gerenciador de Habitos. Gerencie seus novos hábitos, controle suas metas, planeje seus estudos, treinos e dieta em um só lugar.</p>
                     </div>
                 </div>
-                 <iframe id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
@@ -229,9 +229,9 @@ export default function HomeMobile() {
                     </div>
                     <div className="c4-containerrightCel">
                         <div className="c4-textconteinerCel">
-                            <span className="c4-subtitletextCel">🎀 VEJA ESTE PRESENTE</span>
-                            <span className="c4-titletextCel">Controle de Gastos</span>
                             <div className="c4-descCel">
+                                <span className="c4-subtitletextCel">🎀 VEJA ESTE PRESENTE</span>
+                                <span className="c4-titletextCel">Controle de Gastos</span>
                                 <p>Além do template, tenho para você um presente especial: uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
                                 <div id="c4-div-subtitlesCel">
                                     <div>
@@ -246,13 +246,13 @@ export default function HomeMobile() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="c4-button">
-                                <div className="c4-block_btn2">
-                                    <a href="" rel="noopener noreferrer" className="c4-btn_gerencie2">
+                            <div className="c4-buttonCel">
+                                <div className="c4-block_btn2Cel">
+                                    <a href="" rel="noopener noreferrer" className="c4-btn_gerencie2Cel">
                                         Estou decidido a mudar
                                     </a>
                                 </div>
-                                <span className="c4-spanprice2"><span className="c4-spanprice_green2">2x de R$ 12,45</span> ou R$24,90 à vista</span>
+                                <span className="c4-spanprice2Cel"><span className="c4-spanprice_green2">2x de R$ 12,45</span> ou R$24,90 à vista</span>
                             </div>
                         </div>
                     </div>
