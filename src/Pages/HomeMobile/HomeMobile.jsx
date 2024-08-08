@@ -334,7 +334,7 @@ export default function HomeMobile() {
                     </div>
                 </div>
             </div>
-            <div className="container-section6">
+            <div className="container-section6Cel">
                 <div className="c6-containertitleCel">
                     <span>  Um template, entregue em três passos:</span>
                 </div>
@@ -342,32 +342,34 @@ export default function HomeMobile() {
                     <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div className="c6-containerstepsCel">
-                    <div className="div-step">
+                    <div className="div-stepCel">
                         <h5>PASSO 1</h5>
-                        <h2>Acesse</h2>
+                        <h2>Compre</h2>
                         <p>O Gerenciador de Hábitos já está disponível para compra. Você pode pagar via boleto, cartão e pix. Sua compra é totalmente segura pela Kiwify.</p>
                     </div>
-                    <div className="div-step">
+                    <span></span>
+                    <div className="div-stepCel2">
                         <h5>PASSO 2</h5>
-                        <h2>Compre</h2>
+                        <h2>Acesse</h2>
                         <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link, e na área de membros duplicar o template.</p>
                     </div>
-                    <div className="div-step">
+                    <span></span>
+                    <div className="div-stepCel">
                         <h5>PASSO 3</h5>
                         <h2>Aproveite</h2>
                         <p>Você terá acesso total a todas as ferramentas. Customize seu Gerenciador de Hábitos como quiser e tire o máximo de cada módulo</p>
                     </div>
                 </div>
             </div>
-            <div className="container-section7">
-                <div className="c7-containermain">
-                    <div className="c7-blockleft">
+            <div className="container-section7Cel">
+                <div className="c7-containermainCel">
+                    <div className="c7-blockleftCel">
                         <h1>Conheça quem desenvolveu</h1>
                         <img className="img_eu" src={eu}></img>
                         <p>Olá! Sou o Romario, um desenvolvedor Full-Stack e empreendedor com 3 anos de experiência em desenvolvimento. Ao longo da minha trajetória, já ajudei inúmeras pessoas a alcançarem seus objetivos com sistemas personalizados, templates profissionais e planilhas eficientes. </p>
                         <img className="img_notion" src={notion}></img>
                     </div>
-                    <div className="c7-blockright">
+                    <div className="c7-blockrightCel">
                         <div className="c7-containerright_top">
                             <div className="c7-titleTop">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACHklEQVR4nO2a3U3DMBRGMxM8lIkSmABGYJtrdy9QNwC1qBWobX4c2981OUfyW1sl56S2E6XrAAAAAAAAAAAA5hKHr9EBhSGAGAKIIYAYAoghgBgCiCGAGAKI2XqA0O+60L/pDmDLAezlsQv95+k8w/CuOYitBrBf8s9DEmGLAeyGfFmErQWwEfmSCJ4ChNOCuCv6+3E4TJ7zKUKthdlLALtcmYcuPj8V/P1p+cdjKHkhuAtgV3LyRnAr30MAuysnTwTX8tUBbFLOugju5SsD2Gw5aRGakK8KYIvkLI/QjHxFAFssf1mEpuTXDmDJ8udFaE5+zQC2Wv54hCbl1wpg2eTfjtCs/BoBwoLb/5/Pzf/s+dHF0u+4omSAkCCndDB3lApgK6aFff/QxeEj65TlUn6pAJZhTs4XwbH8EgEs44K4PoJz+bkDWIHdSHqEBuTnDGAFt4LLIzQiP1cAq7APnx+hIfk5AljFm6DpCI3JXxvABHeg9yM0KH9NAOXt//4qQqPyUwN4ePayv0RoWH5qgOMrGx52I6Hwayyup6DYv/6v3UiLi3C8GwH5VQLcjoD8qgH+RkC+JMB5YWbOFwaARAgghgBiCCCGAGIIIIYAYggghgBiCCCGAGIIIIYAYggghgBiCCCGAGLmvV6ynVEd9QlHZ4MAAwHkV2HkH6AXEZmC9DKiYLAGDASQX4VxS/8AAAAAAAAAAAAAAADonPMNaWKO+EPTyPYAAAAASUVORK5CYII=" />

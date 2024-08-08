@@ -68,14 +68,14 @@
    /*  border: 1px #000000 solid; */
 }
 .div-step h2{
-    color: #000000;
+    color: rgb(2, 27, 26);
     font-family: "OpenSans-SemiBold";
     font-size: clamp(10px, 2vw, 3vw);
     height: 20%;
     /* border: 1px #000000 solid; */
 }
 .div-step p{
-    margin-top: 1%;
+    margin-top: 2%;
     color: #000000c4;
     text-align: justify;
     font-family: "OpenSans-Medium";

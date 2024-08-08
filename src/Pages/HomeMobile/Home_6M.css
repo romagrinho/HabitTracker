@@ -1,10 +1,10 @@
 /* PAGINA */
 
-.container-section6 {
+.container-section6Cel {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     background: #fff;
 }
@@ -16,13 +16,14 @@
     align-items: flex-end;
     width: 90%;
     height: 10%;
+    /* border: 1px #ff0000 solid; */
 }
 
 .c6-containertitleCel span {
     color: #000000;
     font-family: "OpenSans-Bold";
     text-align: center;
-    font-size: min(6vw, 7vw);
+    font-size: min(6.5vw, 7vw);
 }
 
 /* VIDEO DA PAGINA */
@@ -32,8 +33,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60%;
-    /*  border: 1px #ff0000 solid; */
+    height: 30%;
+    /* border: 1px #ff0000 solid; */
 }
 
 .c6-containervideoCel iframe {
@@ -47,43 +48,58 @@
 /* PASSOS DE COMPRA */
 .c6-containerstepsCel {
     display: flex;
+    flex-direction: column;
+    align-items:center;
     justify-content: space-around;
     width: 95%;
-    height: 25%;
+    height: 60%;
     /* border: 1px #00ff40 solid; */
 }
 
-.div-step {
-    /*  border: 1px #000000 solid; */
-    width: 20%;
-    height: 85%;
+.c6-containerstepsCel span{
+    display: inline-block;
+    width: 12%;
+    height: 0.5%;
+    background: rgba(2, 27, 26, 0.493);
+    border-radius: 5px 5px;
 }
 
-.div-step h5 {
-    margin-bottom: 4%;
+.div-stepCel {
+    /* border: 1px #000000 solid; */
+    width: 95%;
+    height: 33%;
+}
+
+.div-stepCel2 {
+    /* border: 1px #000000 solid; */
+    margin-top: 4%;
+    width: 95%;
+    height: 33%;
+}
+
+.div-stepCel h5, .div-stepCel2 h5 {
     color: #2cc295;
     font-weight: lighter;
     font-family: "OpenSans-SemiBold";
-    font-size: clamp(10px, 1.4vw, 2vw);
-    height: 10%;
+    font-size: min(5vw, 7vw);
+    height: 13%;
     /*  border: 1px #000000 solid; */
 }
 
-.div-step h2 {
-    color: #000000;
+.div-stepCel h2, .div-stepCel2 h2 {
+    color: rgb(2, 27, 26);
     font-family: "OpenSans-SemiBold";
-    font-size: clamp(10px, 2vw, 3vw);
-    height: 20%;
+    font-size: min(8vw, 10vw);
+    height: 10%;
     /* border: 1px #000000 solid; */
 }
 
-.div-step p {
-    margin-top: 1%;
+.div-stepCel p, .div-stepCel2 p {
     color: #000000c4;
     text-align: justify;
+    margin-top: 6%;
     font-family: "OpenSans-Medium";
-    font-size: clamp(10px, 1.1vw, 2vw);
-    width: 100%;
-    height: 55%;
-    /*  border: 1px #000000 solid; */
+    font-size: min(5vw, 7vw);
+     /* border: 1px #000000 solid; */
 }
+
