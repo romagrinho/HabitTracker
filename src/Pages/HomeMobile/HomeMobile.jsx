@@ -46,32 +46,32 @@ export default function HomeMobile() {
         /*  title: "FAQ (How it works)", */
         rows: [
             {
-                title: <h1 className="FAQTitle">Como receberei acesso ao sistema?</h1>,
-                content: <p>Após a compra, você receberá acesso exclusivo a nossa área de membros.Por lá, disponibilizaremos o link para duplicar o sistema em seu espaço de trabalho.Além disso, terá acesso às aulas gravadas com a trilha de implementação, e a explicação de todos os recursos do sistema.</p>,
+                title: <h1 className="FAQTitleCel">Como receberei acesso ao sistema?</h1>,
+                content: <p>Após a compra, você receberá acesso exclusivo a nossa área de membros. Por lá, disponibilizaremos o link para duplicar o sistema em seu espaço de trabalho.Além disso, terá acesso às aulas gravadas com a trilha de implementação, e a explicação de todos os recursos do sistema.</p>,
             },
             {
-                title: <h1 className="FAQTitle">O que é Notion?</h1>,
+                title: <h1 className="FAQTitleCel">O que é Notion?</h1>,
                 content: <p>Notion é um espaço de trabalho completo que permite fazer anotações, adicionar tarefas, gerenciar projetos e se organizar. Esteja você escrevendo ou planejando, o Notion tem um design versátil para realizar suas tarefas</p>,
             },
             {
-                title: <h1 className="FAQTitle">Não sei utilizar o Notion, vou conseguir me adaptar?</h1>,
+                title: <h1 className="FAQTitleCel">Não sei utilizar o Notion, vou conseguir me adaptar?</h1>,
                 content: <p>Sim, além de ser super intuitivo, no template contém aulas partindo do pressuposto que você nunca baixou o Notion.</p>,
             },
             {
-                title: <h1 className="FAQTitle">Posso personalizar o Notion?</h1>,
+                title: <h1 className="FAQTitleCel">Posso personalizar o Notion?</h1>,
                 content: <p>Sim! Por ser um template do Notion você tem total controle sobre o Template, podendo assim, editá-lo a qualquer momento, para deixar 100% a sua cara</p>,
             },
             {
-                title: <h1 className="FAQTitle">Quanto tempo de acesso eu tenho?</h1>,
+                title: <h1 className="FAQTitleCel">Quanto tempo de acesso eu tenho?</h1>,
                 content: <p>Nosso sistema não é uma assinatura. Você paga uma única vez, e pode utilizar para sempre!</p>,
             },
             {
-                title: <h1 className="FAQTitle">E meus dados pessoais?</h1>,
+                title: <h1 className="FAQTitleCel">E meus dados pessoais?</h1>,
                 content: <p>Não se preocupe! Uma vez baixado o Potencial dos meu objetivos, todos os dados contido nele são privados. Ninguém terá acesso a sua vida pessoal, somente você.
                 </p>,
             },
             {
-                title: <h1 className="FAQTitle">Eu tenho mais perguntas</h1>,
+                title: <h1 className="FAQTitleCel">Eu tenho mais perguntas</h1>,
                 content: <p>Envie sua pergunta para contato@produtivo.org. Terei o maior prazer em responder.</p>,
             },
         ],
@@ -370,19 +370,19 @@ export default function HomeMobile() {
                         <img className="img_notion" src={notion}></img>
                     </div>
                     <div className="c7-blockrightCel">
-                        <div className="c7-containerright_top">
-                            <div className="c7-titleTop">
+                        <div className="c7-containerright_topCel">
+                            <div className="c7-titleTopCel">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACHklEQVR4nO2a3U3DMBRGMxM8lIkSmABGYJtrdy9QNwC1qBWobX4c2981OUfyW1sl56S2E6XrAAAAAAAAAAAA5hKHr9EBhSGAGAKIIYAYAoghgBgCiCGAGAKI2XqA0O+60L/pDmDLAezlsQv95+k8w/CuOYitBrBf8s9DEmGLAeyGfFmErQWwEfmSCJ4ChNOCuCv6+3E4TJ7zKUKthdlLALtcmYcuPj8V/P1p+cdjKHkhuAtgV3LyRnAr30MAuysnTwTX8tUBbFLOugju5SsD2Gw5aRGakK8KYIvkLI/QjHxFAFssf1mEpuTXDmDJ8udFaE5+zQC2Wv54hCbl1wpg2eTfjtCs/BoBwoLb/5/Pzf/s+dHF0u+4omSAkCCndDB3lApgK6aFff/QxeEj65TlUn6pAJZhTs4XwbH8EgEs44K4PoJz+bkDWIHdSHqEBuTnDGAFt4LLIzQiP1cAq7APnx+hIfk5AljFm6DpCI3JXxvABHeg9yM0KH9NAOXt//4qQqPyUwN4ePayv0RoWH5qgOMrGx52I6Hwayyup6DYv/6v3UiLi3C8GwH5VQLcjoD8qgH+RkC+JMB5YWbOFwaARAgghgBiCCCGAGIIIIYAYggghgBiCCCGAGIIIIYAYggghgBiCCCGAGLmvV6ynVEd9QlHZ4MAAwHkV2HkH6AXEZmC9DKiYLAGDASQX4VxS/8AAAAAAAAAAAAAAADonPMNaWKO+EPTyPYAAAAASUVORK5CYII=" />
                                 <h1>Gerenciador de Habitos</h1>
                             </div>
-                            <div className="c7-priceBox">
+                            <div className="c7-priceBoxCel">
                                 <div>
                                     <h1>R$47,00</h1>
                                     <s>R$79,90</s>
                                 </div>
                                 <p>ou<span>3x de R$16,61</span></p>
                             </div>
-                            <div className="c7-contentBox">
+                            <div className="c7-contentBoxCel">
                                 <span>Gerenciador de Habitos</span>
                                 <span>Gerenciador de Metas</span>
                                 <span>Gerenciador de Dieta</span>
@@ -390,23 +390,23 @@ export default function HomeMobile() {
                                 <span>Gerenciador de Livros</span>
                                 <span>Gerenciador de Tarefas</span>
                             </div>
-                            <div className="c7-block_btn2">
-                                <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="c7-btn_gerencie2">
+                            <div className="c7-block_btn2Cel">
+                                <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="c7-btn_gerencie2Cel">
                                     Gerencia suas metas agora!
                                 </a>
                                 <span>Seu pagamento é 100% seguro</span>
                             </div>
                         </div>
-                        <img src={laptopw} className="img_laptop"></img>
+                        <img src={laptopw} className="img_laptopCel"></img>
                     </div>
                 </div>
             </div>
             <div className="container-section8">
-                <div className="c8-containermain">
+                <div className="c8-containermainCel">
                     <header>
                         <h1>Perguntas Frequentes</h1>
                     </header>
-                    <div className="faq">
+                    <div className="faqCel">
                         <Faq
                             data={data}
                             styles={styles}
@@ -416,7 +416,7 @@ export default function HomeMobile() {
                 </div>
             </div>
             <div className="container-section9">
-                <div className="c9-containermain">
+                <div className="c9-containermainCel">
                     <div className="containerfooter">
                         <div className="c-footerleft">
                             <img src={RS}></img>
