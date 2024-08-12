@@ -10,6 +10,7 @@ import "./Home_5M.css";
 import "./Home_6M.css";
 import "./Home_7M.css";
 import "./Home_8M.css";
+import "./FooterCel.css";
 
 import metas from "../Home/imgs/metas-50.png"
 import compras from "../Home/imgs/compras50.png"
@@ -415,27 +416,27 @@ export default function HomeMobile() {
                     </div>
                 </div>
             </div>
-            <div className="container-section9">
+            <div className="container-section9Cel">
                 <div className="c9-containermainCel">
                     <div className="containerfooter">
-                        <div className="c-footerleft">
+                        <div className="c-footerleftCel">
                             <img src={RS}></img>
                         </div>
-                        <div className="c-footerright">
-                            <h1>PRODUTOS</h1>
+                        <div className="c-footerrightCel">
+                            <h1>PRODUTOS AVULSOS</h1>
                             <a>
-                                <text>Gerenciador de Habitos</text>
+                                <text>Gerenciador de Habitos (em breve)</text>
                                 <text>Planilha Financeira</text>
-                                <text>Gerenciador de Tarefas</text>
-                                <text>Workout Tracker</text>
+                                <text>Gerenciador de Tarefas (em breve)</text>
+                                <text>Workout Tracker (em breve)</text>
                             </a>
                         </div>
                     </div>
-                    <div className="c9-containerdireitos">
+                    <div className="c9-containerdireitosCel">
                         <div className="c9-direitoleft">
                             <text>© 2024 RS.org - todos os direitos reservados.</text>
                         </div>
-                        <a className="c9-direitoright">
+                        <a className="c9-direitorightCel">
                             <text>Termos de Serviço</text>
                             <text>Política de Privacidade</text>
                         </a>

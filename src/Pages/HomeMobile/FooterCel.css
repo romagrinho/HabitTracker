@@ -1,7 +1,7 @@
-.container-section9 {
+.container-section9Cel {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
     height: 30vh;
     width: 100%;
     background-color: rgb(2, 27, 26);
@@ -9,9 +9,9 @@
 }
 
 .c9-containermainCel {
-    border: 1px solid #ff0000;
-    width: 60%;
-    height: 83%;
+    /* border: 1px solid #ff0000; */
+    width: 90%;
+    height: 85%;
 }
 
 .containerfooter {
@@ -21,17 +21,17 @@
     height: 80%;
 }
 
-.c-footerleft {
+.c-footerleftCel {
     height: 100%;
     width: 35%;
     /* border: 1px solid #fff; */
 }
 
-.c-footerleft img {
-    height: 25%;
+.c-footerleftCel img {
+    height: 20%;
 }
 
-.c-footerright {
+.c-footerrightCel {
     display: flex;
     flex-direction: column;
 
@@ -40,32 +40,34 @@
     /* border: 1px solid #fff; */
 }
 
-.c-footerright h1 {
+.c-footerrightCel h1 {
     font-family: "OpenSans-SemiBold";
-    font-size: clamp(10px, 1.2vw, 2vw);
+    font-size: min(3.7vw, 4.5vw);
     color: #00df81;
 }
 
-.c-footerright a {
+.c-footerrightCel a {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto ;
     align-items: center;
-/*     border: 1px solid #fff; */
-    width: 70%;
-    height: 40%;
+   /*  border: 1px solid #fff; */
+    width: 100%;
+    height: 55%;
+    cursor: pointer;
+    user-select: none;
     font-family: "OpenSans-Regular";
-    font-size: clamp(10px, 1vw, 2vw);
+    font-size: min(3.3vw, 4vw);
     color: #f1f7f6;
 }
 
-.c9-containerdireitos{
+.c9-containerdireitosCel{
     display: flex;
     justify-content: space-between;
-    height: 20%;
+    height: 15%;
     width: 100%;
     border-top: 1px solid #f1f7f662;
     font-family: "OpenSans-Regular";
-    font-size: clamp(10px, 0.8vw, 1.5vw);
+    font-size: min(2.1vw, 3vw);
     color: #f1f7f662;
 }
 
@@ -76,9 +78,10 @@
     width: 50%;
 }
 
-.c9-direitoright{
+.c9-direitorightCel{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 28%;
+    /* border: 1px solid #fff; */
+    width: 47%;
 }

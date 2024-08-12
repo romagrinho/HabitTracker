@@ -30,6 +30,7 @@
 
 .faqCel p{
     font-family: "OpenSans-Regular";
+    text-align: justify;
     font-size: min(3.5vw, 4vw);
     color:rgba(0, 0, 0, 0.764);
 }

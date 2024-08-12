@@ -406,9 +406,9 @@ export default function Home() {
                             <img src={RS}></img>
                         </div>
                         <div className="c-footerright">
-                            <h1>PRODUTOS</h1>
+                            <h1>PRODUTOS AVULSOS</h1>
                             <a>
-                                <text>Gerenciador de Habitos</text>
+                                <text href="">Gerenciador de Habitos</text>
                                 <text>Planilha Financeira</text>
                                 <text>Gerenciador de Tarefas</text>
                                 <text>Workout Tracker</text>

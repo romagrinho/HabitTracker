@@ -50,6 +50,8 @@
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    cursor: pointer;
+    user-select: none;
 /*     border: 1px solid #fff; */
     width: 70%;
     height: 40%;
