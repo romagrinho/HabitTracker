@@ -109,13 +109,13 @@ export default function HomeMobile() {
                         <img className="HM_logo" src={RS}></img>
                         <div className="HM_ul">
                             <ul>
-                                <li>Gerenciador de Habitos</li>
-                                <li>Gerenciador de Tarefas</li>
-                                <li>Workout Tracker</li>
-                                <li>Planilha Financeira</li>
+                                <a href="" rel="noopener noreferrer">Gerenciador de Habitos</a>
+                                <a href="" rel="noopener noreferrer">Gerenciador de Tarefas</a>
+                                <a href="" rel="noopener noreferrer">Workout Tracker</a>
+                                <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer">Planilha Financeira</a>
                             </ul>
                         </div>
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
+                        <a  className="Btn_HM" href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
                     </Menu>
                 </header>
                 <div className="ContainerHome1Cel">
@@ -424,22 +424,22 @@ export default function HomeMobile() {
                         </div>
                         <div className="c-footerrightCel">
                             <h1>PRODUTOS AVULSOS</h1>
-                            <a>
-                                <text>Gerenciador de Habitos (em breve)</text>
-                                <text>Planilha Financeira</text>
-                                <text>Gerenciador de Tarefas (em breve)</text>
-                                <text>Workout Tracker (em breve)</text>
-                            </a>
+                            <div>
+                                <a href="" rel="noopener noreferrer">Gerenciador de Habitos (em breve)</a>
+                                <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" >Planilha Financeira</a>
+                                <a href="" rel="noopener noreferrer">Gerenciador de Tarefas (em breve)</a>
+                                <a href="" rel="noopener noreferrer">Workout Tracker (em breve)</a>
+                            </div>
                         </div>
                     </div>
                     <div className="c9-containerdireitosCel">
                         <div className="c9-direitoleft">
                             <text>© 2024 RS.org - todos os direitos reservados.</text>
                         </div>
-                        <a className="c9-direitorightCel">
-                            <text>Termos de Serviço</text>
-                            <text>Política de Privacidade</text>
-                        </a>
+                        <div className="c9-direitorightCel">
+                            <a href="" rel="noopener noreferrer">Termos de Serviço</a>
+                            <a href="" rel="noopener noreferrer">Política de Privacidade</a>
+                        </div>
                     </div>
                 </div>
             </div>

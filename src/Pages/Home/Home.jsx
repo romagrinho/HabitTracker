@@ -408,8 +408,8 @@ export default function Home() {
                         <div className="c-footerright">
                             <h1>PRODUTOS AVULSOS</h1>
                             <a>
-                                <text href="">Gerenciador de Habitos</text>
-                                <text>Planilha Financeira</text>
+                                <text>Gerenciador de Habitos</text>
+                                <text href="https://pay.kiwify.com.br/NQ0T7nB">Planilha Financeira</text>
                                 <text>Gerenciador de Tarefas</text>
                                 <text>Workout Tracker</text>
                             </a>
