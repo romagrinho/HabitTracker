@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
+import ScrollReveal from "scrollreveal";
 
 /* CSS WEB */
 import "./Home_1.css";
@@ -32,6 +33,10 @@ import laptopw from "./imgs/laptop notion white.png";
 import curtahabito from "./videos/curtahabito.mp4"
 
 export default function Home() {
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal', { delay: 500, reset: true, distance: '50px' });
+    }, []);
 
     const data = {
         /*  title: "FAQ (How it works)", */
@@ -88,7 +93,7 @@ export default function Home() {
     return (
         <section className="Home">
             <div className="container-section1">
-                <header id="header1">
+                <header id="header1" className="Hreveal">
                     <div>
                         <img src={RS}></img>
                     </div>
@@ -100,7 +105,7 @@ export default function Home() {
                     </ul>
                     <a className="btn_home" href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" target="__blank">EXPLORE JÁ</a>
                 </header>
-                <div className="ContainerHome1">
+                <div className="ContainerHome1 Hreveal">
                     <div>
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Gerenciador de Habitos</span>

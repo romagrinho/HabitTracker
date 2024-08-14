@@ -36,7 +36,7 @@ export default function img_Right({
             </div>
             <div className="conteinervid1">
                 <video src={video}
-                autoPlay
+                autoPlay={true}
                 loop={true}
                 ></video>
             </div>
