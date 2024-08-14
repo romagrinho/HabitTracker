@@ -7,9 +7,9 @@
 }
 
 /* O height do .Home que designa o tamanho do site, a diferença de 80 é do Home_2.css */
-/* a {
+a {
     text-decoration: none;
-} */
+}
 
 .container-section1 {
     display: flex;
@@ -87,10 +87,17 @@
     width: 55%;
     height: 80%;
     /* border: 1px #ffffff solid; */
-    list-style: none
+    list-style: none;
+    user-select: none;
 }
 
-#header1 a {
+
+#header1 ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn_home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,8 +113,7 @@
     transition: 200ms ease-in-out;
 }
 
-#header1 a:hover {
-    /* color: #06be00; */
+.btn_home:hover {
     color: #03624c;
     background: #f1f7f6;
 }

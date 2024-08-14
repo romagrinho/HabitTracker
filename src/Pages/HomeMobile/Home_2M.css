@@ -45,7 +45,7 @@
     transition: 200ms ease-in-out;
 }
 
-.btn_gerencie:hover {
+.btn_gerencieCel:hover {
     border: 1px solid #03624c;
     text-shadow: 0 0 5px 10px rgb(0, 0, 0);
     color: #03624c;

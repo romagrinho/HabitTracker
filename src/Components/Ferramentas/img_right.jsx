@@ -35,7 +35,10 @@ export default function img_Right({
                 </div>
             </div>
             <div className="conteinervid1">
-                <iframe src={video}></iframe>
+                <video src={video}
+                autoPlay
+                loop={true}
+                ></video>
             </div>
         </div>
     )

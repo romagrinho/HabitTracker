@@ -109,9 +109,9 @@ export default function HomeMobile() {
                         <img className="HM_logo" src={RS}></img>
                         <div className="HM_ul">
                             <ul>
-                                <a href="" rel="noopener noreferrer">Gerenciador de Habitos</a>
-                                <a href="" rel="noopener noreferrer">Gerenciador de Tarefas</a>
-                                <a href="" rel="noopener noreferrer">Workout Tracker</a>
+                                <a href="" rel="noopener noreferrer" style={{color: '#ffffffa2'}}>Gerenciador de Habitos</a>
+                                <a href="" rel="noopener noreferrer" style={{color: '#ffffffa2'}}>Gerenciador de Tarefas</a>
+                                <a href="" rel="noopener noreferrer" style={{color: '#ffffffa2'}}>Workout Tracker</a>
                                 <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer">Planilha Financeira</a>
                             </ul>
                         </div>
@@ -425,10 +425,10 @@ export default function HomeMobile() {
                         <div className="c-footerrightCel">
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
-                                <a href="" rel="noopener noreferrer">Gerenciador de Habitos (em breve)</a>
+                                <a href="" rel="noopener noreferrer"  style={{color: '#f1f7f6af'}}>Gerenciador de Habitos (em breve)</a>
                                 <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" >Planilha Financeira</a>
-                                <a href="" rel="noopener noreferrer">Gerenciador de Tarefas (em breve)</a>
-                                <a href="" rel="noopener noreferrer">Workout Tracker (em breve)</a>
+                                <a href="" rel="noopener noreferrer"  style={{color: '#f1f7f6af'}}>Gerenciador de Tarefas (em breve)</a>
+                                <a href="" rel="noopener noreferrer"  style={{color: '#f1f7f6af'}}>Workout Tracker (em breve)</a>
                             </div>
                         </div>
                     </div>

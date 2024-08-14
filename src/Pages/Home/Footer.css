@@ -46,18 +46,22 @@
     color: #00df81;
 }
 
-.c-footerright a {
+.c-footerright div {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    cursor: pointer;
     user-select: none;
 /*     border: 1px solid #fff; */
     width: 70%;
     height: 40%;
     font-family: "OpenSans-Regular";
     font-size: clamp(10px, 1vw, 2vw);
+    
+}
+
+.c-footerright div a{
     color: #f1f7f6;
+    text-decoration: none;
 }
 
 .c9-containerdireitos{
