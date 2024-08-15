@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Faq from "react-faq-component";
 import ScrollReveal from "scrollreveal";
 
@@ -41,6 +41,22 @@ export default function Home() {
 
     useEffect(() => {
         ScrollReveal().reveal('.Hreveal', { delay: 500, reset: true, distance: '50px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.', { delay: 400, reset: true, distance: '50px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal3', { delay: 600, reset: true, distance: '50px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal4', { delay: 700, reset: true, distance: '50px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal5', { delay: 800, reset: true, distance: '50px' });
     }, []);
 
     const data = {
@@ -204,7 +220,7 @@ export default function Home() {
                         subdescription="O template também inclui alertas para te lembrar das suas tarefas e compromissos!"
                         video={vdtarefa} />
                 </div>
-                <div className="c3-container2">
+                <div className="c3-container2 Hreveal">
                     <div className="block_btn2">
                         <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2" target="__blank">
                             Gerencia suas metas agora!
@@ -215,7 +231,7 @@ export default function Home() {
             </div>
             <div className="container-section4">
                 <div className="c4-container">
-                    <div className="c4-containerleft">
+                    <div className="c4-containerleft Hreveal2">
                         <div className="excel_img">
 
                         </div>
@@ -224,7 +240,7 @@ export default function Home() {
                             <div className="ferramentasexcel-imgs2" />
                         </div>
                     </div>
-                    <div className="c4-containerright">
+                    <div className="c4-containerright Hreveal">
                         <div className="c4-textconteiner">
                             <span className="c4-subtitletext">🎀 VEJA ESTE PRESENTE</span>
                             <span className="c4-titletext">Controle de Gastos</span>
@@ -258,11 +274,11 @@ export default function Home() {
             <div className="container-section5">
                 <div className="c5-containermain">
                     <div className="c5-containerleft">
-                        <img src={mockupcel}></img>
+                        <img className="Hreveal2" src={mockupcel}></img>
                     </div>
-                    <div className="c5-containerright">
+                    <div className="c5-containerright Hreveal">
                         <header>
-                            <h1>Aproveite os benefícios!</h1>
+                            <h1 className="Hreveal2">Aproveite os benefícios!</h1>
                         </header>
                         <div className="beneficios">
                             <div className="bene_left">
@@ -332,24 +348,24 @@ export default function Home() {
                 </div>
             </div>
             <div className="container-section6">
-                <div className="c6-containertitle">
-                    <span>  Um template, entregue em três passos:</span>
+                <div className="c6-containertitle Hreveal2">
+                    <span>  Um template, entregue em três passos</span>
                 </div>
-                <div className="c6-containervideo">
+                <div className="c6-containervideo Hreveal">
                     <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div className="c6-containersteps">
-                    <div className="div-step">
+                    <div className="div-step Hreveal3">
                         <h5>PASSO 1</h5>
                         <h2>Acesse</h2>
                         <p>O Gerenciador de Hábitos já está disponível para compra. Você pode pagar via boleto, cartão e pix. Sua compra é totalmente segura pela Kiwify.</p>
                     </div>
-                    <div className="div-step">
+                    <div className="div-step Hreveal4">
                         <h5>PASSO 2</h5>
                         <h2>Compre</h2>
                         <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link, e na área de membros duplicar o template.</p>
                     </div>
-                    <div className="div-step">
+                    <div className="div-step Hreveal5">
                         <h5>PASSO 3</h5>
                         <h2>Aproveite</h2>
                         <p>Você terá acesso total a todas as ferramentas. Customize seu Gerenciador de Hábitos como quiser e tire o máximo de cada módulo</p>
@@ -358,13 +374,13 @@ export default function Home() {
             </div>
             <div className="container-section7">
                 <div className="c7-containermain">
-                    <div className="c7-blockleft">
+                    <div className="c7-blockleft Hreveal">
                         <h1>Conheça quem desenvolveu</h1>
                         <img className="img_eu" src={eu}></img>
                         <p>Olá! Sou o Romario, um desenvolvedor Full-Stack e empreendedor com 3 anos de experiência em desenvolvimento. Ao longo da minha trajetória, já ajudei inúmeras pessoas a alcançarem seus objetivos com sistemas personalizados, templates profissionais e planilhas eficientes. </p>
                         <img className="img_notion" src={notion}></img>
                     </div>
-                    <div className="c7-blockright">
+                    <div className="c7-blockright Hreveal">
                         <div className="c7-containerright_top">
                             <div className="c7-titleTop">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACHklEQVR4nO2a3U3DMBRGMxM8lIkSmABGYJtrdy9QNwC1qBWobX4c2981OUfyW1sl56S2E6XrAAAAAAAAAAAA5hKHr9EBhSGAGAKIIYAYAoghgBgCiCGAGAKI2XqA0O+60L/pDmDLAezlsQv95+k8w/CuOYitBrBf8s9DEmGLAeyGfFmErQWwEfmSCJ4ChNOCuCv6+3E4TJ7zKUKthdlLALtcmYcuPj8V/P1p+cdjKHkhuAtgV3LyRnAr30MAuysnTwTX8tUBbFLOugju5SsD2Gw5aRGakK8KYIvkLI/QjHxFAFssf1mEpuTXDmDJ8udFaE5+zQC2Wv54hCbl1wpg2eTfjtCs/BoBwoLb/5/Pzf/s+dHF0u+4omSAkCCndDB3lApgK6aFff/QxeEj65TlUn6pAJZhTs4XwbH8EgEs44K4PoJz+bkDWIHdSHqEBuTnDGAFt4LLIzQiP1cAq7APnx+hIfk5AljFm6DpCI3JXxvABHeg9yM0KH9NAOXt//4qQqPyUwN4ePayv0RoWH5qgOMrGx52I6Hwayyup6DYv/6v3UiLi3C8GwH5VQLcjoD8qgH+RkC+JMB5YWbOFwaARAgghgBiCCCGAGIIIIYAYggghgBiCCCGAGIIIIYAYggghgBiCCCGAGLmvV6ynVEd9QlHZ4MAAwHkV2HkH6AXEZmC9DKiYLAGDASQX4VxS/8AAAAAAAAAAAAAAADonPMNaWKO+EPTyPYAAAAASUVORK5CYII=" />
@@ -392,16 +408,16 @@ export default function Home() {
                                 <span>Seu pagamento é 100% seguro</span>
                             </div>
                         </div>
-                        <img src={laptopw} className="img_laptop"></img>
+                        <img src={laptopw} className="img_laptop Hreveal4"></img>
                     </div>
                 </div>
             </div>
             <div className="container-section8">
                 <div className="c8-containermain">
                     <header>
-                        <h1>Perguntas Frequentes</h1>
+                        <h1 className="Hreveal">Perguntas Frequentes</h1>
                     </header>
-                    <div className="faq">
+                    <div className="faq Hreveal3">
                         <Faq
                             data={data}
                             styles={styles}
@@ -410,7 +426,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container-section9">
+            <div className="container-section9 Hreveal">
                 <div className="c9-containermain">
                     <div className="containerfooter">
                         <div className="c-footerleft">

@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import Faq from "react-faq-component";
 import { push as Menu } from 'react-burger-menu'
+import ScrollReveal from "scrollreveal";
 
 import "./Home_1M.css";
 import "./Home_2M.css";
@@ -33,7 +34,35 @@ import laptopw from "../Home/imgs/laptop notion white.png";
 import icon_menu from "../Home/imgs/hamburguermenu100.png";
 import cross from "../Home/imgs/cross100.png";
 
+import curtahabito2 from "../Home/videos/curtahabito2.mp4"
+import vdmeta from "../Home/videos/videometa.mp4"
+import vdtreino from "../Home/videos/videotreino.mp4"
+import vddieta from "../Home/videos/videodieta.mp4"
+import vdlivro from "../Home/videos/videolivro.mp4"
+import vdtarefa from "../Home/videos/videolembretes.mp4"
+
 export default function HomeMobile() {
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal', { delay: 500, reset: true, distance: '50px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal2', { delay: 400, reset: true, distance: '50px' });
+    }, []);
+
+    
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal3', { delay: 600, reset: true, distance: '50px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveal4', { delay: 700, reset: true, distance: '50px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.Hreveall', { delay: 400, reset: false, distance: '50px' });
+    }, []);
 
     const styless = {
         bmCross: {
@@ -100,10 +129,10 @@ export default function HomeMobile() {
             <div className="container-section1Cel">
                 <header className="headerCel">
                     <div className="divHeaderCel">
-                        <img className="testeburguer2" src={RS}></img>
+                        <img className="testeburguer2 Hreveal2" src={RS}></img>
                     </div>
                     <Menu right
-                        customBurgerIcon={<img src={icon_menu} />}
+                        customBurgerIcon={<img className="Hreveall" src={icon_menu} />}
                         styles={styless}
                         customCrossIcon={<img src={cross} />}>
                         <img className="HM_logo" src={RS}></img>
@@ -118,19 +147,19 @@ export default function HomeMobile() {
                         <a  className="Btn_HM" href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
                     </Menu>
                 </header>
-                <div className="ContainerHome1Cel">
+                <div className="ContainerHome1Cel Hreveal">
                     <div className="ContainerDescCel">
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Gerenciador de Habitos</span>
                         <p className="descHome">Organize o melhor ano da sua vida com o Gerenciador de Habitos. Gerencie seus novos hábitos, controle suas metas, planeje seus estudos, treinos e dieta em um só lugar.</p>
                     </div>
                 </div>
-                <iframe id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe  className="Hreveal" id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
             <div className="container-section2Cel">
-                <div className="c1-container1Cel">
+                <div className="c1-container1Cel Hreveal3">
                     <div className="block_btnCel">
                         <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencieCel">
                             Gerencia suas metas agora!
@@ -158,7 +187,7 @@ export default function HomeMobile() {
                         icon={trofeu}
                         subtitle="Ranking"
                         subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={curtahabito2} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -167,7 +196,7 @@ export default function HomeMobile() {
                         icon={cerebro}
                         subtitle="SMART"
                         subdescription="Metodologia utilizada para ajudar as pessoas a definir e alcançar seus objetivos de maneira clara e eficiente."
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdmeta} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -176,7 +205,7 @@ export default function HomeMobile() {
                         icon={peso}
                         subtitle="Avançado"
                         subdescription='Com propriedades que te permite protocolar técnicas avançadas do seu treino, como "drop-set", "bi-set" e mais.'
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdtreino} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -185,7 +214,7 @@ export default function HomeMobile() {
                         icon={saude}
                         subtitle="Saúde"
                         subdescription="Sua vida toda num só lugar."
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vddieta} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -197,7 +226,7 @@ export default function HomeMobile() {
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
                         subdescription2="Acesse o template no computador ou no celular"
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdlivro} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -206,9 +235,9 @@ export default function HomeMobile() {
                         icon={relogio}
                         subtitle="Alerta"
                         subdescription="O template também inclui alertas para te lembrar das suas tarefas e compromissos!"
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdtarefa} />
                 </div>
-                <div className="c3-container2">
+                <div className="c3-container2 Hreveal2">
                     <div className="block_btn2Cel">
                         <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2Cel">
                             Gerencia suas metas agora!
@@ -219,35 +248,35 @@ export default function HomeMobile() {
             </div>
             <div className="container-section4Cel">
                 <div className="c4-containerCel">
-                    <div className="c4-containerleftCel">
-                        <div className="excel_img">
+                    <div className="c4-containerleftCel ">
+                        <div className="excel_img Hreveal2">
 
                         </div>
                         <div className="excel_img2">
-                            <div className="ferramentasexcel-imgs" />
-                            <div className="ferramentasexcel-imgs2" />
+                            <div className="ferramentasexcel-imgs Hreveal" />
+                            <div className="ferramentasexcel-imgs2 Hreveal3" />
                         </div>
                     </div>
                     <div className="c4-containerrightCel">
                         <div className="c4-textconteinerCel">
-                            <div className="c4-descCel">
+                            <div className="c4-descCel Hreveal2">
                                 <span className="c4-subtitletextCel">🎀 VEJA ESTE PRESENTE</span>
                                 <span className="c4-titletextCel">Controle de Gastos</span>
                                 <p>Além do template, tenho para você um presente especial: uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
                                 <div id="c4-div-subtitlesCel">
-                                    <div>
+                                    <div className="Hreveal">
                                         <img className="c4-icon_rimgCel" src={compras} />
                                         <span className="c4-spansubtitleCel">Compras</span>
                                         <p>Através do método AHP, defina, separe e organize automaticamente o que você deseja comprar.</p>
                                     </div>
-                                    <div>
+                                    <div className="Hreveal3">
                                         <img className="c4-icon_rimgCel" src={metas} />
                                         <span className="c4-spansubtitleCel">Plano de Metas</span>
                                         <p>Defina suas metas financeiras, desde viagens até investimentos e conquiste seus sonhos!</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="c4-buttonCel">
+                            <div className="c4-buttonCel Hreveal4">
                                 <div className="c4-block_btn2Cel">
                                     <a href="" rel="noopener noreferrer" className="c4-btn_gerencie2Cel">
                                         Estou decidido a mudar
@@ -261,11 +290,11 @@ export default function HomeMobile() {
             </div>
             <div className="container-section5Cel">
                 <div className="c5-containermainCel">
-                    <div className="c5-containerleftCel">
+                    <div className="c5-containerleftCel Hreveal3">
                         <img src={mockupcel}></img>
                     </div>
-                    <div className="c5-containerrightCel">
-                        <header>
+                    <div className="c5-containerrightCel Hreveal">
+                        <header className="Hreveal2">
                             <h1>Aproveite os benefícios!</h1>
                         </header>
                         <div className="beneficiosCel">
@@ -336,26 +365,26 @@ export default function HomeMobile() {
                 </div>
             </div>
             <div className="container-section6Cel">
-                <div className="c6-containertitleCel">
+                <div className="c6-containertitleCel Hreveal2">
                     <span>  Um template, entregue em três passos:</span>
                 </div>
-                <div className="c6-containervideoCel">
+                <div className="c6-containervideoCel Hreveal">
                     <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div className="c6-containerstepsCel">
-                    <div className="div-stepCel">
+                    <div className="div-stepCel Hreveal3">
                         <h5>PASSO 1</h5>
                         <h2>Compre</h2>
                         <p>O Gerenciador de Hábitos já está disponível para compra. Você pode pagar via boleto, cartão e pix. Sua compra é totalmente segura pela Kiwify.</p>
                     </div>
                     <span></span>
-                    <div className="div-stepCel2">
+                    <div className="div-stepCel2 Hreveal3">
                         <h5>PASSO 2</h5>
                         <h2>Acesse</h2>
                         <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link, e na área de membros duplicar o template.</p>
                     </div>
                     <span></span>
-                    <div className="div-stepCel">
+                    <div className="div-stepCel Hreveal3">
                         <h5>PASSO 3</h5>
                         <h2>Aproveite</h2>
                         <p>Você terá acesso total a todas as ferramentas. Customize seu Gerenciador de Hábitos como quiser e tire o máximo de cada módulo</p>
@@ -364,13 +393,13 @@ export default function HomeMobile() {
             </div>
             <div className="container-section7Cel">
                 <div className="c7-containermainCel">
-                    <div className="c7-blockleftCel">
-                        <h1>Conheça quem desenvolveu</h1>
+                    <div className="c7-blockleftCel Hreveal">
+                        <h1 className="Hreveal2">Conheça quem desenvolveu</h1>
                         <img className="img_eu" src={eu}></img>
                         <p>Olá! Sou o Romario, um desenvolvedor Full-Stack e empreendedor com 3 anos de experiência em desenvolvimento. Ao longo da minha trajetória, já ajudei inúmeras pessoas a alcançarem seus objetivos com sistemas personalizados, templates profissionais e planilhas eficientes. </p>
                         <img className="img_notion" src={notion}></img>
                     </div>
-                    <div className="c7-blockrightCel">
+                    <div className="c7-blockrightCel Hreveal2">
                         <div className="c7-containerright_topCel">
                             <div className="c7-titleTopCel">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACHklEQVR4nO2a3U3DMBRGMxM8lIkSmABGYJtrdy9QNwC1qBWobX4c2981OUfyW1sl56S2E6XrAAAAAAAAAAAA5hKHr9EBhSGAGAKIIYAYAoghgBgCiCGAGAKI2XqA0O+60L/pDmDLAezlsQv95+k8w/CuOYitBrBf8s9DEmGLAeyGfFmErQWwEfmSCJ4ChNOCuCv6+3E4TJ7zKUKthdlLALtcmYcuPj8V/P1p+cdjKHkhuAtgV3LyRnAr30MAuysnTwTX8tUBbFLOugju5SsD2Gw5aRGakK8KYIvkLI/QjHxFAFssf1mEpuTXDmDJ8udFaE5+zQC2Wv54hCbl1wpg2eTfjtCs/BoBwoLb/5/Pzf/s+dHF0u+4omSAkCCndDB3lApgK6aFff/QxeEj65TlUn6pAJZhTs4XwbH8EgEs44K4PoJz+bkDWIHdSHqEBuTnDGAFt4LLIzQiP1cAq7APnx+hIfk5AljFm6DpCI3JXxvABHeg9yM0KH9NAOXt//4qQqPyUwN4ePayv0RoWH5qgOMrGx52I6Hwayyup6DYv/6v3UiLi3C8GwH5VQLcjoD8qgH+RkC+JMB5YWbOFwaARAgghgBiCCCGAGIIIIYAYggghgBiCCCGAGIIIIYAYggghgBiCCCGAGLmvV6ynVEd9QlHZ4MAAwHkV2HkH6AXEZmC9DKiYLAGDASQX4VxS/8AAAAAAAAAAAAAAADonPMNaWKO+EPTyPYAAAAASUVORK5CYII=" />
@@ -398,16 +427,16 @@ export default function HomeMobile() {
                                 <span>Seu pagamento é 100% seguro</span>
                             </div>
                         </div>
-                        <img src={laptopw} className="img_laptopCel"></img>
+                        <img src={laptopw} className="img_laptopCel Hreveal3"></img>
                     </div>
                 </div>
             </div>
             <div className="container-section8">
                 <div className="c8-containermainCel">
-                    <header>
+                    <header className="Hreveal2">
                         <h1>Perguntas Frequentes</h1>
                     </header>
-                    <div className="faqCel">
+                    <div className="faqCel Hreveal">
                         <Faq
                             data={data}
                             styles={styles}
@@ -416,7 +445,7 @@ export default function HomeMobile() {
                     </div>
                 </div>
             </div>
-            <div className="container-section9Cel">
+            <div className="container-section9Cel Hreveal2">
                 <div className="c9-containermainCel">
                     <div className="containerfooter">
                         <div className="c-footerleftCel">

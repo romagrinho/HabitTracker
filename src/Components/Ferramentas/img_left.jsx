@@ -15,11 +15,11 @@ export default function Img_Left({
 }) {
     
     useEffect(() => {
-        ScrollReveal().reveal('.HrevealC', { delay: 400, reset: true, distance: '40px' });
+        ScrollReveal().reveal('.HrevealC', { delay: 200, reset: true, distance: '40px' });
     }, []);
 
     useEffect(() => {
-        ScrollReveal().reveal('.HrevealC2', { delay: 500, reset: true, distance: '40px' });
+        ScrollReveal().reveal('.HrevealC2', { delay: 250, reset: true, distance: '40px' });
     }, []);
 
     return (

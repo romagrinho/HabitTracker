@@ -30,6 +30,7 @@
 
 .c5-containerleftCel img {
     /* border: #eb0707 1px solid; */
+    drop-shadow: 10px 0px 10px rgba(0, 0, 0);
     width: 100%;
     height: 85%;
 }

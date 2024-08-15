@@ -54,6 +54,9 @@
     font-family: "OpenSans-Regular";
     margin-top: 3%;
     text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: -1px; 
+    word-spacing: 0px;
     width: 90%;
 }
 
@@ -99,7 +102,7 @@
 }
 
 .conteinervid1 video {
-    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.505);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.505);
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
