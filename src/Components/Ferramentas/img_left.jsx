@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./imgs.css";
+import ScrollReveal from "scrollreveal";
 
-export default function img_Left({
+export default function Img_Left({
     title,
     description,
     video,
@@ -12,9 +13,18 @@ export default function img_Left({
     subtitle2,
     subdescription2
 }) {
+    
+    useEffect(() => {
+        ScrollReveal().reveal('.HrevealC', { delay: 400, reset: true, distance: '40px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.HrevealC2', { delay: 500, reset: true, distance: '40px' });
+    }, []);
+
     return (
         <div id="img_left">
-            <div className="containerdesc1">
+            <div className="containerdesc1 HrevealC">
                 <div className="box-containerdesc">
                     <div>
                         <span id="c-spantitle">{title}</span>
@@ -34,8 +44,12 @@ export default function img_Left({
                     </div>
                 </div>
             </div>
-            <div className="conteinervid1">
-                <iframe src={video}></iframe>
+            <div className="conteinervid1 HrevealC2">
+                <video src={video}
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                ></video>
             </div>
         </div>
     )

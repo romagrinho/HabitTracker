@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./imgs.css";
+import ScrollReveal from "scrollreveal";
 
-export default function img_Right({
+export default function Img_Right({
     title,
     description,
     video,
@@ -12,9 +13,18 @@ export default function img_Right({
     subtitle2,
     subdescription2
 }) {
+
+    useEffect(() => {
+        ScrollReveal().reveal('.HrevealC', { delay: 400, reset: true, distance: '40px' });
+    }, []);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.HrevealC2', { delay: 500, reset: true, distance: '40px' });
+    }, []);
+
     return (
         <div id="img_right">
-            <div className="containerdesc1">
+            <div className="containerdesc1 HrevealC">
                 <div className="box-containerdesc">
                     <div>
                         <span id="c-spantitle">{title}</span>
@@ -34,10 +44,11 @@ export default function img_Right({
                     </div>
                 </div>
             </div>
-            <div className="conteinervid1">
+            <div className="conteinervid1 HrevealC2">
                 <video src={video}
                 autoPlay={true}
                 loop={true}
+                muted={true}
                 ></video>
             </div>
         </div>

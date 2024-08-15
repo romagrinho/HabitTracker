@@ -30,7 +30,12 @@ import mockupcel from "./imgs/mockupcel.png";
 import eu from "./imgs/eu.png";
 import notion from "./imgs/notion.png";
 import laptopw from "./imgs/laptop notion white.png";
-import curtahabito from "./videos/curtahabito.mp4"
+import curtahabito2 from "./videos/curtahabito2.mp4"
+import vdmeta from "./videos/videometa.mp4"
+import vdtreino from "./videos/videotreino.mp4"
+import vddieta from "./videos/videodieta.mp4"
+import vdlivro from "./videos/videolivro.mp4"
+import vdtarefa from "./videos/videolembretes.mp4"
 
 export default function Home() {
 
@@ -113,7 +118,7 @@ export default function Home() {
                         <span className="descSpanHome">  um único lugar.</span>
                     </div>
                 </div>
-                <iframe id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className="Hreveal" id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
@@ -121,7 +126,7 @@ export default function Home() {
                 <div className="c2-container1">
 
                 </div>
-                <div className="c2-container2">
+                <div className="c2-container2 Hreveal">
                     <div className="block_btn">
                         <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie" target="__blank">
                             Gerencia suas metas agora!
@@ -149,7 +154,7 @@ export default function Home() {
                         icon={trofeu}
                         subtitle="Ranking"
                         subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
-                        video={curtahabito} />
+                        video={curtahabito2} />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -158,7 +163,7 @@ export default function Home() {
                         icon={cerebro}
                         subtitle="SMART"
                         subdescription="Metodologia utilizada para ajudar as pessoas a definir e alcançar seus objetivos de maneira clara e eficiente."
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdmeta} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -167,7 +172,7 @@ export default function Home() {
                         icon={peso}
                         subtitle="Avançado"
                         subdescription='Com propriedades que te permite protocolar técnicas avançadas do seu treino, como "drop-set", "bi-set" e mais.'
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdtreino} />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -176,7 +181,7 @@ export default function Home() {
                         icon={saude}
                         subtitle="Saúde"
                         subdescription="Sua vida toda num só lugar."
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vddieta} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -188,7 +193,7 @@ export default function Home() {
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
                         subdescription2="Acesse o template no computador ou no celular"
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdlivro} />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -197,7 +202,7 @@ export default function Home() {
                         icon={relogio}
                         subtitle="Alerta"
                         subdescription="O template também inclui alertas para te lembrar das suas tarefas e compromissos!"
-                        video="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" />
+                        video={vdtarefa} />
                 </div>
                 <div className="c3-container2">
                     <div className="block_btn2">
