@@ -44,7 +44,7 @@ export default function Home() {
     }, []);
 
     useEffect(() => {
-        ScrollReveal().reveal('.', { delay: 400, reset: true, distance: '50px' });
+        ScrollReveal().reveal('.Hreveal2', { delay: 400, reset: true, distance: '50px' });
     }, []);
 
     useEffect(() => {
@@ -247,19 +247,19 @@ export default function Home() {
                             <div className="c4-desc">
                                 <p>Além do template, tenho para você um presente especial: uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
                                 <div id="c4-div-subtitles">
-                                    <div>
+                                    <div className="Hreveal3">
                                         <img className="c4-icon_rimg" src={compras} />
                                         <span className="c4-spansubtitle">Compras</span>
                                         <p>Através do método AHP, defina, separe e organize automaticamente o que você deseja comprar.</p>
                                     </div>
-                                    <div>
+                                    <div className="Hreveal4">
                                         <img className="c4-icon_rimg" src={metas} />
                                         <span className="c4-spansubtitle">Plano de Metas</span>
                                         <p>Defina suas metas financeiras, desde viagens até investimentos e conquiste seus sonhos!</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="c4-button">
+                            <div className="c4-button Hreveal4">
                                 <div className="c4-block_btn2">
                                     <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" className="c4-btn_gerencie2" target="__blank">
                                         Estou decidido a mudar
