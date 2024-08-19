@@ -76,7 +76,7 @@ export default function Home() {
             },
             {
                 title: <h1 className="FAQTitle">Posso personalizar o Notion?</h1>,
-                content: <p>Sim! Por ser um template do Notion você tem total controle sobre o Template, podendo assim, editá-lo a qualquer momento, para deixar 100% a sua cara</p>,
+                content: <p>Sim! Por ser um template do Notion você tem total controle sobre o Template, podendo assim, editá-lo a qualquer momento, para deixar 100% a sua cara.</p>,
             },
             {
                 title: <h1 className="FAQTitle">Quanto tempo de acesso eu tenho?</h1>,
@@ -84,12 +84,12 @@ export default function Home() {
             },
             {
                 title: <h1 className="FAQTitle">E meus dados pessoais?</h1>,
-                content: <p>Não se preocupe! Uma vez baixado o Potencial dos meu objetivos, todos os dados contido nele são privados. Ninguém terá acesso a sua vida pessoal, somente você.
+                content: <p>Não se preocupe! Uma vez baixado o <b>Life Manager</b>, todos os dados contido nele são privados. Ninguém terá acesso a sua vida pessoal, somente você.
                 </p>,
             },
             {
                 title: <h1 className="FAQTitle">Eu tenho mais perguntas</h1>,
-                content: <p>Envie sua pergunta para contato@produtivo.org. Terei o maior prazer em responder.</p>,
+                content: <p>Envie sua pergunta para <b>rsa.entr@gmail.com</b>. Terei o maior prazer em responder.</p>,
             },
         ],
     };
@@ -129,8 +129,8 @@ export default function Home() {
                 <div className="ContainerHome1 Hreveal">
                     <div>
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
-                        <span className="subtitleHome">Gerenciador de Habitos</span>
-                        <p className="descHome">Transforme seu ano com o Gerenciador de Hábitos! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em</p>
+                        <span className="subtitleHome">Life Manager</span>
+                        <p className="descHome">De um UP sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em</p>
                         <span className="descSpanHome">  um único lugar.</span>
                     </div>
                 </div>
@@ -245,7 +245,7 @@ export default function Home() {
                             <span className="c4-subtitletext">🎀 VEJA ESTE PRESENTE</span>
                             <span className="c4-titletext">Controle de Gastos</span>
                             <div className="c4-desc">
-                                <p>Além do template, tenho para você um presente especial: uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
+                                <p>Além do template, tenho para você um presente especial, uma planilha de gerenciamento de gastos! Com histórico, simulações, metas, gerenciamento de cartões de crédito e muito mais. Mude hoje a maneira em como você se organiza.</p>
                                 <div id="c4-div-subtitles">
                                     <div className="Hreveal3">
                                         <img className="c4-icon_rimg" src={compras} />
@@ -273,8 +273,8 @@ export default function Home() {
             </div>
             <div className="container-section5">
                 <div className="c5-containermain">
-                    <div className="c5-containerleft">
-                        <img className="Hreveal2" src={mockupcel}></img>
+                    <div className="c5-containerleft Hreveal2">
+                        <img className="Hreveal3" src={mockupcel}></img>
                     </div>
                     <div className="c5-containerright Hreveal">
                         <header>
@@ -341,7 +341,7 @@ export default function Home() {
                                 <div className="beneficiosimg_main">
                                     <img src="data:image/png;base64,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" />
                                 </div>
-                                <span>Caso você queira algo a mais, você também pode solicitar uma melhoria ou customização no email <span className="span-email">blablabla@gmail.com</span></span>
+                                <span>Caso você queira algo a mais, você também pode solicitar uma melhoria ou customização no email <span className="span-email">rsa.entr@gmail.com</span></span>
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,7 @@ export default function Home() {
                     <div className="div-step Hreveal3">
                         <h5>PASSO 1</h5>
                         <h2>Acesse</h2>
-                        <p>O Gerenciador de Hábitos já está disponível para compra. Você pode pagar via boleto, cartão e pix. Sua compra é totalmente segura pela Kiwify.</p>
+                        <p>O Life Manager já está disponível para compra. Você pode pagar via boleto, cartão e pix. Sua compra é totalmente segura pela Cakto.</p>
                     </div>
                     <div className="div-step Hreveal4">
                         <h5>PASSO 2</h5>
@@ -368,7 +368,7 @@ export default function Home() {
                     <div className="div-step Hreveal5">
                         <h5>PASSO 3</h5>
                         <h2>Aproveite</h2>
-                        <p>Você terá acesso total a todas as ferramentas. Customize seu Gerenciador de Hábitos como quiser e tire o máximo de cada módulo</p>
+                        <p>Você terá acesso total a todas as ferramentas. Customize seu Life Manager como quiser e tire o máximo de cada módulo</p>
                     </div>
                 </div>
             </div>
@@ -384,7 +384,7 @@ export default function Home() {
                         <div className="c7-containerright_top">
                             <div className="c7-titleTop">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACHklEQVR4nO2a3U3DMBRGMxM8lIkSmABGYJtrdy9QNwC1qBWobX4c2981OUfyW1sl56S2E6XrAAAAAAAAAAAA5hKHr9EBhSGAGAKIIYAYAoghgBgCiCGAGAKI2XqA0O+60L/pDmDLAezlsQv95+k8w/CuOYitBrBf8s9DEmGLAeyGfFmErQWwEfmSCJ4ChNOCuCv6+3E4TJ7zKUKthdlLALtcmYcuPj8V/P1p+cdjKHkhuAtgV3LyRnAr30MAuysnTwTX8tUBbFLOugju5SsD2Gw5aRGakK8KYIvkLI/QjHxFAFssf1mEpuTXDmDJ8udFaE5+zQC2Wv54hCbl1wpg2eTfjtCs/BoBwoLb/5/Pzf/s+dHF0u+4omSAkCCndDB3lApgK6aFff/QxeEj65TlUn6pAJZhTs4XwbH8EgEs44K4PoJz+bkDWIHdSHqEBuTnDGAFt4LLIzQiP1cAq7APnx+hIfk5AljFm6DpCI3JXxvABHeg9yM0KH9NAOXt//4qQqPyUwN4ePayv0RoWH5qgOMrGx52I6Hwayyup6DYv/6v3UiLi3C8GwH5VQLcjoD8qgH+RkC+JMB5YWbOFwaARAgghgBiCCCGAGIIIIYAYggghgBiCCCGAGIIIIYAYggghgBiCCCGAGLmvV6ynVEd9QlHZ4MAAwHkV2HkH6AXEZmC9DKiYLAGDASQX4VxS/8AAAAAAAAAAAAAAADonPMNaWKO+EPTyPYAAAAASUVORK5CYII=" />
-                                <h1>Gerenciador de Habitos</h1>
+                                <h1>Life Manager</h1>
                             </div>
                             <div className="c7-priceBox">
                                 <div>
