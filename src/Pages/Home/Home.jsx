@@ -127,7 +127,7 @@ export default function Home() {
                         <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#ffffffda'}}>Workout Tracker</a>
                         <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" target="__blank">Planilha Financeira</a>
                     </ul>
-                    <a className="btn_home" href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" target="__blank">EXPLORE JÁ</a>
+                    <a className="btn_home" href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" target="__blank">EXPLORE JÁ</a>
                 </header>
                 <div className="ContainerHome1 Hreveal">
                     <div>
