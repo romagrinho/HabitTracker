@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 import Faq from "react-faq-component";
 import { push as Menu } from 'react-burger-menu'
 import ScrollReveal from "scrollreveal";
@@ -25,12 +25,13 @@ import RS from "../Home/imgs/LogoBranco.png";
 import stars_rate from '../Home/imgs/stars2.png'
 import people from '../Home/imgs/peoples.png';
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
-import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
-import icon_engrenagem from "../Home/imgs/iconsengrenagem-100.png";
+import icon_engrenagem from "../Home/imgs/iconscloud-100.png";
 import mockupcel from "../Home/imgs/mockupcel.png";
 import eu from "../Home/imgs/eu.png";
 import notion from "../Home/imgs/notion.png";
 import laptopw from "../Home/imgs/laptop notion white.png";
+import curso from "../Home/imgs/cursos-100.png"
+import projeto from "../Home/imgs/projetos-100.png"
 import icon_menu from "../Home/imgs/hamburguermenu100.png";
 import cross from "../Home/imgs/cross100.png";
 
@@ -51,7 +52,7 @@ export default function HomeMobile() {
         ScrollReveal().reveal('.Hreveal2', { delay: 400, reset: true, distance: '50px' });
     }, []);
 
-    
+
     useEffect(() => {
         ScrollReveal().reveal('.Hreveal3', { delay: 600, reset: true, distance: '50px' });
     }, []);
@@ -138,13 +139,13 @@ export default function HomeMobile() {
                         <img className="HM_logo" src={RS}></img>
                         <div className="HM_ul">
                             <ul>
-                                <a href="" rel="noopener noreferrer" style={{color: '#ffffffa2'}}>Gerenciador de Habitos</a>
-                                <a href="" rel="noopener noreferrer" style={{color: '#ffffffa2'}}>Gerenciador de Tarefas</a>
-                                <a href="" rel="noopener noreferrer" style={{color: '#ffffffa2'}}>Workout Tracker</a>
+                                <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Gerenciador de Habitos</a>
+                                <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Gerenciador de Tarefas</a>
+                                <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Workout Tracker</a>
                                 <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer">Planilha Financeira</a>
                             </ul>
                         </div>
-                        <a  className="Btn_HM" href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
+                        <a className="Btn_HM" href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
                     </Menu>
                 </header>
                 <div className="ContainerHome1Cel Hreveal">
@@ -154,7 +155,7 @@ export default function HomeMobile() {
                         <p className="descHome">De um UP sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um só lugar.</p>
                     </div>
                 </div>
-                <iframe  className="Hreveal" id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className="Hreveal" id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
@@ -200,20 +201,26 @@ export default function HomeMobile() {
                 </div>
                 <div className="c3-container">
                     <ComponentRight
-                        title="Treino"
-                        description="Controle seus treinos de forma visual. Crie metas, insira o seu protocolo e veja seu desenvolvimento."
+                        title="Saúde"
+                        description="Controle seus treinos e dieta de forma visual. Crie metas, insira o seu protocolo e veja seu desenvolvimento."
                         icon={peso}
                         subtitle="Avançado"
                         subdescription='Com propriedades que te permite protocolar técnicas avançadas do seu treino, como "drop-set", "bi-set" e mais.'
+                        icon2={saude}
+                        subtitle2="Controle"
+                        subdescription2="Controle seu protocolo 100%, contando os macros, visualizando dia a dia como esta sendo seu rendimento."
                         video={vdtreino} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
-                        title="Dieta"
-                        description="Gerencie sua dieta de maneira visual: estabeleça metas, registre seu plano alimentar e acompanhe seu progresso de forma intuitiva."
-                        icon={saude}
-                        subtitle="Saúde"
-                        subdescription="Sua vida toda num só lugar."
+                        title="Estudos"
+                        description="Organize seus estudos, a partir das suas matérias, aulas, atividades, além de lembretes de provas, trabalhos e mais!"
+                        icon={curso}
+                        subtitle="Cursos"
+                        subdescription="Gerencie também seus cursos sobre algo específico, sempre buscando sua especialização!"
+                        icon2={projeto}
+                        subtitle2="Projetos"
+                        subdescription2="Organize todos os pontos dos seus projetos, tanto pessoais quanto empresáriais, criando tópicos e mais!"
                         video={vddieta} />
                 </div>
                 <div className="c3-container">
@@ -454,10 +461,10 @@ export default function HomeMobile() {
                         <div className="c-footerrightCel">
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
-                                <a href="" rel="noopener noreferrer"  style={{color: '#f1f7f6af'}}>Gerenciador de Habitos (em breve)</a>
+                                <a href="" rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Habitos (em breve)</a>
                                 <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" >Planilha Financeira</a>
-                                <a href="" rel="noopener noreferrer"  style={{color: '#f1f7f6af'}}>Gerenciador de Tarefas (em breve)</a>
-                                <a href="" rel="noopener noreferrer"  style={{color: '#f1f7f6af'}}>Workout Tracker (em breve)</a>
+                                <a href="" rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Tarefas (em breve)</a>
+                                <a href="" rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Workout Tracker (em breve)</a>
                             </div>
                         </div>
                     </div>

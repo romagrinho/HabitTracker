@@ -18,19 +18,22 @@ import relogio from "./imgs/iconrelógio100.png"
 import estrela from "./imgs/iconestrela.png"
 import peso from "./imgs/icondumbell.png"
 import saude from "./imgs/iconhealthy.png"
-import trofeu from "./imgs/icontrofeu.png";
-import cerebro from "./imgs/iconcerebro.png";
-import RS from "./imgs/LogoBranco.png";
+import trofeu from "./imgs/icontrofeu.png"
+import cerebro from "./imgs/iconcerebro.png"
+import RS from "./imgs/LogoBranco.png"
 import stars_rate from './imgs/stars2.png'
-import people from './imgs/peoples.png';
-import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
-import ComponentLeft from "../../Components/Ferramentas/img_left.jsx";
-import icon_engrenagem from "./imgs/iconsengrenagem-100.png";
-import mockupcel from "./imgs/mockupcel.png";
-import eu from "./imgs/eu.png";
-import notion from "./imgs/notion.png";
-import laptopw from "./imgs/laptop notion white.png";
-import curtahabito2 from "./videos/curtahabito2.mp4"
+import people from './imgs/peoples.png'
+import ComponentRight from "../../Components/Ferramentas/img_right.jsx"
+import ComponentLeft from "../../Components/Ferramentas/img_left.jsx"
+import icon_engrenagem from "./imgs/iconscloud-100.png"
+import mockupcel from "./imgs/mockupcel.png"
+import eu from "./imgs/eu.png"
+import notion from "./imgs/notion.png"
+import laptopw from "./imgs/laptop notion white.png"
+import curso from "./imgs/cursos-100.png"
+import projeto from "./imgs/projetos-100.png"
+
+import curtahabito2 from "./videos/curtahabito3.mp4"
 import vdmeta from "./videos/videometa.mp4"
 import vdtreino from "./videos/videotreino.mp4"
 import vddieta from "./videos/videodieta.mp4"
@@ -183,20 +186,27 @@ export default function Home() {
                 </div>
                 <div className="c3-container">
                     <ComponentRight
-                        title="Treino"
-                        description="Controle seus treinos de forma visual. Crie metas, insira o seu protocolo e veja seu desenvolvimento."
+                        title="Saúde"
+                        description="Controle seus treinos e dieta de forma visual. Crie metas, insira o seu protocolo e veja seu desenvolvimento."
                         icon={peso}
                         subtitle="Avançado"
                         subdescription='Com propriedades que te permite protocolar técnicas avançadas do seu treino, como "drop-set", "bi-set" e mais.'
+                        icon2={saude}
+                        subtitle2="Controle"
+                        subdescription2="Controle seu protocolo 100%, contando os macros, visualizando dia a dia como esta sendo seu rendimento."
                         video={vdtreino} />
+                        
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
-                        title="Dieta"
-                        description="Gerencie sua dieta de maneira visual: estabeleça metas, registre seu plano alimentar e acompanhe seu progresso de forma intuitiva."
-                        icon={saude}
-                        subtitle="Saúde"
-                        subdescription="Sua vida toda num só lugar."
+                        title="Estudos"
+                        description="Organize seus estudos, a partir das suas matérias, aulas, atividades, além de lembretes de provas, trabalhos e mais!"
+                        icon={curso}
+                        subtitle="Cursos"
+                        subdescription="Gerencie também seus cursos sobre algo específico, sempre buscando sua especialização!"
+                        icon2={projeto}
+                        subtitle2="Projetos"
+                        subdescription2="Organize todos os pontos dos seus projetos, tanto pessoais quanto empresáriais, criando tópicos e mais!"
                         video={vddieta} />
                 </div>
                 <div className="c3-container">
