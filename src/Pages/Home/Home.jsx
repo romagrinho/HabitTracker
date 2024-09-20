@@ -260,7 +260,7 @@ export default function Home() {
                                     <div className="Hreveal3">
                                         <img className="c4-icon_rimg" src={compras} />
                                         <span className="c4-spansubtitle">Compras</span>
-                                        <p>Através do método AHP, defina, separe e organize automaticamente o que você deseja comprar.</p>
+                                        <p>Através do método GUT, defina, separe e organize automaticamente o que você deseja comprar.</p>
                                     </div>
                                     <div className="Hreveal4">
                                         <img className="c4-icon_rimg" src={metas} />
@@ -367,12 +367,12 @@ export default function Home() {
                 <div className="c6-containersteps">
                     <div className="div-step Hreveal3">
                         <h5>PASSO 1</h5>
-                        <h2>Acesse</h2>
+                        <h2>Compre</h2>
                         <p>O Life Manager já está disponível para compra. Você pode pagar via boleto, cartão e pix. Sua compra é totalmente segura pela Cakto.</p>
                     </div>
                     <div className="div-step Hreveal4">
                         <h5>PASSO 2</h5>
-                        <h2>Compre</h2>
+                        <h2>Acesse</h2>
                         <p>O acesso será enviado ao seu e-mail imediatamente após a compra. Basta clicar no link, e na área de membros duplicar o template.</p>
                     </div>
                     <div className="div-step Hreveal5">

@@ -126,6 +126,10 @@ a {
     width: 100%;
 }
 
+.descHome{
+    text-align: justify;
+}
+
 .ContainerHome1 div {
     display: flex;
     flex-direction: column;
@@ -138,11 +142,13 @@ a {
     width: 70%;
     height: 40%;
     font-family: "OpenSans-Regular";
-    text-align: justify;
+    text-align: center;
     font-size: clamp(10px, 1.3vw, 3vw);
     color: #f1f7f6;
     margin-top: 1%;
 }
+
+
 
 .descSpanHome {
     display: flex;

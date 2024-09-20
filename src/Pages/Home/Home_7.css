@@ -80,9 +80,9 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-    width: 47%;
+    width: 30%;
     height: 20%;
-    /* border: 1px solid rgb(2, 27, 26); */
+/*     border: 1px solid rgb(2, 27, 26); */
 }
 
 .c7-titleTop h1 {
@@ -93,7 +93,7 @@
 
 .c7-titleTop img {
     margin-top: 1%;
-    width: 12%;
+    width: 17%;
 }
 
 .c7-priceBox {
@@ -240,6 +240,6 @@
 
 .img_laptop {
     height: 50%;
-    width: 98%;
+    width: 93%;
     border-radius: 0 0 10px 10px;
 }
