@@ -33,12 +33,12 @@ import laptopw from "./imgs/laptop notion white.png"
 import curso from "./imgs/cursos-100.png"
 import projeto from "./imgs/projetos-100.png"
 
-import curtahabito2 from "./videos/curtahabito3.mp4"
+/* import vdhabito from "./videos/curtahabito3.mp4" */
 import vdmeta from "./videos/videometa.mp4"
-import vdtreino from "./videos/videotreino.mp4"
-import vddieta from "./videos/videodieta.mp4"
-import vdlivro from "./videos/videolivro.mp4"
-import vdtarefa from "./videos/videolembretes.mp4"
+/* import vdtreino from "./videos/videotreino.mp4" */
+/* import vddieta from "./videos/videodieta.mp4" */
+/* import vdlivro from "./videos/videolivro.mp4" */
+import vdtarefa from "./videos/curtatarefas.mp4"
 
 export default function Home() {
 
@@ -147,7 +147,7 @@ export default function Home() {
                 </div>
                 <div className="c2-container2 Hreveal">
                     <div className="block_btn">
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie" target="__blank">
+                        <a href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" className="btn_gerencie" target="__blank">
                             Gerencia suas metas agora!
                         </a>
                     </div>
@@ -173,7 +173,7 @@ export default function Home() {
                         icon={trofeu}
                         subtitle="Ranking"
                         subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
-                        video={curtahabito2} />
+                        /* video={vdhabito} */ />
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -194,7 +194,7 @@ export default function Home() {
                         icon2={saude}
                         subtitle2="Controle"
                         subdescription2="Controle seu protocolo 100%, contando os macros, visualizando dia a dia como esta sendo seu rendimento."
-                        video={vdtreino} />
+                        /* video={vdtreino} */ />
                         
                 </div>
                 <div className="c3-container">
@@ -207,7 +207,7 @@ export default function Home() {
                         icon2={projeto}
                         subtitle2="Projetos"
                         subdescription2="Organize todos os pontos dos seus projetos, tanto pessoais quanto empresáriais, criando tópicos e mais!"
-                        video={vddieta} />
+                        /* video={vdestudos} */ />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -219,7 +219,7 @@ export default function Home() {
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
                         subdescription2="Acesse o template no computador ou no celular"
-                        video={vdlivro} />
+                        /* video={vdlivro}  *//>
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -232,7 +232,7 @@ export default function Home() {
                 </div>
                 <div className="c3-container2 Hreveal">
                     <div className="block_btn2">
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2" target="__blank">
+                        <a href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" className="btn_gerencie2" target="__blank">
                             Gerencia suas metas agora!
                         </a>
                     </div>
@@ -271,7 +271,7 @@ export default function Home() {
                             </div>
                             <div className="c4-button Hreveal4">
                                 <div className="c4-block_btn2">
-                                    <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" className="c4-btn_gerencie2" target="__blank">
+                                    <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" className="c4-btn_gerencie2" target="__blank">
                                         Estou decidido a mudar
                                     </a>
                                 </div>
@@ -412,7 +412,7 @@ export default function Home() {
                                 <span>Gerenciador de Tarefas</span>
                             </div>
                             <div className="c7-block_btn2">
-                                <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="c7-btn_gerencie2" target="__blank">
+                                <a href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" className="c7-btn_gerencie2" target="__blank">
                                     Gerencia suas metas agora!
                                 </a>
                                 <span>Seu pagamento é 100% seguro</span>
@@ -446,7 +446,7 @@ export default function Home() {
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
                                 <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#f1f7f6af'}}>Gerenciador de Habitos</a>
-                                <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" target="__blank">Planilha Financeira</a>
+                                <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" target="__blank">Planilha Financeira</a>
                                 <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#f1f7f6af'}}>Gerenciador de Tarefas</a>
                                 <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#f1f7f6af'}}>Workout Tracker</a>
                             </div>

@@ -35,12 +35,12 @@ import projeto from "../Home/imgs/projetos-100.png"
 import icon_menu from "../Home/imgs/hamburguermenu100.png";
 import cross from "../Home/imgs/cross100.png";
 
-import curtahabito2 from "../Home/videos/curtahabito2.mp4"
+/* import vdhabito from "../Home/videos/curtahabito2.mp4" */
 import vdmeta from "../Home/videos/videometa.mp4"
-import vdtreino from "../Home/videos/videotreino.mp4"
-import vddieta from "../Home/videos/videodieta.mp4"
-import vdlivro from "../Home/videos/videolivro.mp4"
-import vdtarefa from "../Home/videos/videolembretes.mp4"
+/* import vdtreino from "../Home/videos/videotreino.mp4" */
+/* import vddieta from "../Home/videos/videodieta.mp4" */
+/* import vdlivro from "../Home/videos/videolivro.mp4" */
+import vdtarefa from "../Home/videos/curtatarefas.mp4"
 
 export default function HomeMobile() {
 
@@ -142,10 +142,10 @@ export default function HomeMobile() {
                                 <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Gerenciador de Habitos</a>
                                 <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Gerenciador de Tarefas</a>
                                 <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Workout Tracker</a>
-                                <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer">Planilha Financeira</a>
+                                <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer">Planilha Financeira</a>
                             </ul>
                         </div>
-                        <a className="Btn_HM" href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer">EXPLORE JÁ</a>
+                        <a className="Btn_HM" href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer">EXPLORE JÁ</a>
                     </Menu>
                 </header>
                 <div className="ContainerHome1Cel Hreveal">
@@ -162,7 +162,7 @@ export default function HomeMobile() {
             <div className="container-section2Cel">
                 <div className="c1-container1Cel Hreveal3">
                     <div className="block_btnCel">
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencieCel">
+                        <a href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" className="btn_gerencieCel">
                             Gerencia suas metas agora!
                         </a>
                     </div>
@@ -188,7 +188,7 @@ export default function HomeMobile() {
                         icon={trofeu}
                         subtitle="Ranking"
                         subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
-                        video={curtahabito2} />
+                        /* video={vdhabito} */ />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -209,7 +209,7 @@ export default function HomeMobile() {
                         icon2={saude}
                         subtitle2="Controle"
                         subdescription2="Controle seu protocolo 100%, contando os macros, visualizando dia a dia como esta sendo seu rendimento."
-                        video={vdtreino} />
+                        /* video={vdtreino} *//> 
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -221,7 +221,7 @@ export default function HomeMobile() {
                         icon2={projeto}
                         subtitle2="Projetos"
                         subdescription2="Organize todos os pontos dos seus projetos, tanto pessoais quanto empresáriais, criando tópicos e mais!"
-                        video={vddieta} />
+                        /* video={vdestudos} */ />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -233,7 +233,7 @@ export default function HomeMobile() {
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
                         subdescription2="Acesse o template no computador ou no celular"
-                        video={vdlivro} />
+                       /*  video={vdlivro}  *//>
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -246,7 +246,7 @@ export default function HomeMobile() {
                 </div>
                 <div className="c3-container2 Hreveal2">
                     <div className="block_btn2Cel">
-                        <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="btn_gerencie2Cel">
+                        <a href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" className="btn_gerencie2Cel">
                             Gerencia suas metas agora!
                         </a>
                     </div>
@@ -285,7 +285,7 @@ export default function HomeMobile() {
                             </div>
                             <div className="c4-buttonCel Hreveal4">
                                 <div className="c4-block_btn2Cel">
-                                    <a href="" rel="noopener noreferrer" className="c4-btn_gerencie2Cel">
+                                    <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" className="c4-btn_gerencie2Cel">
                                         Estou decidido a mudar
                                     </a>
                                 </div>
@@ -428,7 +428,7 @@ export default function HomeMobile() {
                                 <span>Gerenciador de Tarefas</span>
                             </div>
                             <div className="c7-block_btn2Cel">
-                                <a href="https://pay.kiwify.com.br/O7MiqLJ" rel="noopener noreferrer" className="c7-btn_gerencie2Cel">
+                                <a href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" className="c7-btn_gerencie2Cel">
                                     Gerencia suas metas agora!
                                 </a>
                                 <span>Seu pagamento é 100% seguro</span>
@@ -461,10 +461,10 @@ export default function HomeMobile() {
                         <div className="c-footerrightCel">
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
-                                <a href="" rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Habitos (em breve)</a>
-                                <a href="https://pay.kiwify.com.br/NQ0T7nB" rel="noopener noreferrer" >Planilha Financeira</a>
-                                <a href="" rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Tarefas (em breve)</a>
-                                <a href="" rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Workout Tracker (em breve)</a>
+                                <a /* href="" */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Habitos (em breve)</a>
+                                <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" >Planilha Financeira</a>
+                                <a /* href="" */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Tarefas (em breve)</a>
+                                <a /* href=""  */rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Workout Tracker (em breve)</a>
                             </div>
                         </div>
                     </div>
