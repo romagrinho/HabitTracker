@@ -65,12 +65,12 @@
         list-style: none
     }
 
-    .HM_ul ul a{
-      text-decoration: none;
-      color: #ffffff;
+    .HM_ul ul a {
+        text-decoration: none;
+        color: #ffffff;
     }
 
-    .Btn_HM{
+    .Btn_HM {
         display: flex !important;
         justify-content: center;
         align-items: center;
@@ -181,7 +181,7 @@
         align-items: center;
         width: 95%;
         height: 90%;
-       /*  border: 1px solid #fff; */
+        /*  border: 1px solid #fff; */
     }
 
     .descHome {
@@ -195,15 +195,15 @@
         /*  border: 2px #ffffff solid;  */
     }
 
-    .descSpanHome {
+    .descSpanHomeCel {
         display: flex;
         justify-content: center;
         width: 70%;
-        height: 40%;
-        font-family: "OpenSans-Regular";
-        font-size: clamp(10px, 1.3vw, 3vw);
+        margin-bottom: 4%;
+        font-family: "OpenSans-Bold";
+        font-size: clamp(10px, 4.5vw, 5vw);
         color: #f1f7f6;
-        /* border: 2px #ffffff solid; */
+       /*  border: 2px #ffffff solid; */
     }
 
     .titleHome {

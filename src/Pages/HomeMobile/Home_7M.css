@@ -239,6 +239,16 @@
     border-radius: inherit;
 } */
 
+.descSpanImgCel{
+    display: flex;
+    justify-content: left;
+    font-family: "OpenSans-Bold";
+    font-size: clamp(7px, 1vw, 1.5vw);
+    color: rgba(2, 27, 26, 0.866);
+    width: 90%;
+  /*   border: 2px #000000 solid; */
+}
+
 .img_laptopCel {
     height: 37%;
     width: 93%;

@@ -238,8 +238,18 @@
     border-radius: inherit;
 } */
 
+.descSpanImg{
+    display: flex;
+    justify-content: left;
+    font-family: "OpenSans-Bold";
+    font-size: clamp(5px, 1vw, 1.5vw);
+    color: rgba(2, 27, 26, 0.866);
+    width: 90%;
+  /*   border: 2px #000000 solid; */
+}
+
 .img_laptop {
-    height: 50%;
+    height: 46%;
     width: 93%;
     border-radius: 0 0 10px 10px;
 }

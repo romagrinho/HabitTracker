@@ -35,11 +35,11 @@ import projeto from "../Home/imgs/projetos-100.png"
 import icon_menu from "../Home/imgs/hamburguermenu100.png";
 import cross from "../Home/imgs/cross100.png";
 
-/* import vdhabito from "../Home/videos/curtahabito2.mp4" */
+import vdhabito from "../Home/videos/curtahabito.mp4"
 import vdmeta from "../Home/videos/videometa.mp4"
-/* import vdtreino from "../Home/videos/videotreino.mp4" */
-/* import vddieta from "../Home/videos/videodieta.mp4" */
-/* import vdlivro from "../Home/videos/videolivro.mp4" */
+import vdtreino from "../Home/videos/curtasaude.mp4"
+import vdestudos from "../Home/videos/curtaestudos.mp4"
+import vdlivro from "../Home/videos/curtalivros.mp4"
 import vdtarefa from "../Home/videos/curtatarefas.mp4"
 
 export default function HomeMobile() {
@@ -102,6 +102,10 @@ export default function HomeMobile() {
                 </p>,
             },
             {
+                title: <h1 className="FAQTitle">Quero ver como é o template</h1>,
+                content: <p>Claro, <b><a className="FAQLink" href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" >clique aqui </a></b>e você consegue ter uma pré visualização de como é todo o nosso template!</p>,
+            },
+            {
                 title: <h1 className="FAQTitleCel">Eu tenho mais perguntas</h1>,
                 content: <p>Envie sua pergunta para <b>rsa.entr@gmail.com</b>. Terei o maior prazer em responder.</p>,
             },
@@ -153,6 +157,7 @@ export default function HomeMobile() {
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Life Manager</span>
                         <p className="descHome">De um UP sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um só lugar.</p>
+                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" className="descSpanHomeCel">veja o template aqui!</a>
                     </div>
                 </div>
                 <iframe className="Hreveal" id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -188,7 +193,7 @@ export default function HomeMobile() {
                         icon={trofeu}
                         subtitle="Ranking"
                         subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
-                        /* video={vdhabito} */ />
+                        video={vdhabito} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -209,7 +214,7 @@ export default function HomeMobile() {
                         icon2={saude}
                         subtitle2="Controle"
                         subdescription2="Controle seu protocolo 100%, contando os macros, visualizando dia a dia como esta sendo seu rendimento."
-                        /* video={vdtreino} *//> 
+                        video={vdtreino}/> 
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -221,7 +226,7 @@ export default function HomeMobile() {
                         icon2={projeto}
                         subtitle2="Projetos"
                         subdescription2="Organize todos os pontos dos seus projetos, tanto pessoais quanto empresáriais, criando tópicos e mais!"
-                        /* video={vdestudos} */ />
+                        video={vdestudos} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -233,7 +238,7 @@ export default function HomeMobile() {
                         icon2={icon_engrenagem}
                         subtitle2="Sincronização"
                         subdescription2="Acesse o template no computador ou no celular"
-                       /*  video={vdlivro}  *//>
+                        video={vdlivro} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -434,6 +439,7 @@ export default function HomeMobile() {
                                 <span>Seu pagamento é 100% seguro</span>
                             </div>
                         </div>
+                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" className="descSpanImgCel">veja o template aqui!</a>
                         <img src={laptopw} className="img_laptopCel Hreveal3"></img>
                     </div>
                 </div>

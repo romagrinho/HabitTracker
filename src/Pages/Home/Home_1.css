@@ -126,9 +126,7 @@ a {
     width: 100%;
 }
 
-.descHome{
-    text-align: justify;
-}
+
 
 .ContainerHome1 div {
     display: flex;
@@ -145,6 +143,7 @@ a {
     text-align: center;
     font-size: clamp(10px, 1.3vw, 3vw);
     color: #f1f7f6;
+   /*  border: 1px solid #f1f7f6; */
     margin-top: 1%;
 }
 
@@ -155,9 +154,10 @@ a {
     justify-content: center;
     width: 70%;
     height: 40%;
-    font-family: "OpenSans-Regular";
+    font-family: "OpenSans-Medium";
     font-size: clamp(10px, 1.3vw, 3vw);
     color: #f1f7f6;
+
     /* border: 2px #ffffff solid; */
 }
 
