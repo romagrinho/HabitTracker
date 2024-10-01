@@ -156,7 +156,7 @@ export default function HomeMobile() {
                     <div className="ContainerDescCel">
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Life Manager</span>
-                        <p className="descHome">De um UP sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um só lugar.</p>
+                        <p className="descHome">De um UP na sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um só lugar.</p>
                         <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" className="descSpanHomeCel">veja o template aqui!</a>
                     </div>
                 </div>
@@ -439,7 +439,7 @@ export default function HomeMobile() {
                                 <span>Seu pagamento é 100% seguro</span>
                             </div>
                         </div>
-                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" className="descSpanImgCel">veja o template aqui!</a>
+                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" className="descSpanImgCel Hreveal3">veja o template aqui!</a>
                         <img src={laptopw} className="img_laptopCel Hreveal3"></img>
                     </div>
                 </div>

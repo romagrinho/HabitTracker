@@ -92,7 +92,7 @@ export default function Home() {
             },
             {
                 title: <h1 className="FAQTitle">Quero ver como é o template</h1>,
-                content: <p>Claro, <b><a className="FAQLink" href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" >clique aqui </a></b>e você consegue ter uma pré visualização de como é todo o nosso template!</p>,
+                content: <p>Claro, <b><a className="FAQLink" href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" target="__blank">clique aqui </a></b>e você consegue ter uma pré visualização de como é todo o nosso template!</p>,
             },
             {
                 title: <h1 className="FAQTitle">Eu tenho mais perguntas</h1>,
@@ -137,7 +137,7 @@ export default function Home() {
                     <div>
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Life Manager</span>
-                        <p>De um UP sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um único lugar.</p>
+                        <p>De um UP na sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um único lugar.</p>
                         <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" target="__blank" className="descSpanHome">veja o template aqui!</a>
                     </div>
                 </div>
@@ -422,7 +422,7 @@ export default function Home() {
                                 <span>Seu pagamento é 100% seguro</span>
                             </div>
                         </div>
-                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" target="__blank" className="descSpanImg">veja o template aqui!</a>
+                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" target="__blank" className="descSpanImg Hreveal4">veja o template aqui!</a>
                         <img src={laptopw} className="img_laptop Hreveal4"></img>
                     </div>
                 </div>
