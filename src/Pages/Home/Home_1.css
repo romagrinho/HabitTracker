@@ -31,6 +31,7 @@ a {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 0px 10px #ffffff42,
         0 0 60px #000;
+        background: cover;
 }
 
 .blur_green {
@@ -132,7 +133,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 75%;
     height: 80%;
 }
 
@@ -154,7 +155,7 @@ a {
     justify-content: center;
     width: 70%;
     height: 40%;
-    font-family: "OpenSans-Medium";
+    font-family: "OpenSans-SemiBold";
     font-size: clamp(10px, 1.3vw, 3vw);
     color: #f1f7f6;
 

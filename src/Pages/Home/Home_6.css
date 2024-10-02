@@ -35,7 +35,15 @@
    /*  border: 1px #ff0000 solid; */
 }
 
-.c6-containervideo iframe {
+/* .c6-containervideo iframe {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    width: 40%;
+    height: 80%;
+} */
+
+.c6-containervideo img {
     border: none;
     border-radius: 20px;
     box-shadow: 0 2px 10px rgb(0, 0, 0);

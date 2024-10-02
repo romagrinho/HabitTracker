@@ -34,6 +34,8 @@ import curso from "../Home/imgs/cursos-100.png"
 import projeto from "../Home/imgs/projetos-100.png"
 import icon_menu from "../Home/imgs/hamburguermenu100.png";
 import cross from "../Home/imgs/cross100.png";
+import embreve from "../Home/imgs/embreve.png"
+
 
 import vdhabito from "../Home/videos/curtahabito.mp4"
 import vdmeta from "../Home/videos/videometa.mp4"
@@ -78,7 +80,7 @@ export default function HomeMobile() {
         rows: [
             {
                 title: <h1 className="FAQTitleCel">Como receberei acesso ao sistema?</h1>,
-                content: <p>Após a compra, você receberá acesso exclusivo a nossa área de membros. Por lá, disponibilizaremos o link para duplicar o sistema em seu espaço de trabalho.Além disso, terá acesso às aulas gravadas com a trilha de implementação, e a explicação de todos os recursos do sistema.</p>,
+                content: <p>Após a compra, você receberá acesso exclusivo a nossa área de membros. Por lá, disponibilizaremos o link para duplicar o sistema em seu espaço de trabalho. Além disso dentro do template, terá acesso às aulas gravadas com a trilha de implementação, e a explicação de todos os recursos do sistema.</p>,
             },
             {
                 title: <h1 className="FAQTitleCel">O que é Notion?</h1>,
@@ -102,7 +104,7 @@ export default function HomeMobile() {
                 </p>,
             },
             {
-                title: <h1 className="FAQTitle">Quero ver como é o template</h1>,
+                title: <h1 className="FAQTitleCel">Quero ver como é o template</h1>,
                 content: <p>Claro, <b><a className="FAQLink" href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" >clique aqui </a></b>e você consegue ter uma pré visualização de como é todo o nosso template!</p>,
             },
             {
@@ -157,10 +159,11 @@ export default function HomeMobile() {
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Life Manager</span>
                         <p className="descHome">De um UP na sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um só lugar.</p>
-                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" className="descSpanHomeCel">veja o template aqui!</a>
+                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" className="descSpanHomeCel"><u>veja o template aqui!</u></a>
                     </div>
                 </div>
-                <iframe className="Hreveal" id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                {/* <iframe className="Hreveal" id="video1Cel" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                <img className="Hreveal" id="video1Cel" src={embreve}></img>
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
@@ -214,7 +217,7 @@ export default function HomeMobile() {
                         icon2={saude}
                         subtitle2="Controle"
                         subdescription2="Controle seu protocolo 100%, contando os macros, visualizando dia a dia como esta sendo seu rendimento."
-                        video={vdtreino}/> 
+                        video={vdtreino} />
                 </div>
                 <div className="c3-container">
                     <ComponentRight
@@ -381,7 +384,8 @@ export default function HomeMobile() {
                     <span>  Um template, entregue em três passos:</span>
                 </div>
                 <div className="c6-containervideoCel Hreveal">
-                    <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    {/* <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                    <img className="Hreveal" src={embreve}></img>
                 </div>
                 <div className="c6-containerstepsCel">
                     <div className="div-stepCel Hreveal3">
@@ -470,7 +474,7 @@ export default function HomeMobile() {
                                 <a /* href="" */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Habitos (em breve)</a>
                                 <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" >Planilha Financeira</a>
                                 <a /* href="" */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Tarefas (em breve)</a>
-                                <a /* href=""  */rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Workout Tracker (em breve)</a>
+                                <a /* href=""  */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Workout Tracker (em breve)</a>
                             </div>
                         </div>
                     </div>

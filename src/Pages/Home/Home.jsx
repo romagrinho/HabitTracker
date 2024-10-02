@@ -32,6 +32,7 @@ import notion from "./imgs/notion.png"
 import laptopw from "./imgs/laptop notion white.png"
 import curso from "./imgs/cursos-100.png"
 import projeto from "./imgs/projetos-100.png"
+import embreve from "./imgs/embreve.png"
 
 import vdhabito from "./videos/curtahabito.mp4"
 import vdmeta from "./videos/videometa.mp4"
@@ -67,7 +68,7 @@ export default function Home() {
         rows: [
             {
                 title: <h1 className="FAQTitle">Como receberei acesso ao sistema?</h1>,
-                content: <p>Após a compra, você receberá acesso exclusivo a nossa área de membros. Por lá, disponibilizaremos o link para duplicar o sistema em seu espaço de trabalho. Além disso, terá acesso às aulas gravadas com a trilha de implementação, e a explicação de todos os recursos do sistema.</p>,
+                content: <p>Após a compra, você receberá acesso exclusivo a nossa área de membros. Por lá, disponibilizaremos o link para duplicar o sistema em seu espaço de trabalho. Além disso dentro do template, terá acesso às aulas gravadas com a trilha de implementação, e a explicação de todos os recursos do sistema.</p>,
             },
             {
                 title: <h1 className="FAQTitle">O que é Notion?</h1>,
@@ -138,10 +139,11 @@ export default function Home() {
                         <span className="titleHome">Organize sua vida pessoal e profissional com o </span>
                         <span className="subtitleHome">Life Manager</span>
                         <p>De um UP na sua vida com o Life Manager! Controle seus novos hábitos, alcance suas metas e planeje seus estudos, treinos e dieta, tudo em um único lugar.</p>
-                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" target="__blank" className="descSpanHome">veja o template aqui!</a>
+                        <a href="https://romarios.notion.site/LIFE-MANAGER-1113212308e880afa472cf7d3ddd96a3" rel="noopener noreferrer" target="__blank" className="descSpanHome"><u>veja o template aqui!</u></a>
                     </div>
                 </div>
-                <iframe className="Hreveal" id="video1" src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img className="Hreveal" id="video1" src={embreve}></img>
+                {/* <iframe className="Hreveal" id="video1" src={embreve}></iframe> */}
                 <span className="blur_green"></span>
                 <span className="blur_blue"></span>
             </div>
@@ -366,7 +368,8 @@ export default function Home() {
                     <span>  Um template, entregue em três passos</span>
                 </div>
                 <div className="c6-containervideo Hreveal">
-                    <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                   {/*  <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                   <img className="Hreveal" src={embreve}></img>
                 </div>
                 <div className="c6-containersteps">
                     <div className="div-step Hreveal3">
