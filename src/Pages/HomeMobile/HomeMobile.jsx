@@ -23,7 +23,7 @@ import trofeu from "../Home/imgs/icontrofeu.png";
 import cerebro from "../Home/imgs/iconcerebro.png";
 import RS from "../Home/imgs/LogoBranco.png";
 import stars_rate from '../Home/imgs/stars2.png'
-import people from '../Home/imgs/peoples.png';
+import people from '../Home/imgs/peoplesG.png';
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx";
 import icon_engrenagem from "../Home/imgs/iconscloud-100.png";
 import mockupcel from "../Home/imgs/mockupcel.png";
@@ -145,10 +145,10 @@ export default function HomeMobile() {
                         <img className="HM_logo" src={RS}></img>
                         <div className="HM_ul">
                             <ul>
-                                <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Gerenciador de Habitos</a>
-                                <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Gerenciador de Tarefas</a>
-                                <a href="" rel="noopener noreferrer" style={{ color: '#ffffffa2' }}>Workout Tracker</a>
-                                <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer">Planilha Financeira</a>
+                                <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" >Gerenciador de Habitos</a>
+                                <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" >Gerenciador de Estudos</a>
+                                <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" >Workout Tracker</a>
+                                <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" >Planilha Financeira</a>
                             </ul>
                         </div>
                         <a className="Btn_HM" href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer">EXPLORE JÁ</a>
@@ -431,8 +431,8 @@ export default function HomeMobile() {
                             <div className="c7-contentBoxCel">
                                 <span>Gerenciador de Habitos</span>
                                 <span>Gerenciador de Metas</span>
-                                <span>Gerenciador de Dieta</span>
-                                <span>Gerenciador de Treino</span>
+                                <span>Gerenciador de Saúde</span>
+                                <span>Gerenciador de Estudos</span>
                                 <span>Gerenciador de Livros</span>
                                 <span>Gerenciador de Tarefas</span>
                             </div>
@@ -471,10 +471,10 @@ export default function HomeMobile() {
                         <div className="c-footerrightCel">
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
-                                <a /* href="" */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Habitos (em breve)</a>
+                                <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" >Gerenciador de Habitos</a>
                                 <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" >Planilha Financeira</a>
-                                <a /* href="" */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Gerenciador de Tarefas (em breve)</a>
-                                <a /* href=""  */ rel="noopener noreferrer" style={{ color: '#f1f7f6af' }}>Workout Tracker (em breve)</a>
+                                <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" >Gerenciador de Estudos</a>
+                                <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" >Workout Tracker</a>
                             </div>
                         </div>
                     </div>

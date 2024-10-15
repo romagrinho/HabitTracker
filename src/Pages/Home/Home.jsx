@@ -22,7 +22,7 @@ import trofeu from "./imgs/icontrofeu.png"
 import cerebro from "./imgs/iconcerebro.png"
 import RS from "./imgs/LogoBranco.png"
 import stars_rate from './imgs/stars2.png'
-import people from './imgs/peoples.png'
+import people from './imgs/peoplesG.png'
 import ComponentRight from "../../Components/Ferramentas/img_right.jsx"
 import ComponentLeft from "../../Components/Ferramentas/img_left.jsx"
 import icon_engrenagem from "./imgs/iconscloud-100.png"
@@ -127,9 +127,9 @@ export default function Home() {
                         <img src={RS}></img>
                     </div>
                     <ul>
-                        <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#ffffffda'}}>Gerenciador de Habitos</a>
-                        <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#ffffffda'}}>Gerenciador de Tarefas</a>
-                        <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#ffffffda'}}>Workout Tracker</a>
+                        <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" target="__blank" >Gerenciador de Habitos</a>
+                        <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" target="__blank">Gerenciador de Estudos</a>
+                        <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" target="__blank">Workout Tracker</a>
                         <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" target="__blank">Planilha Financeira</a>
                     </ul>
                     <a className="btn_home" href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" target="__blank">EXPLORE JÁ</a>
@@ -201,7 +201,7 @@ export default function Home() {
                         subtitle2="Controle"
                         subdescription2="Controle seu protocolo 100%, contando os macros, visualizando dia a dia como esta sendo seu rendimento."
                         video={vdtreino} />
-                        
+
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -368,8 +368,8 @@ export default function Home() {
                     <span>  Um template, entregue em três passos</span>
                 </div>
                 <div className="c6-containervideo Hreveal">
-                   {/*  <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
-                   <img className="Hreveal" src={embreve}></img>
+                    {/*  <iframe src="https://www.youtube.com/embed/xqZs7K41yvA?si=cHUqmoWywSu56vjH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                    <img className="Hreveal" src={embreve}></img>
                 </div>
                 <div className="c6-containersteps">
                     <div className="div-step Hreveal3">
@@ -413,8 +413,8 @@ export default function Home() {
                             <div className="c7-contentBox">
                                 <span>Gerenciador de Habitos</span>
                                 <span>Gerenciador de Metas</span>
-                                <span>Gerenciador de Dieta</span>
-                                <span>Gerenciador de Treino</span>
+                                <span>Gerenciador de Saúde</span>
+                                <span>Gerenciador de Estudos</span>
                                 <span>Gerenciador de Livros</span>
                                 <span>Gerenciador de Tarefas</span>
                             </div>
@@ -453,10 +453,10 @@ export default function Home() {
                         <div className="c-footerright">
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
-                                <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#f1f7f6af'}}>Gerenciador de Habitos</a>
+                                <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" target="__blank" >Gerenciador de Habitos</a>
                                 <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" target="__blank">Planilha Financeira</a>
-                                <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#f1f7f6af'}}>Gerenciador de Tarefas</a>
-                                <a /* href="" */ rel="noopener noreferrer" target="__blank" style={{color: '#f1f7f6af'}}>Workout Tracker</a>
+                                <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" target="__blank">Gerenciador de Estudos</a>
+                                <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" target="__blank">Workout Tracker</a>
                             </div>
                         </div>
                     </div>
@@ -474,3 +474,4 @@ export default function Home() {
         </section>
     )
 }
+
