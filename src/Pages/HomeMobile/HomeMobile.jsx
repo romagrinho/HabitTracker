@@ -36,6 +36,7 @@ import projeto from "../Home/imgs/projetos-100.png"
 import icon_menu from "../Home/imgs/hamburguermenu100.png";
 import cross from "../Home/imgs/cross100.png";
 import embreve from "../Home/imgs/embreve.png"
+import free from "../Home/imgs/free-100.png"
 
 
 import vdhabito from "../Home/videos/curtahabito.mp4"
@@ -175,7 +176,7 @@ export default function HomeMobile() {
                             Gerencia suas metas agora!
                         </a>
                     </div>
-                    <span className="spanprice"><span className="spanprice_green">3x de R$ 17,79</span> ou R$47,00 à vista</span>
+                    <span className="spanpriceCel"><span className="spanprice_green">3x de R$ 17,79</span> ou R$47,00 à vista</span>
                     <div className="block_ratingCel">
                         <div className="divimgpeopleCel">
                             <img className="img_people" src={people}></img>
@@ -192,11 +193,14 @@ export default function HomeMobile() {
             <div className="container-section3Cel">
                 <div className="c3-container">
                     <ComponentRight
-                        title="Hábito"
+                        title="Hábitos"
                         description="O Dashboard permite que você veja tudo que está acontecendo. Gerencie os dias, e todos seus habitos."
                         icon={trofeu}
                         subtitle="Ranking"
                         subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
+                        icon2={free}
+                        subtitle2={"Teste grátis"}
+                        subdescription2={<>No topo do site em "Gerenciador de Hábitos", ou clicando <u><a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer">aqui</a></u>, faça um teste grátis do módulo <b>Hábitos</b> simplificado!</>}
                         video={vdhabito} />
                 </div>
                 <div className="c3-container">

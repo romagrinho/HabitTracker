@@ -34,6 +34,7 @@ import laptopw from "./imgs/laptop notion white.png"
 import curso from "./imgs/cursos-100.png"
 import projeto from "./imgs/projetos-100.png"
 import embreve from "./imgs/embreve.png"
+import free from "./imgs/free-100.png"
 
 import vdhabito from "./videos/curtahabito.mp4"
 import vdmeta from "./videos/videometa.mp4"
@@ -131,7 +132,7 @@ export default function Home() {
                         <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" target="__blank" >Gerenciador de Habitos</a>
                         <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" target="__blank">Gerenciador de Estudos</a>
                         <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" target="__blank">Workout Tracker</a>
-                        <Link to="planilha-financeira" smooth={true} duration={200} rel="noopener noreferrer" target="__blank" style={{cursor:"pointer"}}>Planilha Financeira</Link>
+                        <Link to="planilha-financeira" smooth={true} duration={200} rel="noopener noreferrer" target="__blank" style={{ cursor: "pointer" }}>Planilha Financeira</Link>
                     </ul>
                     <a className="btn_home" href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer" target="__blank">EXPLORE JÁ</a>
                 </header>
@@ -175,12 +176,17 @@ export default function Home() {
             <div className="container-section3">
                 <div className="c3-container">
                     <ComponentRight
-                        title="Hábito"
+                        title="Hábitos"
                         description="O Dashboard permite que você veja tudo que está acontecendo. Gerencie os dias, e todos seus habitos."
                         icon={trofeu}
                         subtitle="Ranking"
                         subdescription="Um ranking que contabiliza os dias em que você cumpriu cada hábito, retornando uma mensagem de status a cada progresso!"
-                        video={vdhabito} />
+                        icon2={free}
+                        subtitle2={"Teste grátis"}
+                        subdescription2={<>No topo do site em "Gerenciador de Hábitos", ou clicando <u><a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" target="__blank" >aqui</a></u>, faça um teste grátis do módulo <b>Hábitos</b> simplificado!</>}
+                        video={vdhabito}
+                    />
+
                 </div>
                 <div className="c3-container">
                     <ComponentLeft
@@ -455,7 +461,7 @@ export default function Home() {
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
                                 <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" target="__blank" >Gerenciador de Habitos</a>
-                                <Link to="planilha-financeira" smooth={true} duration={200} rel="noopener noreferrer" target="__blank" style={{cursor:"pointer"}}>Planilha Financeira</Link>
+                                <Link to="planilha-financeira" smooth={true} duration={200} rel="noopener noreferrer" target="__blank" style={{ cursor: "pointer" }}>Planilha Financeira</Link>
                                 <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" target="__blank">Gerenciador de Estudos</a>
                                 <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" target="__blank">Workout Tracker</a>
                             </div>

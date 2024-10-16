@@ -49,6 +49,7 @@ export default function Img_Right({
                 autoPlay={true}
                 loop={true}
                 muted={true}
+                playsInline={true}
                 ></video>
             </div>
         </div>

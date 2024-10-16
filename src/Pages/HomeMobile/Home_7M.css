@@ -87,7 +87,7 @@
 }
 
 .c7-titleTopCel h1 {
-    font-family: "OpenSans-Bold";
+    font-family: "OpenSans-Bold" !important;
     color: rgb(2, 27, 26);
     font-size: min(5vw, 6vw);
 }

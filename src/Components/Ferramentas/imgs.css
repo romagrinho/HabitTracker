@@ -57,6 +57,11 @@
     width: 90%;
 }
 
+#div-subtitles p a{
+    color: rgba(0, 0, 0, 0.759);
+    font-family: "OpenSans-Bold";
+}
+
 #c-spantitle {
     width: 100%;
     height: 25%;

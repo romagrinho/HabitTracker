@@ -38,7 +38,7 @@
 .FAQTitleCel{
     font-family: "OpenSans-Bold";
     font-size: min(3.5vw, 4vw);
-    color:rgba(0, 0, 0, 0.555);
+    color:rgba(0, 0, 0, 0.555) !important;
     transition: 100ms ease-in-out;
 }
 

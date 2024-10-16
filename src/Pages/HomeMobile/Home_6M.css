@@ -96,8 +96,9 @@
 
 .div-stepCel h2, .div-stepCel2 h2 {
     color: rgb(2, 27, 26);
-    font-family: "OpenSans-SemiBold";
-    font-size: min(6vw, 10vw);
+    font-family: "OpenSans-SemiBold" !important;
+    font-size: min(6vw, 10vw) ;
+    font-size: min(1.4em , 2em) ;
     height: 10%;
     /* border: 1px #000000 solid; */
 }

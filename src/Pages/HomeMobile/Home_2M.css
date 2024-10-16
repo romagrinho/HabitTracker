@@ -16,13 +16,13 @@
     justify-content: center;
     height: 67%;
     width: 100%;
-  /*   border: 1px #000 solid; */
+    /*   border: 1px #000 solid; */
 }
 
 .block_btnCel {
     display: flex;
     justify-content: center;
-   /*  border: 1px #ff0000 solid; */
+    /*  border: 1px #ff0000 solid; */
     width: 100%;
     margin-top: 6%;
     height: 20%;
@@ -52,10 +52,10 @@
     background-color: #fff;
 }
 
-.spanprice {
+.spanpriceCel {
     margin-top: 1%;
     font-family: "OpenSans-SemiBold";
-    font-size: clamp(10px, 1.1vw, 2vw);
+    font-size: clamp(2.5vw, 3vw, 2vw);
     color: #00000085;
 }
 
@@ -65,11 +65,11 @@
 
 .block_ratingCel {
     margin-top: 0.5%;
-    margin-left: 3%;
+    margin-left: 7%;
     display: flex;
     flex-direction: row;
     /* align-items: center; */
-   /*  border: 1px #067144 solid; */
+    /*    border: 1px #067144 solid; */
     width: 72%;
     height: 40%;
     overflow-x: visible;
@@ -81,13 +81,18 @@
     justify-content: right;
     width: 45%;
     height: 35%;
-   /*  border: 1px #000 solid; */
+    /* border: 1px #067144 solid; */
+    min-width: 40%;
+    min-width: none;
 }
 
 .img_people {
     margin-top: 5%;
     width: 100%;
     height: 100%;
+    /* object-fit: contain; */
+    /* Para evitar distorções */
+    /* max-height: 200px; */
 }
 
 .img_stars {
@@ -105,14 +110,16 @@
 .ratingCel {
     margin-left: 5%;
     height: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  /*     border: 1px #000 solid; */
+    /* border: 1px #000 solid; */
 }
 
 .ratingCel span {
     height: 30%;
+    width: 100%;
     font-family: "OpenSans-Medium";
     font-size: clamp(10px, 1.1vw, 2vw);
     color: #000000cb;
