@@ -51,6 +51,7 @@
         /* border: 1px #fff solid; */
         height: 25%;
         width: 80%;
+        user-select: none;
     }
 
     .HM_ul ul {
@@ -198,12 +199,12 @@
     .descSpanHomeCel {
         display: flex;
         justify-content: center;
-        width: 70%;
+        width: 55%;
         margin-bottom: 4%;
         font-family: "OpenSans-Bold";
         font-size: clamp(10px, 4.5vw, 5vw);
         color: #f1f7f6;
-       /*  border: 2px #ffffff solid; */
+        /* border: 2px #ffffff solid; */
     }
 
     .titleHome {

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Faq from "react-faq-component";
 import { push as Menu } from 'react-burger-menu'
 import ScrollReveal from "scrollreveal";
+import {Link} from "react-scroll";
 
 import "./Home_1M.css";
 import "./Home_2M.css";
@@ -148,7 +149,7 @@ export default function HomeMobile() {
                                 <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" >Gerenciador de Habitos</a>
                                 <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" >Gerenciador de Estudos</a>
                                 <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" >Workout Tracker</a>
-                                <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" >Planilha Financeira</a>
+                                <Link to="planilha-financeira" smooth={true} duration={200} rel="noopener noreferrer" target="__blank" style={{cursor:"pointer"}}>Planilha Financeira</Link>
                             </ul>
                         </div>
                         <a className="Btn_HM" href="https://pay.cakto.com.br/6FZqRwc" rel="noopener noreferrer">EXPLORE JÁ</a>
@@ -174,7 +175,7 @@ export default function HomeMobile() {
                             Gerencia suas metas agora!
                         </a>
                     </div>
-                    <span className="spanprice"><span className="spanprice_green">3x de R$ 16,61</span> ou R$47,00 à vista</span>
+                    <span className="spanprice"><span className="spanprice_green">3x de R$ 17,79</span> ou R$47,00 à vista</span>
                     <div className="block_ratingCel">
                         <div className="divimgpeopleCel">
                             <img className="img_people" src={people}></img>
@@ -258,14 +259,13 @@ export default function HomeMobile() {
                             Gerencia suas metas agora!
                         </a>
                     </div>
-                    <span className="spanprice2"><span className="spanprice_green2">3x de R$ 16,61</span> ou R$47,00 à vista</span>
+                    <span className="spanprice2"><span className="spanprice_green2">3x de R$ 17,79</span> ou R$47,00 à vista</span>
                 </div>
             </div>
-            <div className="container-section4Cel">
+            <div id="planilha-financeira" className="container-section4Cel">
                 <div className="c4-containerCel">
                     <div className="c4-containerleftCel ">
                         <div className="excel_img Hreveal2">
-
                         </div>
                         <div className="excel_img2">
                             <div className="ferramentasexcel-imgs Hreveal" />
@@ -297,7 +297,7 @@ export default function HomeMobile() {
                                         Estou decidido a mudar
                                     </a>
                                 </div>
-                                <span className="c4-spanprice2Cel"><span className="c4-spanprice_green2">2x de R$ 12,45</span> ou R$24,90 à vista</span>
+                                <span className="c4-spanprice2Cel"><span className="c4-spanprice_green2">2x de R$ 13,89</span> ou R$24,90 à vista</span>
                             </div>
                         </div>
                     </div>
@@ -426,7 +426,7 @@ export default function HomeMobile() {
                                     <h1>R$47,00</h1>
                                     <s>R$79,90</s>
                                 </div>
-                                <p>ou<span>3x de R$16,61</span></p>
+                                <p>ou<span>3x de R$17,79</span></p>
                             </div>
                             <div className="c7-contentBoxCel">
                                 <span>Gerenciador de Habitos</span>
@@ -472,7 +472,7 @@ export default function HomeMobile() {
                             <h1>PRODUTOS AVULSOS</h1>
                             <div>
                                 <a href="https://romarios.notion.site/GERENCIADOR-DE-H-BITOS-1203212308e8804abdecd5bda3342533" rel="noopener noreferrer" >Gerenciador de Habitos</a>
-                                <a href="https://pay.cakto.com.br/9Gm9NKY" rel="noopener noreferrer" >Planilha Financeira</a>
+                                <Link to="planilha-financeira" smooth={true} duration={200} rel="noopener noreferrer" target="__blank" style={{cursor:"pointer"}}>Planilha Financeira</Link>
                                 <a href="https://pay.cakto.com.br/BYsAKSf" rel="noopener noreferrer" >Gerenciador de Estudos</a>
                                 <a href="https://pay.cakto.com.br/7HqVsdr" rel="noopener noreferrer" >Workout Tracker</a>
                             </div>

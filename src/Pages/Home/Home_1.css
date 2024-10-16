@@ -153,13 +153,13 @@ a {
 .descSpanHome {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 19%;
     height: 40%;
     font-family: "OpenSans-SemiBold";
     font-size: clamp(10px, 1.3vw, 3vw);
     color: #f1f7f6;
 
-    /* border: 2px #ffffff solid; */
+   /*  border: 2px #ffffff solid; */
 }
 
 .titleHome {
